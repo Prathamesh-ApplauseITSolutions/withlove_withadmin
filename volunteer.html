@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join us Volunteer</title>
+  <link href="./img/favicon.ico" rel="icon">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  
+  <!-- Toast CSS -->
+  <style>
+        .toast-container {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 9999;
+        }
+        
+        .toast {
+            min-width: 300px;
+            max-width: 400px;
+            background: #ffffff;
+            color:  #000;
+            padding: 16px 20px;
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(102, 126, 234, 0.3);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            transform: translateX(400px);
+            transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .toast::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            animation: shimmer 2s infinite;
+        }
+        
+        @keyframes shimmer {
+            0% { left: -100%; }
+            100% { left: 100%; }
+        }
+        
+        .toast.show {
+            transform: translateX(0);
+        }
+        
+        .toast-icon {
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+        
+        .toast-icon i {
+            font-size: 20px;
+            color: #000;
+        }
+        
+        .toast-content {
+            flex: 1;
+        }
+        
+        .toast-title {
+            font-weight: 600;
+            font-size: 16px;
+            margin-bottom: 4px;
+                 color: #000;
+        }
+        
+        .toast-message {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        .toast-close {
+            background: none;
+            border: none;
+            color: #000;
+            font-size: 20px;
+            cursor: pointer;
+            opacity: 0.7;
+            transition: opacity 0.2s;
+            padding: 0;
+            width: 24px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .toast-close:hover {
+            opacity: 1;
+        }
+        
+        @media (max-width: 480px) {
+            .toast-container {
+                top: 10px;
+                right: 10px;
+                left: 10px;
+            }
+            
+            .toast {
+                min-width: auto;
+                max-width: none;
+            }
+        }
+    </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <!-- Libraries Stylesheet -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="./lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+
+  <!-- Toast Container -->
+  <div class="toast-container">
+      <div id="successToast" class="toast">
+          <div class="toast-icon">
+              <i class="fas fa-check-circle"></i>
+          </div>
+          <div class="toast-content">
+              <div class="toast-title">Success!</div>
+              <div class="toast-message">Volunteer application submitted successfully. Thank you!</div>
+          </div>
+          <button class="toast-close" onclick="hideToast()">
+              <i class="fas fa-times"></i>
+          </button>
+      </div>
+  </div>
+
+  <!-- Topbar Start -->
+  <div id="topnavbar"></div>
+  <!-- Topbar End -->
+
+  <!-- Navbar Start -->
+
+  <div id="navbar-placeholder"></div>
+
+  <script>
+    $(document).ready(function () {
+      $("#topnavbar").load("topnavbar.html");
+    });
+    $(document).ready(function () {
+      $("#navbar-placeholder").load("navbar.html");
+    });
+  </script>
+  <div class="image-header">
+    <img src="./img/common_bg.webp" alt="Header Image">
+    <div class="gradient-overlay"></div>
+    <div class="text-overlay mx-auto">
+      <h1 class="fw-bold text-dark">Volunteer</h1>
+      <nav aria-label="breadcrumb" class="breadcrumb-overlay">
+        <ol class="breadcrumb m-0 justify-content-center">
+          <li class="breadcrumb-item">
+            <a href="./index.html" class="text-dark">Home</a>
+          </li>
+           <li class="breadcrumb-item">
+            <a href="#" class="text-dark">Get Involved</a>
+          </li>
+          <li class="breadcrumb-item active text-light text-dark" aria-current="page">
+            <a href="./volunteer.html" class="text-dark">Volunteer With Us</a>
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+  
+<section class="volunteer-section pt-5">
+  <div class="container">
+    <div class="volunteer-card shadow-md p-3">
+
+      <div class="row align-items-center">
+
+        <!-- LEFT: TEXT -->
+        <div class="col-lg-6 col-md-12">
+          <div class="volunteer-text">
+            <h2 class="vol-title">Become a Volunteer</h2>
+
+            <ul class="vol-list">
+              <li><strong1>Join the movement for change with FYCF.</strong1></li>
+              <li>As India's Leading NGO, volunteers are the true strength behind our mission — spreading smiles and driving transformation.</li>
+              <li>Support underprivileged children and families by being part of our volunteer program.</li>
+              <li>Your choice: remote volunteering, fieldwork, hourly support, or project-based tasks.</li>
+              <li><strong1>Fill out the registration form below to begin your journey!</strong1></li>
+              <li>We welcome passionate individuals ready to create meaningful change.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- RIGHT: IMAGE -->
+        <div class="col-lg-6 col-md-12">
+          <div class="volunteer-image">
+            <img src="./img/volunteer.png" alt="Volunteer" class="img-fluid rounded-3">
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- ********common heading*********** -->
+  <div class="text-center mb-4 mt-4">
+    <h2 class="sub-title position-relative d-inline-block">
+      Volunteer Registration Form
+      <span class="headline-double"></span>
+    </h2>
+  </div>
+  <!-- ********common heading*********** -->
+  <section class="volunteer-section pb-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <form id="volunteerForm" class="volunteer-form p-5 common_border" action="volunteer.php" method="POST" onsubmit="return validateVolunteerForm()">
+            <div class="row g-4">
+
+              <!-- Left Half -->
+              <div class="col-lg-6 col-md-12">
+
+                <!-- Full Name -->
+                <div class="mb-3">
+                  <label for="name" class="form-label">Full Name</label>
+                  <input type="text" id="name" name="name" class="form-control" placeholder="Enter your full name" pattern="[A-Za-z ]{3,}" title="Only letters and spaces allowed (min 3 characters)" required>
+                  <div class="invalid-feedback">Please enter your name.</div>
+                </div>
+
+                <!-- Email -->
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required>
+                  <div class="invalid-feedback">Please enter your email.</div>
+                </div>
+
+                <!-- Address -->
+                <div class="mb-3">
+                  <label for="address" class="form-label">Address</label>
+                  <textarea id="address" name="address" class="form-control" rows="3" placeholder="Enter your address"
+                    required></textarea>
+                  <div class="invalid-feedback">Please enter your address.</div>
+                </div>
+
+                <!-- Gender -->
+                <div class="mb-3">
+                  <label for="gender" class="form-label">Gender</label>
+                  <select id="gender" name="gender" class="form-select" required>
+                    <option value="" selected disabled>Select Gender</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                  </select>
+                  <div class="invalid-feedback">Please select your gender.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="phone" class="form-label">Contact Number</label>
+                  <input type="tel" name="phone" class="form-control" id="phone" placeholder="Your contact Number" pattern="[6-9][0-9]{9}" title="10-digit mobile number starting with 6, 7, 8, or 9" maxlength="10" required>
+                </div>
+              </div>
+
+              <!-- Right Half -->
+              <div class="col-lg-6 col-md-12">
+
+                <!-- Date -->
+                <div class="mb-3">
+                  <label for="donationDate" class="form-label">Select Date</label>
+                  <input type="date" id="donationDate" name="donationDate" class="form-control" required>
+                  <div class="invalid-feedback">Please select a date.</div>
+                </div>
+
+                <!-- Donation Mode -->
+                <div class="mb-3">
+                  <label for="donationMode" class="form-label">Donation Mode</label>
+                  <select id="donationMode" name="donationMode" class="form-select" required>
+                    <option value="" selected disabled>Select Mode</option>
+                    <option value="offline">Offline</option>
+                    <option value="online">Online</option>
+                  </select>
+                  <div class="invalid-feedback">Please select a donation mode.</div>
+                </div>
+
+                <!-- Hours / Days -->
+                <div class="mb-3">
+                  <label for="availability" class="form-label">Number of Hours or Days Available</label>
+                  <input type="text" id="availability" name="availability" class="form-control" placeholder="Please enter your availability (e.g., 2 hours per week, weekends)"
+                    pattern="[A-Za-z0-9\s\.,-]{2,}" title="Please specify your availability (min 2 characters)" required>
+                  <div class="invalid-feedback">Please enter your availability.</div>
+                </div>
+
+                <!-- Skill Set -->
+                <div class="mb-3">
+                  <label for="skills" class="form-label">Skill Set</label>
+                  <input type="text" id="skills" name="skills" class="form-control"
+                    placeholder="Your skills (e.g., Teaching, Event Management)" pattern="[A-Za-z\s\,\-]{2,}" title="Please mention at least one skill (min 2 characters)" required>
+                  <div class="invalid-feedback">Please mention at least one skill.</div>
+                </div>
+
+                <!-- Additional Info -->
+                <div class="mb-3">
+                  <label for="message" class="form-label">Additional Information</label>
+                  <textarea id="message" name="message" class="form-control" rows="3" placeholder="Write additional details..."
+                    required></textarea>
+                  <div class="invalid-feedback">Please enter your additional information.</div>
+                </div>
+
+              </div>
+
+              <!-- Submit Button (Full Width) -->
+              <div class="col-12 text-center mt-3">
+                <button type="submit" class="shimmer-btn">Submit Application</button>
+              </div>
+
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  </section>
+  <!-- ****************************Footer********************** -->
+
+  <div id="footer-container"></div>
+
+  <!-- ****************************Footer********************** -->
+  <script>
+    fetch("topnavbar.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navbar-container').innerHTML = data;
+      })
+      .catch(error => {
+        console.error('Error loading the navbar:', error);
+        document.getElementById('navbar-container').innerHTML = "<p>Navbar could not be loaded.</p>";
+      });
+    // ****************
+    // Using fetch to load navbar.html dynamically
+    fetch("navbar.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navbar-container').innerHTML = data;
+      })
+      .catch(error => {
+        console.error('Error loading the navbar:', error);
+        document.getElementById('navbar-container').innerHTML = "<p>Navbar could not be loaded.</p>";
+      });
+
+    fetch("footer.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer-container').innerHTML = data;
+      })
+      .catch(error => {
+        console.error('Error loading the footer:', error);
+        document.getElementById('footer-container').innerHTML = "<p>Footer could not be loaded.</p>";
+      });
+  </script>
+
+
+  <script src="./lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="./lib/wow/wow.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/main.js"></script>
+  
+  <!-- Toast JavaScript -->
+  <script>
+      // Function to show toast
+      function showToast() {
+          const toast = document.getElementById('successToast');
+          toast.classList.add('show');
+          
+          // Auto-hide after 5 seconds
+          setTimeout(() => {
+              hideToast();
+          }, 5000);
+      }
+      
+      // Function to hide toast
+      function hideToast() {
+          const toast = document.getElementById('successToast');
+          toast.classList.remove('show');
+      }
+      
+      // Check for success parameter in URL
+      function checkUrlParameter() {
+          const urlParams = new URLSearchParams(window.location.search);
+          const success = urlParams.get('success');
+          
+          if (success === '1') {
+              // Show toast after a small delay to ensure page is loaded
+              setTimeout(() => {
+                  showToast();
+              }, 500);
+              
+              // Clean up the URL parameter without page reload
+              const newUrl = window.location.pathname;
+              window.history.replaceState({}, document.title, newUrl);
+          }
+      }
+      
+      // Check URL parameter when page loads
+      document.addEventListener('DOMContentLoaded', function() {
+          checkUrlParameter();
+      });
+      
+      // Real-time input validation
+      document.addEventListener('DOMContentLoaded', function() {
+          // Name field - only letters and spaces
+          const nameField = document.getElementById('name');
+          if (nameField) {
+              nameField.addEventListener('input', function(e) {
+                  this.value = this.value.replace(/[^A-Za-z\s]/g, '');
+              });
+          }
+          
+          // Phone field - only numbers
+          const phoneField = document.getElementById('phone');
+          if (phoneField) {
+              phoneField.addEventListener('input', function(e) {
+                  this.value = this.value.replace(/[^0-9]/g, '');
+                  // Ensure starts with 6,7,8,9
+                  if (this.value.length > 0 && !/^[6-9]/.test(this.value)) {
+                      this.value = '';
+                  }
+              });
+          }
+          
+          // Skills field - only letters, spaces, commas, hyphens
+          const skillsField = document.getElementById('skills');
+          if (skillsField) {
+              skillsField.addEventListener('input', function(e) {
+                  this.value = this.value.replace(/[^A-Za-z\s\,\-]/g, '');
+              });
+          }
+          
+          // Availability field - only letters, numbers, spaces, commas, periods, hyphens
+          const availabilityField = document.getElementById('availability');
+          if (availabilityField) {
+              availabilityField.addEventListener('input', function(e) {
+                  this.value = this.value.replace(/[^A-Za-z0-9\s\.,\-]/g, '');
+              });
+          }
+          
+          // Address, message fields - no restrictions (allow all)
+      });
+      
+      // Form validation
+      function validateVolunteerForm() {
+          const name = document.getElementById('name').value.trim();
+          const email = document.getElementById('email').value.trim();
+          const phone = document.getElementById('phone').value.trim();
+          const address = document.getElementById('address').value.trim();
+          const gender = document.getElementById('gender').value;
+          const date = document.getElementById('donationDate').value;
+          const mode = document.getElementById('donationMode').value;
+          const availability = document.getElementById('availability').value.trim();
+          const skills = document.getElementById('skills').value.trim();
+          const message = document.getElementById('message').value.trim();
+          
+          const namePattern = /^[A-Za-z\s]{3,}$/;
+          const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+          const phonePattern = /^[6-9]\d{9}$/;
+          const availabilityPattern = /^[A-Za-z0-9\s\.,-]{2,}$/;
+          const skillsPattern = /^[A-Za-z\s\,\-]{2,}$/;
+          
+          if (!namePattern.test(name)) {
+              alert('Name must contain at least 3 letters and only letters/spaces');
+              return false;
+          }
+          
+          if (!emailPattern.test(email)) {
+              alert('Please enter a valid email address');
+              return false;
+          }
+          
+          if (!phonePattern.test(phone)) {
+              alert('Mobile number must be exactly 10 digits starting with 6, 7, 8, or 9');
+              return false;
+          }
+          
+          if (address.length < 5) {
+              alert('Address must contain at least 5 characters');
+              return false;
+          }
+          
+          if (gender === '') {
+              alert('Please select your gender');
+              return false;
+          }
+          
+          if (date === '') {
+              alert('Please select a date');
+              return false;
+          }
+          
+          if (mode === '') {
+              alert('Please select donation mode');
+              return false;
+          }
+          
+          if (!availabilityPattern.test(availability)) {
+              alert('Please specify your availability (min 2 characters)');
+              return false;
+          }
+          
+          if (!skillsPattern.test(skills)) {
+              alert('Please mention at least one skill (min 2 characters)');
+              return false;
+          }
+          
+          if (message.length < 5) {
+              alert('Additional information must contain at least 5 characters');
+              return false;
+          }
+          
+          return true;
+      }
+  </script>
+</body>
+
+</html>

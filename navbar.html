@@ -1,0 +1,422 @@
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light py-lg-0 px-lg-5 wow fadeIn px-3" data-wow-delay="0.2s"
+    id="top_header">
+    <a href="index.html" class="navbar-brand ">
+        <h1 class="common_text m-0"><img class="logo_size" src="./img/logo.jpg" alt="Icon"  loading="lazy" class="img-fluid"></h1>
+    </a>
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <ul class="navbar-nav">
+                <a href="index.html" class="nav-link nav-item active">Home</a>
+                <a href="about.html" class="nav-link nav-item ">About</a>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">Programs</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="learn-with-love.html">Learn With Love</a></li>
+                        <li><a class="dropdown-item" href="care-with-love.html">Care With Love</a></li>
+                        <li><a class="dropdown-item" href="grow-with-love.html">Grow With Love</a></li>
+                        <li><a class="dropdown-item" href="give-with-love.html">Give With Love</a></li>
+                    </ul>
+                </li>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">Get Involved</a>
+                    <div class="dropdown-menu border-0 ">
+                        <a href="volunteer.html" class="dropdown-item">Volunteer With Us</a>
+                        <a href="intern.html" class="dropdown-item">Intern with us </a>
+                           <a href="csr_patners.html" class="dropdown-item">CSR  Partners</a>
+                    </div>
+                </div>
+                <a href="event_media.html" class="nav-link nav-item active">Media</a>
+          
+
+             
+               
+                <a href="contact.html" class="nav-link nav-item">Contact</a>
+                <div class="mobile-cta-row d-flex d-lg-none">
+                    <a href="kidswithcape.html" class="kids-btn">
+                        <span class="kids-icon"><i class="fa-solid fa-child"></i></span> Kids NGO
+                    </a>
+                    <a href="donatenow.html" class="btn donate_button py-1 px-2">
+                        Donate Now
+                        <i class="fa-solid fa-heart text-white blinking"></i>
+                    </a>
+                </div>
+            </ul>
+        </div>
+        <a href="donatenow.html" class="btn donate_button py-1 px-2 d-none d-lg-block p-3">
+            Donate Now 
+            <i class="fa-solid fa-heart text-white blinking "></i>
+        </a>
+    </div>
+</nav>
+<!-- Navbar End -->
+
+<script>
+    $(document).ready(function () {
+        // Sticky Navbar on Scroll
+        var navbar = $("#top_header");
+        var sticky = navbar.offset().top;
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > sticky) {
+                navbar.addClass("fixed-top shadow-sm");
+            } else {
+                navbar.removeClass("fixed-top shadow-sm");
+            }
+        });
+
+        // Mobile and tablet dropdown functionality
+        function initMobileDropdown() {
+            const isMobile = window.innerWidth <= 991;
+            
+            if (isMobile) {
+                // Hide all dropdowns initially
+                $('.dropdown-menu').hide().removeClass('show');
+                
+                // Main dropdown click events
+                $('.nav-item.dropdown > .dropdown-toggle').off('click').on('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    
+                    const $dropdown = $(this).parent();
+                    const $menu = $dropdown.find('.dropdown-menu').first();
+                    
+                    // Close all other dropdowns
+                    $('.nav-item.dropdown').not($dropdown).find('.dropdown-menu').hide().removeClass('show');
+                    
+                    // Toggle this dropdown
+                    if ($menu.is(':visible')) {
+                        $menu.hide().removeClass('show');
+                    } else {
+                        $menu.show().addClass('show');
+                    }
+                });
+                
+            } else {
+                // Desktop - restore hover functionality
+                initDesktopDropdown();
+            }
+        }
+        
+        // Desktop hover functionality
+        function initDesktopDropdown() {
+            // Show all dropdowns initially for desktop
+            $('.dropdown-menu').hide().removeClass('show');
+            
+            // Desktop hover functionality
+            $('.nav-item.dropdown').each(function() {
+                const $dropdown = $(this);
+                const $menu = $dropdown.find('.dropdown-menu').first();
+                
+                let hoverTimer;
+                
+                // Main dropdown hover
+                $dropdown.on('mouseenter', function() {
+                    clearTimeout(hoverTimer);
+                    // Close all other dropdowns first
+                    $('.dropdown-menu').not($menu).hide();
+                    // Show this dropdown
+                    $menu.stop(true, true).fadeIn(200);
+                });
+                
+                $dropdown.on('mouseleave', function() {
+                    clearTimeout(hoverTimer);
+                    hoverTimer = setTimeout(function() {
+                        if (!$dropdown.is(':hover') && !$menu.is(':hover')) {
+                            $menu.stop(true, true).fadeOut(200);
+                        }
+                    }, 600);
+                });
+                
+                // Keep menu open when hovering over it
+                $menu.on('mouseenter', function() {
+                    clearTimeout(hoverTimer);
+                    $(this).stop(true, true).show();
+                });
+                
+                $menu.on('mouseleave', function() {
+                    clearTimeout(hoverTimer);
+                    hoverTimer = setTimeout(function() {
+                        if (!$dropdown.is(':hover') && !$menu.is(':hover')) {
+                            $menu.stop(true, true).fadeOut(200);
+                        }
+                    }, 600);
+                });
+            });
+        }
+        
+        // Initialize on load
+        initMobileDropdown();
+        
+        // Re-initialize on window resize
+        let resizeTimer;
+        $(window).on('resize', function() {
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(function() {
+                initMobileDropdown();
+            }, 250);
+        });
+
+        // Close dropdowns when clicking outside
+        $(document).on('click', function(e) {
+            if (!$(e.target).closest('.dropdown').length) {
+                $('.dropdown-menu').removeClass('show').hide();
+            }
+        });
+
+        // Escape key to close dropdowns
+        $(document).on('keydown', function(e) {
+            if (e.key === 'Escape') {
+                $('.dropdown-menu').removeClass('show');
+            }
+        });
+
+    });
+    // *******active menu script*********
+ const path = window.location.pathname;
+  const page = path.split("/").pop();
+
+  // Select all nav links
+  const navLinks = document.querySelectorAll('.navbar-nav a.nav-link');
+  const dropdownItems = document.querySelectorAll('.dropdown-item');
+
+  // Function to set active state for dropdown parent
+  function setDropdownParentActive(dropdownItem) {
+    const dropdownMenu = dropdownItem.closest('.dropdown-menu');
+    if (dropdownMenu) {
+      const dropdownToggle = dropdownMenu.previousElementSibling;
+      if (dropdownToggle && dropdownToggle.classList.contains('dropdown-toggle')) {
+        dropdownToggle.classList.add('active');
+      }
+    }
+  }
+
+  navLinks.forEach(link => {
+    const href = link.getAttribute('href');
+    // Check if link matches current page
+    if (href === page || (href === "index.html" && page === "")) {
+      link.classList.add('active');
+    } else {
+      link.classList.remove('active');
+    }
+  });
+
+  // Check dropdown items for active state
+  dropdownItems.forEach(item => {
+    const href = item.getAttribute('href');
+    if (href === page || (href === "index.html" && page === "")) {
+      item.classList.add('active');
+      setDropdownParentActive(item);
+    } else {
+      item.classList.remove('active');
+    }
+  });
+//   ******active menu script********
+</script>
+
+<style>
+    /* Remove horizontal scrollbar completely */
+    html, body {
+        overflow-x: hidden !important;
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .fixed-top {
+        transition: all 0.5s ease-in-out;
+        background-color: white !important;
+    }
+
+    /* Multi-layer Dropdown Styles - Exact Design from Image */
+    .dropdown-menu {
+        min-width: 180px;
+        max-height: none;
+        padding: 0;
+        border: 1px solid #e0e0e0;
+        border-radius: 0;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        background: white;
+        z-index: 1000;
+        animation: slideDown 0.3s ease-out;
+        overflow: visible;
+    }
+
+    /* Custom scrollbar styling */
+    .dropdown-menu::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    .dropdown-menu::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 10px;
+    }
+
+    .dropdown-menu::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 10px;
+    }
+
+    .dropdown-menu::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+    @keyframes slideDown {
+        from {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .dropdown-item {
+        padding: 6px 12px;
+        font-size: 14px;
+        color: var(--dark);
+        transition: all 0.3s ease;
+        position: relative;
+  border-bottom: 1px solid #e0e0e029;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .dropdown-item:last-child {
+        border-bottom: none;
+    }
+
+    .dropdown-item.active,
+    .dropdown-item:active {
+        color: var(--primary) !important;
+        text-decoration: none;
+        background-color: transparent !important;
+        font-weight: 600;
+    }
+
+    /* Active state for dropdown toggle (parent) */
+    .navbar .navbar-nav .nav-link.dropdown-toggle.active {
+        color: var(--primary) !important;
+        font-weight: 600;
+    }
+
+    /* Active state for dropdown items */
+    .dropdown-item:hover {
+        color: var(--primary);
+    }
+
+    .dropdown-item.active:hover {
+        color: var(--primary) !important;
+        font-weight: 600;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 991px) {
+        .dropdown-menu {
+            min-width: 100%;
+            border-radius: 0;
+            overflow-y: auto !important;
+            overflow-x: hidden !important;
+            max-height: 300px !important; /* Fixed height for scrolling */
+            scroll-behavior: smooth;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .dropdown-item {
+            padding: 10px 15px;
+            font-size: 14px;
+        }
+
+        .dropdown-item:hover {
+            padding-left: 15px;
+            color: var(--primary);
+        }
+    }
+
+    @media (max-width: 576px) {
+        .dropdown-item {
+            padding: 10px 15px;
+            font-size: 14px;
+        }
+    }
+
+    /* Clean KidsNGO button for mobile/tablet dropdown */
+    @media (max-width: 991px) {
+        .navbar-nav .mobile-cta-row {
+            display: flex !important;
+            justify-content: center !important;
+            align-items: center !important;
+            gap: 10px !important;
+            margin: 10px 0 8px 0 !important;
+            width: 100% !important;
+            flex-wrap: nowrap !important;
+        }
+        
+        .navbar-nav .mobile-cta-row .kids-btn {
+            box-shadow: none !important;
+            animation: none !important;
+            transition: none !important;
+            padding: 10px 14px !important;
+            border-radius: 8px !important;
+            background: linear-gradient(135deg, #ff188a, #ffca28) !important;
+            background-size: 100% 100% !important;
+            width: auto !important;
+            display: inline-flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            font-size: 0.9rem !important;
+            text-align: center !important;
+            margin: 0 !important;
+            flex: 0 0 auto !important;
+            white-space: nowrap !important;
+        }
+        
+        .navbar-nav .mobile-cta-row .kids-btn::before {
+            display: none !important;
+        }
+        
+        .navbar-nav .mobile-cta-row .kids-icon {
+            animation: none !important;
+            margin-right: 6px !important;
+            font-size: 0.95rem !important;
+        }
+        
+        .navbar-nav .mobile-cta-row .donate_button {
+            padding: 10px 14px !important;
+            font-size: 0.9rem !important;
+            margin: 0 !important;
+            display: inline-flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            width: auto !important;
+            flex: 0 0 auto !important;
+            border-radius: 8px !important;
+            white-space: nowrap !important;
+        }
+
+        .navbar-nav .mobile-cta-row .donate_button i {
+            margin-left: 4px !important;
+        }
+
+        @media (max-width: 420px) {
+            .navbar-nav .mobile-cta-row .kids-btn,
+            .navbar-nav .mobile-cta-row .donate_button {
+                font-size: 0.82rem !important;
+                padding: 10px 8px !important;
+            }
+        }
+    }
+    /*$("#navbar-placeholder").load("navbar.html");*/
+</style>

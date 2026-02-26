@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grow With Love - Our Programs</title>
+    <link href="./img/favicon.ico" rel="icon">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css?v=20260214-1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="./lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <style>
+        .photo-modal {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.75);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            padding: 20px;
+        }
+
+        .photo-modal.is-open {
+            display: flex;
+        }
+
+        .photo-modal-content {
+            position: relative;
+            width: min(820px, 92vw);
+            border-radius: 14px;
+            overflow: hidden;
+            background: transparent;
+        }
+
+        .photo-modal-count {
+            position: absolute;
+            top: -38px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #fff;
+            font-size: 20px;
+            font-weight: 500;
+            z-index: 2;
+            line-height: 1;
+        }
+
+        .photo-modal-image-wrap {
+            width: 100%;
+            border-radius: 14px;
+            overflow: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .photo-modal-image {
+            max-width: 100%;
+            max-height: 90vh;
+            width: auto;
+            height: auto;
+            display: block;
+            object-fit: contain;
+        }
+
+        .photo-modal-btn {
+           position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 45px;
+    height: 45px;
+    border: 0;
+    border-radius: 50%;
+    background: rgb(255 255 255 / 52%);
+    color: #111;
+    font-size: 24px;
+    line-height: 1;
+    z-index: 2;
+        }
+
+        .photo-modal-btn:hover {
+            background: rgba(255, 255, 255, 0.95);
+        }
+
+        .photo-modal-btn-prev {
+            left: 6vw;
+        }
+
+        .photo-modal-btn-next {
+            right: 6vw;
+        }
+
+        .photo-modal-close {
+            position: absolute;
+            top: 20px;
+            right: 90px;
+            border: 0;
+            background: transparent;
+            color: #fff;
+            font-size: 40px;
+            line-height: 1;
+            z-index: 2;
+        }
+
+        @media (max-width: 768px) {
+            .photo-modal-btn {
+                width: 46px;
+                height: 46px;
+                font-size: 22px;
+            }
+
+            .photo-modal-btn-prev {
+                left: 15px;
+            }
+
+            .photo-modal-btn-next {
+                right: 15px;
+            }
+
+            .photo-modal-count {
+                top: -30px;
+                font-size: 16px;
+            }
+
+            .photo-modal-close {
+                top: 10px;
+                right: 12px;
+                font-size: 34px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Topbar Start -->
+    <div id="topnavbar"></div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <div id="navbar-placeholder"></div>
+
+    <script>
+        $(document).ready(function () {
+            $("#topnavbar").load("topnavbar.html");
+        });
+        $(document).ready(function () {
+            $("#navbar-placeholder").load("navbar.html");
+        });
+    </script>
+    <!-- Navbar end -->
+    
+    <div class="image-header">
+        <img src="./img/common_bg.webp" alt="Header Image">
+        <div class="gradient-overlay"></div>
+        <div class="text-overlay mx-auto">
+            <h1 class="fw-bold text-dark">Grow With Love</h1>
+            <nav aria-label="breadcrumb" class="breadcrumb-overlay">
+                <ol class="breadcrumb m-0 justify-content-center">
+                    <li class="breadcrumb-item">
+                        <a href="./index.html" class="text-dark">Home</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="#" class="text-dark">Programs</a>
+                    </li>
+                    <li class="breadcrumb-item active text-light text-dark" aria-current="page">
+                        <a href="./grow-with-love.html" class="text-dark">Grow With Love</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    
+    <!-- Content Section -->
+    <div class="container py-5 px-2">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <div class="quote-box" style="background-image: url('./img/learn-withlove-img.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                    <div class="quote-content">
+                        <div class="quote-icon quote-start">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div class="quote-text">
+                            <h3 class="quote-title">Community Development & Sustainability</h3>
+                            <p class="quote-description">Because real impact grows from within communities.
+We build sustainable ecosystems through community-led initiatives, eco-conscious practices, grassroots engagement, and safe healing spaces that nurture both personal and collective growth.</p>
+                        </div>
+                        <div class="quote-icon quote-end">
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="photo-modal" id="photoModal" aria-hidden="true">
+        <button class="photo-modal-close" id="photoModalClose" aria-label="Close gallery">&times;</button>
+        <button class="photo-modal-btn photo-modal-btn-prev" id="photoModalPrev" aria-label="Previous image">
+            <i class="fas fa-angle-left"></i>
+        </button>
+        <div class="photo-modal-content">
+            <div class="photo-modal-count" id="photoModalCount">1/1</div>
+            <div class="photo-modal-image-wrap">
+                <img id="photoModalImage" class="photo-modal-image" src="" alt="Project gallery image" style="display: block;">
+                <video id="photoModalVideo" class="photo-modal-video" controls style="display: none; width: 100%; max-width: 100%; height: auto;"></video>
+            </div>
+        </div>
+        <button class="photo-modal-btn photo-modal-btn-next" id="photoModalNext" aria-label="Next image">
+            <i class="fas fa-angle-right"></i>
+        </button>
+    </div>
+    
+    <!-- Sponsor Section -->
+    <div class="container py-5 px-2 sponsor-section">
+        <div class="row">
+            <!-- Left Column (4) -->
+            <div class="col-lg-4 col-md-5">
+                <div class="sponsor-nav">
+                    <div class="nav-item active">
+                        <img src="./img/Declutter/D1.jpg" alt="Sponsor a child's education">
+                        <span>Declutter and Donate</span>
+                    </div>
+                    <div class="nav-item">
+                        <img src="./img/organic_product/13.jpg"alt="Back to School campaign">
+                        <span>Purchase Organic Products</span>
+                    </div>
+                    <div class="nav-item">
+                        <img src= "./img/DMIT_img/1.jpg" alt="Label Padhega India">
+                        <span>DMIT Workshop</span>
+                    </div>
+                    <div class="nav-item">
+                        <img src="./img/dasheraa_img/1.png" alt="Book Donation with Padhenge Toh Badhenge">
+                        <span>Dussehra Diya Making</span>
+                    </div>
+                    <!-- <div class="nav-item">
+                        <img src="./img/news/news_1.jpg" alt="Book Donation with Padhenge Toh Badhenge">
+                        <span>Book Donation with Padhenge Toh Badhenge</span>
+                    </div>
+                    <div class="nav-item">
+                        <img src="./img/news/news_1.jpg" alt="Book Donation with Padhenge Toh Badhenge">
+                        <span>Book Donation with Padhenge Toh Badhenge</span>
+                    </div> -->
+                </div>
+                
+                <!-- Navigation Buttons -->
+                <div class="sponsor-nav-buttons">
+                    <button class="sponsor-nav-btn" id="prevBtn">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <button class="sponsor-nav-btn" id="nextBtn">
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Right Column (8) -->
+            <div class="col-lg-8 col-md-7">
+                <div class="sponsor-content">
+                    <h2 class="sponsor-title">Sponsor a child's education</h2>
+                    
+                    <div class="row">
+                        <!-- Image Column -->
+                        <div class="col-lg-5 col-md-12">
+                            <div class="sponsor-image">
+                                <img src="./img/3.webp" alt="Child reading book">
+                            </div>
+                            
+                            <div class="see-more">
+                                <a href="#" class="see-more-link">See More Photos</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Content Column -->
+                        <div class="col-lg-7 col-md-12">
+                            <div class="sponsor-details">
+                                <div class="detail-item">
+                                    <strong>Month of Execution:</strong> 
+                                    <span>January 2024 onwards</span>
+                                </div>
+                                <div class="detail-item">
+                                    <strong>Venue:</strong> 
+                                    <span>Epiphany School</span>
+                                </div>
+                                <div class="detail-item">
+                                    <strong>Beneficiaries:</strong> 
+                                    <span>Underprivileged kids , Five Students from Epiphany School</span>
+                                </div>
+                            </div>
+                            
+                            <div class="sponsor-description">
+                                <h4>Description</h4>
+                                <div class="description-content">
+                                    <p>With Love NGO organized a declutter and donate campaign to encourage people to donate unused items from their homes. These collected items were then distributed to underprivileged children and families, providing them with essential resources while promoting sustainable living and community sharing. This initiative not only helped those in need but also created awareness about responsible consumption and the joy of giving.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ****************************Footer********************** -->
+    <div id="footer-container"></div>
+    <!-- ****************************Footer********************** -->
+    <script>
+        fetch("topnavbar.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('topnavbar').innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error loading the topnavbar:', error);
+                document.getElementById('topnavbar').innerHTML = "<p>Topnavbar could not be loaded.</p>";
+            });
+
+        fetch("navbar.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-placeholder').innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error loading the navbar:', error);
+                document.getElementById('navbar-placeholder').innerHTML = "<p>Navbar could not be loaded.</p>";
+            });
+
+        fetch("footer.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-container').innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error loading the footer:', error);
+                document.getElementById('footer-container').innerHTML = "<p>Footer could not be loaded.</p>";
+            });
+    </script>
+
+    <script src="./lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="./lib/wow/wow.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/main.js"></script>
+    
+    <!-- Sponsor Navigation JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const sponsorNav = document.querySelector('.sponsor-nav');
+            const sponsorTitle = document.querySelector('.sponsor-title');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const sponsorImage = document.querySelector('.sponsor-image img');
+            const detailItems = document.querySelectorAll('.detail-item');
+            let currentIndex = 0;
+            let currentPage = 0;
+            const itemsPerPage = 4;
+            
+            // Existing static data (fallback)
+            const staticSponsorData = [
+                {
+                    title: "Declutter and Donate",
+                    image: "./img/Declutter/D1.jpg",
+                    month: "October 2023 onwards",
+                    venue: "All across Pune",
+                    beneficiaries: "Underprivileged families across Pune",
+                    description: "We're on a mission to transform the joy of giving into essentials for underprivileged families. Your gently used clothes, toys, and more can make a world of difference. We're collecting items at multiple locations across Pune to share the love with underprivileged families. Join us in this heart warming mission:\n\nStep 1 - Gather gently used items.\nStep 2 - Drop them at our collection points.\nStep 3 - Witness the smiles your donations bring.\n\nLet's replace excess with empathy. Clear out the items you don't need any more and share the warmth with those in need. Together, we can spread love, compassion, and hope. Don't let your unused belongings gather dust; let them gather smiles!\n\nJoin us in creating a brighter, more caring world. Your generosity is the gift that keeps on giving.",
+                    gallery: [
+                        "./img/Declutter/D1.jpg",
+                        "./img/Declutter/D2.jpg",
+                        "./img/Declutter/D3.jpg",
+                        "./img/Declutter/D4.jpg",
+                        "./img/Declutter/D5.jpg",
+                        "./img/Declutter/D6.jpg"
+                    ]
+                },
+                {
+                    title: "Purchase Organic Products",
+                    image: "./img/organic_product/13.jpg",
+                    month: "June 2024",
+                    venue: "Various Schools",
+                    beneficiaries: "200+ underprivileged children",
+                    description: "With Love NGO promoted the purchase and distribution of organic products to support sustainable farming practices and provide healthy, chemical-free food options to underprivileged children and families. This initiative not only improved nutrition but also supported local organic farmers, creating a sustainable ecosystem that benefits both producers and consumers while promoting environmental consciousness.",
+                    gallery: [
+                        "./img/organic_product/1.png",
+                        "./img/organic_product/13.jpg",
+                        "./img/organic_product/15.jpg",
+                        "./img/organic_product/16.jpg",
+                        "./img/organic_product/2.png",
+                        "./img/organic_product/3.png",
+                        "./img/organic_product/5.png",
+                        "./img/organic_product/6.png",
+                        "./img/organic_product/7.jpg"
+                    ]
+                },
+                {
+                    title: "DMIT Workshop",
+                    image:  "./img/DMIT_img/1.jpg",
+                    month: "July 2025",
+                    venue: "Epiphany School, Pune",
+                    beneficiaries: "Students of Epiphany School",
+                    description: "With Love NGO facilitated a DMIT (Dermatoglyphics Multiple Intelligence Test) session led by Disha Bafna from Lintellect Analytics. The workshop helped students understand their unique intelligence and career strengths through the science of fingerprints. Beyond being an educational session, this initiative promoted self-awareness, confidence, and informed decision-making, empowering students to make conscious choices about their futures.",
+                    gallery: [
+                        "./img/DMIT_img/1.jpg",
+                        "./img/DMIT_img/2.jpg",
+                        "./img/DMIT_img/3.jpg",
+                        "./img/DMIT_img/5.jpg"
+                    ]
+                },
+                {
+                    title: "Dussehra Diya Making",
+                    image: "./img/dasheraa_img/1.png",
+                    month: "November 2024",
+                    venue: "Public Libraries",
+                    beneficiaries: "500+ students",
+                    description: "With Love NGO organized a Dussehra diya making workshop to celebrate the festival of lights while promoting traditional crafts and cultural heritage. Children and community members came together to create beautiful diyas, learning about the significance of the festival while developing artistic skills. This initiative not only preserved cultural traditions but also provided a joyful, creative outlet for self-expression and community bonding.",
+                    gallery: [
+                        "./img/dasheraa_img/Dusshera Pehechaan (1).mp4",
+                        "./img/dasheraa_img/VID_20251013_114635_292.mp4"
+                    ]
+                }
+            ];
+
+            let sponsorData = [];
+
+            // Function to sort projects by date (latest first)
+            function sortProjectsByDate(projects) {
+                return projects.sort((a, b) => {
+                    // Parse month strings like "September 2025", "April 2025", "January 2024 onwards"
+                    const dateA = parseMonthString(a.month);
+                    const dateB = parseMonthString(b.month);
+                    
+                    // Sort by date descending (latest first)
+                    return dateB.getTime() - dateA.getTime();
+                });
+            }
+
+            // Function to parse month string into Date object
+            function parseMonthString(monthStr) {
+                if (!monthStr || monthStr === 'N/A') {
+                    return new Date(0); // Default to epoch for invalid dates
+                }
+                
+                // Handle special case like "January 2024 onwards"
+                if (monthStr.includes('onwards')) {
+                    monthStr = monthStr.replace(' onwards', '');
+                }
+                
+                // Month names mapping
+                const monthNames = {
+                    'january': 0, 'february': 1, 'march': 2, 'april': 3,
+                    'may': 4, 'june': 5, 'july': 6, 'august': 7,
+                    'september': 8, 'october': 9, 'november': 10, 'december': 11
+                };
+                
+                // Parse format like "September 2025" or "April 2025"
+                const parts = monthStr.trim().toLowerCase().split(/\s+/);
+                if (parts.length >= 2) {
+                    const monthName = parts[0];
+                    const year = parseInt(parts[1]);
+                    
+                    if (monthNames[monthName] && !isNaN(year)) {
+                        return new Date(year, monthNames[monthName], 1);
+                    }
+                }
+                
+                // Fallback to current date if parsing fails
+                return new Date(0);
+            }
+
+
+            // Fetch projects from database
+            async function fetchProjectsFromDatabase() {
+                try {
+                    const response = await fetch('./admin/api/get_projects.php?category=grow-with-love');
+                    const data = await response.json();
+                    
+                    if (data.success && data.projects.length > 0) {
+                        // Combine database projects with static projects
+                        // Database projects come first, then static projects
+                        sponsorData = [...data.projects, ...staticSponsorData];
+                        console.log('Loaded projects from database:', data.projects.length, 'projects');
+                    } else {
+                        // Use only static data if database fails or has no projects
+                        sponsorData = [...staticSponsorData];
+                        console.log('Using static data only');
+                    }
+                } catch (error) {
+                    console.error('Error fetching projects from database:', error);
+                    // Fallback to static data
+                    sponsorData = [...staticSponsorData];
+                }
+                
+                // Initialize the UI after data is loaded
+                // Sort projects by date (latest first)
+                sponsorData = sortProjectsByDate(sponsorData);
+                
+                // Initialize UI after data is loaded and sorted
+                initializeUI();
+            }
+            
+            // Call fetch when DOM is ready
+            fetchProjectsFromDatabase();
+
+            function initializeUI() {
+                // Ensure each project has a gallery
+                sponsorData = sponsorData.map((item, index) => {
+                    return {
+                        ...item,
+                        gallery: (item.gallery && item.gallery.length) ? item.gallery : [item.featured_image]
+                    };
+                });
+
+                // Initialize first card as active
+                if (sponsorData.length) {
+                    updateActiveCard(0, false);
+                }
+            }
+
+            const seeMoreLink = document.querySelector('.see-more-link');
+            const photoModal = document.getElementById('photoModal');
+            const photoModalImage = document.getElementById('photoModalImage');
+            const photoModalVideo = document.getElementById('photoModalVideo');
+            const photoModalCount = document.getElementById('photoModalCount');
+            const photoModalClose = document.getElementById('photoModalClose');
+            const photoModalPrev = document.getElementById('photoModalPrev');
+            const photoModalNext = document.getElementById('photoModalNext');
+
+            let currentGallery = [];
+            let currentGalleryIndex = 0;
+
+            function getTotalPages() {
+                return Math.max(1, Math.ceil(sponsorData.length / itemsPerPage));
+            }
+
+            function renderVisibleNavItems() {
+                const start = currentPage * itemsPerPage;
+                const end = Math.min(start + itemsPerPage, sponsorData.length);
+                sponsorNav.innerHTML = '';
+
+                for (let i = start; i < end; i++) {
+                    const item = document.createElement('div');
+                    item.className = 'nav-item';
+                    if (i === currentIndex) {
+                        item.classList.add('active');
+                    }
+
+                    item.innerHTML = `
+                        <img src="${sponsorData[i].image}" alt="${sponsorData[i].title}">
+                        <span>${sponsorData[i].title}</span>
+                    `;
+
+                    item.addEventListener('click', () => updateActiveCard(i, false));
+                    sponsorNav.appendChild(item);
+                }
+            }
+
+            function renderGalleryImage() {
+                if (!currentGallery.length) return;
+                
+                const currentSrc = currentGallery[currentGalleryIndex];
+                const isVideo = currentSrc.toLowerCase().endsWith('.mp4') || currentSrc.toLowerCase().endsWith('.webm') || currentSrc.toLowerCase().endsWith('.ogg');
+                
+                if (isVideo) {
+                    photoModalImage.style.display = 'none';
+                    photoModalVideo.style.display = 'block';
+                    photoModalVideo.src = currentSrc;
+                    photoModalVideo.play();
+                } else {
+                    photoModalVideo.style.display = 'none';
+                    photoModalVideo.pause();
+                    photoModalVideo.src = '';
+                    photoModalImage.style.display = 'block';
+                    photoModalImage.src = currentSrc;
+                }
+                
+                photoModalCount.textContent = `${currentGalleryIndex + 1}/${currentGallery.length}`;
+            }
+
+            function openGalleryForCurrentProject() {
+                currentGallery = sponsorData[currentIndex].gallery || [sponsorData[currentIndex].image];
+                currentGalleryIndex = 0;
+                renderGalleryImage();
+                photoModal.classList.add('is-open');
+                photoModal.setAttribute('aria-hidden', 'false');
+                document.body.style.overflow = 'hidden';
+            }
+
+            function closeGallery() {
+                photoModal.classList.remove('is-open');
+                photoModal.setAttribute('aria-hidden', 'true');
+                document.body.style.overflow = '';
+            }
+
+            function showNextGalleryImage() {
+                if (!currentGallery.length) return;
+                currentGalleryIndex = (currentGalleryIndex + 1) % currentGallery.length;
+                renderGalleryImage();
+            }
+
+            function showPrevGalleryImage() {
+                if (!currentGallery.length) return;
+                currentGalleryIndex = (currentGalleryIndex - 1 + currentGallery.length) % currentGallery.length;
+                renderGalleryImage();
+            }
+            
+            function updateActiveCard(index, keepCurrentPage) {
+                if (!sponsorData.length) return;
+                currentIndex = index;
+
+                if (!keepCurrentPage) {
+                    currentPage = Math.floor(currentIndex / itemsPerPage);
+                }
+
+                renderVisibleNavItems();
+
+                // Update content
+                sponsorTitle.textContent = sponsorData[index].title;
+                if (sponsorImage) {
+                    sponsorImage.src = sponsorData[index].image;
+                }
+                
+                // Update details
+                if (detailItems[0]) detailItems[0].querySelector('span').textContent = sponsorData[index].month;
+                if (detailItems[1]) detailItems[1].querySelector('span').textContent = sponsorData[index].venue;
+                if (detailItems[2]) detailItems[2].querySelector('span').textContent = sponsorData[index].beneficiaries;
+                
+                // Update description
+                const descriptionContent = document.querySelector('.description-content');
+                if (descriptionContent) {
+                    if (sponsorData[index].description) {
+                        // Split long descriptions into sentences and create paragraphs
+                        const sentences = sponsorData[index].description.match(/[^.!?]+[.!?]+/g) || [sponsorData[index].description];
+                        const paragraphs = [];
+                        let currentParagraph = '';
+                        
+                        sentences.forEach((sentence, index) => {
+                            currentParagraph += sentence.trim();
+                            // Create a new paragraph every 2-3 sentences or if the paragraph is getting long
+                            if ((index + 1) % 2 === 0 || currentParagraph.length > 200) {
+                                paragraphs.push(currentParagraph.trim());
+                                currentParagraph = '';
+                            }
+                        });
+                        
+                        if (currentParagraph.trim()) {
+                            paragraphs.push(currentParagraph.trim());
+                        }
+                        
+                        descriptionContent.innerHTML = paragraphs.map(p => `<p>${p}</p>`).join('');
+                    }
+                }
+            }
+            
+            // Navigation button handlers
+            prevBtn.addEventListener('click', () => {
+                const totalPages = getTotalPages();
+                currentPage = (currentPage - 1 + totalPages) % totalPages;
+                updateActiveCard(currentPage * itemsPerPage, true);
+            });
+            
+            nextBtn.addEventListener('click', () => {
+                const totalPages = getTotalPages();
+                currentPage = (currentPage + 1) % totalPages;
+                updateActiveCard(currentPage * itemsPerPage, true);
+            });
+
+            seeMoreLink.addEventListener('click', (event) => {
+                event.preventDefault();
+                openGalleryForCurrentProject();
+            });
+
+            photoModalClose.addEventListener('click', closeGallery);
+            photoModalNext.addEventListener('click', showNextGalleryImage);
+            photoModalPrev.addEventListener('click', showPrevGalleryImage);
+
+            photoModal.addEventListener('click', (event) => {
+                if (event.target === photoModal) {
+                    closeGallery();
+                }
+            });
+
+            document.addEventListener('keydown', (event) => {
+                if (!photoModal.classList.contains('is-open')) return;
+                if (event.key === 'Escape') closeGallery();
+                if (event.key === 'ArrowRight') showNextGalleryImage();
+                if (event.key === 'ArrowLeft') showPrevGalleryImage();
+            });
+            
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success Stories</title>
+    <link href="./img/favicon.ico" rel="icon">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="./lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Topbar Start -->
+    <div id="topnavbar"></div>
+    <!-- Topbar End -->
+ 
+    <div id="navbar-placeholder"></div>
+
+    <script>
+         $(document).ready(function () {
+            $("#topnavbar").load("topnavbar.html");
+        });
+        $(document).ready(function () {
+            $("#navbar-placeholder").load("navbar.html");
+        });
+    </script>
+
+
+<div class="image-header">
+  <img src="./img/common_bg.webp" alt="Header Image">
+  <div class="gradient-overlay"></div>
+  <div class="text-overlay mx-auto">
+    <h1 class="fw-bold text-dark">Success Stories</h1>
+    <nav aria-label="breadcrumb" class="breadcrumb-overlay">
+      <ol class="breadcrumb m-0 justify-content-center">
+        <li class="breadcrumb-item">
+          <a href="./index.html" class="text-dark">Home</a>
+        </li>
+        <li class="breadcrumb-item active text-light text-dark" aria-current="page">
+         <a href="./success_stories.html" class="text-dark">Success Stories</a>
+        </li>
+      </ol>
+    </nav>
+  </div>
+</div>
+
+    <!-- **success stories start***** -->
+    <!-- ********common heading*********** -->
+    <div class="text-center mb-4 mt-4">
+        <h2 class="sub-title position-relative d-inline-block">
+            Our Success Stories
+            <span class="headline-double"></span>
+        </h2>
+    </div>
+    <!-- ********common heading*********** -->
+
+    <!-- success stories end  -->
+
+    <section class="human-stories py-5">
+        <div class="container">
+            <!-- Story Row -->
+            <div class="row align-items-center mb-2">
+                <div class="col-md-6 col-sm-12 col-lg-6">
+                    <img src="./img/about_two.jpg" class="img-fluid rounded shadow" alt="Story" loading="lazy">
+                </div>
+                <div class="col-md-6 col-sm-12 col-lg-6 pb-2">
+                    <h4 class="fw-bold">Happy Stories</h4>
+                    <p>From limited resources to a thriving community center serving 300+ families. Lorem, ipsum dolor
+                        sit amet consectetur adipisicing elit. Distinctio necessitatibus amet expedita molestiae aliquid
+                        deleniti, aliquam aut quibusdam accusamus. Eum asperiores modi in repellat, dolores inventore
+                        quaerat ducimus minus quod. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex facere
+                        possimus officia, ratione sed minus facilis itaque debitis sit architecto eos, dolore temporibus
+                        perferendis eveniet vel fugiat accusamus dignissimos error. Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Sint quibusdam, excepturi dignissimos tenetur ea vero omnis
+                        dolorum voluptates tempora id, provident et error accusamus ipsam minus numquam soluta quae est!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque praesentium tempore nemo at
+                        labore asperiores molestias ipsam fuga odio ullam, nam aperiam excepturi laudantium, deserunt,
+                        reprehenderit dolores ut illum alias. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quam possimus maxime repudiandae corrupti dignissimos. Cupiditate placeat dolorem provident
+                        impedit, voluptatem molestias labore, qui quae voluptatibus nisi sint totam deleniti vitae. lo
+                    </p>
+                    <span class="label-pill"><i class="fa-solid fa-heart me-2"></i>Thanks to Donors</span>
+                </div>
+            </div>
+
+            <!-- Story Row 2 -->
+            <div class="row align-items-center flex-md-row-reverse">
+                <div class="col-md-6 col-sm-12 col-lg-6">
+                    <video class="w-100 rounded shadow" controls>
+                        <source src="./videos/story2.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="col-md-6 col-sm-12 col-lg-6">
+                    <h4 class="fw-bold">Women Empowerment</h4>
+                    <p>Entrepreneurship workshops gave confidence to rural women to start businesses.</p>
+                    <span class="label-gradient"><i class="fa-solid fa-seedling me-2"></i>Growth Story</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ****************************Footer********************** -->
+
+    <div id="footer-container"></div>
+
+    <!-- ****************************Footer********************** -->
+    <script>
+          fetch("topnavbar.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-container').innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error loading the navbar:', error);
+                document.getElementById('navbar-container').innerHTML = "<p>Navbar could not be loaded.</p>";
+            });
+        // ****************
+        // Using fetch to load navbar.html dynamically
+        fetch("navbar.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-container').innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error loading the navbar:', error);
+                document.getElementById('navbar-container').innerHTML = "<p>Navbar could not be loaded.</p>";
+            });
+
+        fetch("footer.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-container').innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error loading the footer:', error);
+                document.getElementById('footer-container').innerHTML = "<p>Footer could not be loaded.</p>";
+            });
+    </script>
+
+
+    <script src="./lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="./lib/wow/wow.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

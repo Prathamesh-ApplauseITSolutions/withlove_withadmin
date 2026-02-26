@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Program</title>
+  <link href="./img/favicon.ico" rel="icon">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <!-- Libraries Stylesheet -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="./lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+</head>
+
+<body>
+
+
+    <!-- Topbar Start -->
+    <div id="topnavbar"></div>
+    <!-- Topbar End -->
+
+  <div id="navbar-placeholder"></div>
+
+  <script>
+    $(document).ready(function () {
+      $("#topnavbar").load("topnavbar.html");
+    });
+    $(document).ready(function () {
+      $("#navbar-placeholder").load("navbar.html");
+    });
+  </script>
+  <!-- **Program start***** -->
+
+<div class="image-header">
+  <img src="./img/common_bg.webp" alt="Header Image">
+  <div class="gradient-overlay"></div>
+  <div class="text-overlay mx-auto">
+    <h1 class="fw-bold text-dark">About Us</h1>
+    <nav aria-label="breadcrumb" class="breadcrumb-overlay">
+      <ol class="breadcrumb m-0 justify-content-center">
+        <li class="breadcrumb-item">
+          <a href="./index.html" class="text-dark">Home</a>
+        </li>
+        <li class="breadcrumb-item active text-light text-dark" aria-current="page">
+         <a href="./about" class="text-dark"> About Us</a>
+        </li>
+      </ol>
+    </nav>
+  </div>
+</div>
+  <!-- ********common heading*********** -->
+  <div class="text-center mb-4 mt-4">
+    <h2 class="sub-title position-relative d-inline-block">
+      Our Programs
+      <span class="headline-double"></span>
+    </h2>
+  </div>
+  <!-- ********common heading*********** -->
+  <section class="projects-section py-5 bg-light">
+    <div class="container">
+      <!-- Filter / Sort Bar -->
+      <div class="filter-bar">
+        <form class="row g-3 align-items-end">
+          <!-- Category -->
+          <div class="col-md-4 col-sm-6">
+            <label for="filterCategory"><i class="fa-solid fa-layer-group me-1 text-primary"></i> Category</label>
+            <select id="filterCategory" class="form-select">
+              <option selected>All Categories</option>
+              <option>Education</option>
+              <option>Health</option>
+              <option>Environment</option>
+            </select>
+          </div>
+          <!-- Year -->
+          <div class="col-md-4 col-sm-6">
+            <label for="filterYear"><i class="fa-solid fa-calendar-alt me-1 text-success"></i> Year</label>
+            <select id="filterYear" class="form-select">
+              <option selected>All Years</option>
+              <option>2025</option>
+              <option>2024</option>
+              <option>2023</option>
+            </select>
+          </div>
+          <!-- Status -->
+          <div class="col-md-4 col-sm-6">
+            <label for="filterStatus"><i class="fa-solid fa-flag-checkered me-1 text-danger"></i> Status</label>
+            <select id="filterStatus" class="form-select">
+              <option selected>All Status</option>
+              <option>Ongoing</option>
+              <option>Completed</option>
+              <option>Upcoming</option>
+            </select>
+          </div>
+          <!-- Search -->
+          <div class="col-12 mt-3">
+            <input type="text" class="form-control" placeholder="🔍 Search projects by title...">
+          </div>
+        </form>
+      </div>
+
+      <!-- Tabs -->
+      <ul class="nav justify-content-center flex-wrap mb-5 tab-rounded" id="projectTabs" role="tablist">
+        <li class="nav-item">
+          <button class="nav-link active" id="all-tab" data-bs-toggle="pill" data-bs-target="#all" type="button">
+            <i class="fa-solid fa-layer-group me-2"></i> All
+          </button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link" id="education-tab" data-bs-toggle="pill" data-bs-target="#education" type="button">
+            <i class="fa-solid fa-graduation-cap me-2"></i> Education
+          </button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link" id="health-tab" data-bs-toggle="pill" data-bs-target="#health" type="button">
+            <i class="fa-solid fa-heart-pulse me-2"></i> Health
+          </button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link" id="environment-tab" data-bs-toggle="pill" data-bs-target="#environment"
+            type="button">
+            <i class="fa-solid fa-leaf me-2"></i> Environment
+          </button>
+        </li>
+      </ul>
+
+      <!-- Tab Content -->
+      <div class="tab-content">
+        <!-- All Projects -->
+        <div class="tab-pane fade show active" id="all" role="tabpanel">
+          <div class="row g-4" data-masonry='{"percentPosition": true }'>
+            <div class="col-sm-6 col-lg-4">
+              <div class="card project-card">
+                <img src="./img/carosoule_two.png" class="card-img-top" alt="Education" loading="lazy">
+                <div class="card-body">
+                  <span class="badge bg-success mb-2"><i class="fa-solid fa-graduation-cap"></i> Education</span>
+                  <h5 class="card-title">Digital Literacy Program</h5>
+                  <p class="card-text">Empowering rural youth with computer skills. Over 500+ students enrolled.</p>
+                  <a href="learnmore.html" class="btn btn-gradient px-4 py-2 mt-3">learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="card project-card">
+                <img src="./img/carosoule_two.png" class="card-img-top" alt="Education" loading="lazy">
+                <div class="card-body">
+                  <span class="badge bg-danger mb-2"><i class="fa-solid fa-heart-pulse"></i> Health</span>
+                  <h5 class="card-title">Free Health Checkups</h5>
+                  <p class="card-text">Organized health camps reaching 1,000+ villagers with free medicines.</p>
+                   <a href="learnmore.html" class="btn btn-gradient px-4 py-2 mt-3">learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="card project-card">
+                <img src="./img/carosoule_two.png" class="card-img-top" alt="Education" loading="lazy">
+                <div class="card-body">
+                  <span class="badge bg-warning text-dark mb-2"><i class="fa-solid fa-leaf"></i> Environment</span>
+                  <h5 class="card-title">Tree Plantation Drive</h5>
+                  <p class="card-text">10,000+ trees planted across villages for a greener tomorrow.</p>
+                   <a href="learnmore.html" class="btn btn-gradient px-4 py-2 mt-3">learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Education -->
+        <div class="tab-pane fade" id="education" role="tabpanel">
+          <div class="row g-4" data-masonry='{"percentPosition": true }'>
+            <div class="col-sm-6 col-lg-4">
+              <div class="card project-card">
+                <img src="./img/carosoule_two.png" class="card-img-top" alt="Education" loading="lazy">
+                <div class="card-body">
+                  <span class="badge bg-success mb-2"><i class="fa-solid fa-graduation-cap"></i> Education</span>
+                  <h5 class="card-title">Scholarship Program</h5>
+                  <p class="card-text">Providing scholarships to underprivileged students for higher education.</p>
+                   <a href="learnmore.html" class="btn btn-gradient px-4 py-2 mt-3">learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Health -->
+        <div class="tab-pane fade" id="health" role="tabpanel">
+          <div class="row g-4" data-masonry='{"percentPosition": true }'>
+            <div class="col-sm-6 col-lg-4">
+              <div class="card project-card">
+                <img src="./img/carosoule_two.png" class="card-img-top" alt="Education" loading="lazy">
+                <div class="card-body">
+                  <span class="badge bg-danger mb-2"><i class="fa-solid fa-heart-pulse"></i> Health</span>
+                  <h5 class="card-title">Mobile Health Vans</h5>
+                  <p class="card-text">Bringing healthcare access to remote areas with mobile clinics.</p>
+                   <a href="learnmore.html" class="btn btn-gradient px-4 py-2 mt-3">learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Environment -->
+        <div class="tab-pane fade" id="environment" role="tabpanel">
+          <div class="row g-4" data-masonry='{"percentPosition": true }'>
+            <div class="col-sm-6 col-lg-4">
+              <div class="card project-card">
+                <img src="./img/carosoule_two.png" class="card-img-top" alt="Education" loading="lazy">
+                <div class="card-body">
+                  <span class="badge bg-warning text-dark mb-2"><i class="fa-solid fa-leaf"></i> Environment</span>
+                  <h5 class="card-title">Clean Village Drive</h5>
+                  <p class="card-text">Community-driven cleanliness and waste management programs.</p>
+                   <a href="learnmore.html" class="btn btn-gradient px-4 py-2 mt-3">learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Program End -->
+
+
+  <!-- ****************************Footer********************** -->
+
+  <div id="footer-container"></div>
+
+  <!-- ****************************Footer********************** -->
+  <script>
+    fetch("topnavbar.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navbar-container').innerHTML = data;
+      })
+      .catch(error => {
+        console.error('Error loading the navbar:', error);
+        document.getElementById('navbar-container').innerHTML = "<p>Navbar could not be loaded.</p>";
+      });
+    // ****************
+    // Using fetch to load navbar.html dynamically
+    fetch("navbar.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navbar-container').innerHTML = data;
+      })
+      .catch(error => {
+        console.error('Error loading the navbar:', error);
+        document.getElementById('navbar-container').innerHTML = "<p>Navbar could not be loaded.</p>";
+      });
+
+    fetch("footer.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer-container').innerHTML = data;
+      })
+      .catch(error => {
+        console.error('Error loading the footer:', error);
+        document.getElementById('footer-container').innerHTML = "<p>Footer could not be loaded.</p>";
+      });
+  </script>
+
+
+  <script src="./lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="./lib/wow/wow.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

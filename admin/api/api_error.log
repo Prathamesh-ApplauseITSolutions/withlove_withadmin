@@ -1,0 +1,1794 @@
+[23-Feb-2026 12:38:06 UTC] get_projects.php: Script started at 2026-02-23 12:38:06
+[23-Feb-2026 12:38:06 UTC] get_projects.php: Starting main execution
+[23-Feb-2026 12:38:06 UTC] get_projects.php: Connecting to database: localhost/wl
+[23-Feb-2026 12:38:06 UTC] get_projects.php: Exception caught: mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 90
+[23-Feb-2026 12:38:06 UTC] get_projects.php: Script ended at 2026-02-23 12:38:06
+[23-Feb-2026 12:39:39 UTC] get_projects.php: Script started at 2026-02-23 12:39:39
+[23-Feb-2026 12:39:39 UTC] get_projects.php: Starting main execution
+[23-Feb-2026 12:39:39 UTC] get_projects.php: Exception caught: Undefined variable: database in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 89
+[23-Feb-2026 12:39:39 UTC] get_projects.php: Script ended at 2026-02-23 12:39:39
+[23-Feb-2026 12:39:44 UTC] get_projects.php: Script started at 2026-02-23 12:39:44
+[23-Feb-2026 12:39:44 UTC] get_projects.php: Starting main execution
+[23-Feb-2026 12:39:44 UTC] get_projects.php: Exception caught: Undefined variable: database in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 89
+[23-Feb-2026 12:39:44 UTC] get_projects.php: Script ended at 2026-02-23 12:39:44
+[23-Feb-2026 12:39:54 UTC] get_projects.php: Script started at 2026-02-23 12:39:54
+[23-Feb-2026 12:39:54 UTC] get_projects.php: Starting main execution
+[23-Feb-2026 12:39:54 UTC] get_projects.php: Exception caught: Undefined variable: database in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 89
+[23-Feb-2026 12:39:54 UTC] get_projects.php: Script ended at 2026-02-23 12:39:54
+[23-Feb-2026 12:39:57 UTC] get_projects.php: Script started at 2026-02-23 12:39:57
+[23-Feb-2026 12:39:57 UTC] get_projects.php: Starting main execution
+[23-Feb-2026 12:39:57 UTC] get_projects.php: Exception caught: Undefined variable: database in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 89
+[23-Feb-2026 12:39:57 UTC] get_projects.php: Script ended at 2026-02-23 12:39:57
+[23-Feb-2026 12:49:56 UTC] get_projects.php: Script started at 2026-02-23 12:49:56
+[23-Feb-2026 12:49:56 UTC] get_projects.php: Starting main execution
+[23-Feb-2026 12:49:56 UTC] get_projects.php: Connecting to database: localhost/wl using PDO
+[23-Feb-2026 12:49:56 UTC] get_projects.php: Exception caught: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 90
+[23-Feb-2026 12:49:56 UTC] get_projects.php: Script ended at 2026-02-23 12:49:56
+[23-Feb-2026 12:50:42 UTC] get_projects.php: Script started at 2026-02-23 12:50:42
+[23-Feb-2026 12:50:42 UTC] get_projects.php: Starting main execution
+[23-Feb-2026 12:50:42 UTC] get_projects.php: Connecting to database: localhost/withlove using PDO
+[23-Feb-2026 12:50:42 UTC] get_projects.php: Database connected successfully with PDO
+[23-Feb-2026 12:50:42 UTC] get_projects.php: Category received: 'give-with-love'
+[23-Feb-2026 12:50:42 UTC] get_projects.php: Database query test passed
+[23-Feb-2026 12:50:42 UTC] get_projects.php: Required tables exist
+[23-Feb-2026 12:50:42 UTC] get_projects.php: Preparing main query
+[23-Feb-2026 12:50:42 UTC] get_projects.php: Query executed, found 2 projects
+[23-Feb-2026 12:50:42 UTC] get_projects.php: Successfully processed 2 projects
+[23-Feb-2026 12:50:42 UTC] get_projects.php: Script ended at 2026-02-23 12:50:42
+[23-Feb-2026 12:51:52 UTC] get_projects.php: Script started at 2026-02-23 12:51:52
+[23-Feb-2026 12:51:52 UTC] get_projects.php: Starting main execution
+[23-Feb-2026 12:51:52 UTC] get_projects.php: Connecting to database: localhost/withlove using PDO
+[23-Feb-2026 12:51:52 UTC] get_projects.php: Database connected successfully with PDO
+[23-Feb-2026 12:51:52 UTC] get_projects.php: Category received: 'learn-with-love'
+[23-Feb-2026 12:51:52 UTC] get_projects.php: Database query test passed
+[23-Feb-2026 12:51:52 UTC] get_projects.php: Required tables exist
+[23-Feb-2026 12:51:52 UTC] get_projects.php: Preparing main query
+[23-Feb-2026 12:51:52 UTC] get_projects.php: Query executed, found 1 projects
+[23-Feb-2026 12:51:52 UTC] get_projects.php: Successfully processed 1 projects
+[23-Feb-2026 12:51:52 UTC] get_projects.php: Script ended at 2026-02-23 12:51:52
+[23-Feb-2026 12:59:57 UTC] get_projects.php: Script started at 2026-02-23 12:59:57
+[23-Feb-2026 12:59:57 UTC] get_projects.php: Starting main execution
+[23-Feb-2026 12:59:57 UTC] get_projects.php: Connecting to database: localhost/withlove using PDO
+[23-Feb-2026 12:59:57 UTC] get_projects.php: Database connected successfully with PDO
+[23-Feb-2026 12:59:57 UTC] get_projects.php: Category received: 'give-with-love'
+[23-Feb-2026 12:59:57 UTC] get_projects.php: Database query test passed
+[23-Feb-2026 12:59:57 UTC] get_projects.php: Required tables exist
+[23-Feb-2026 12:59:57 UTC] get_projects.php: Preparing main query
+[23-Feb-2026 12:59:57 UTC] get_projects.php: Query executed, found 2 projects
+[23-Feb-2026 12:59:57 UTC] get_projects.php: Successfully processed 2 projects
+[23-Feb-2026 12:59:57 UTC] get_projects.php: Script ended at 2026-02-23 12:59:57
+[23-Feb-2026 17:28:29 UTC] get_projects.php: Script started at 2026-02-23 17:28:29
+[23-Feb-2026 17:28:29 UTC] get_projects.php: Starting main execution
+[23-Feb-2026 17:28:29 UTC] get_projects.php: Database connected successfully with PDO
+[23-Feb-2026 17:28:29 UTC] get_projects.php: Category received: 'give-with-love'
+[23-Feb-2026 17:28:29 UTC] get_projects.php: Database query test passed
+[23-Feb-2026 17:28:29 UTC] get_projects.php: Required tables exist
+[23-Feb-2026 17:28:29 UTC] get_projects.php: Preparing main query
+[23-Feb-2026 17:28:29 UTC] get_projects.php: Query executed, found 2 projects
+[23-Feb-2026 17:28:29 UTC] get_projects.php: Successfully processed 2 projects
+[23-Feb-2026 17:28:29 UTC] get_projects.php: Script ended at 2026-02-23 17:28:29
+[23-Feb-2026 17:45:38 UTC] get_projects.php: Script started at 2026-02-23 17:45:38
+[23-Feb-2026 17:45:38 UTC] get_projects.php: Starting main execution
+[23-Feb-2026 17:45:38 UTC] get_projects.php: Database connected successfully with PDO
+[23-Feb-2026 17:45:38 UTC] get_projects.php: Category received: 'give-with-love'
+[23-Feb-2026 17:45:38 UTC] get_projects.php: Database query test passed
+[23-Feb-2026 17:45:38 UTC] get_projects.php: Required tables exist
+[23-Feb-2026 17:45:38 UTC] get_projects.php: Preparing main query
+[23-Feb-2026 17:45:38 UTC] get_projects.php: Query executed, found 2 projects
+[23-Feb-2026 17:45:38 UTC] get_projects.php: Successfully processed 2 projects
+[23-Feb-2026 17:45:38 UTC] get_projects.php: Script ended at 2026-02-23 17:45:38
+[23-Feb-2026 17:48:38 UTC] get_projects.php: Script started at 2026-02-23 17:48:38
+[23-Feb-2026 17:48:38 UTC] get_projects.php: Starting main execution
+[23-Feb-2026 17:48:38 UTC] get_projects.php: Database connected successfully with PDO
+[23-Feb-2026 17:48:38 UTC] get_projects.php: Category received: 'give-with-love'
+[23-Feb-2026 17:48:38 UTC] get_projects.php: Database query test passed
+[23-Feb-2026 17:48:38 UTC] get_projects.php: Required tables exist
+[23-Feb-2026 17:48:38 UTC] get_projects.php: Preparing main query
+[23-Feb-2026 17:48:38 UTC] get_projects.php: Query executed, found 2 projects
+[23-Feb-2026 17:48:38 UTC] get_projects.php: Successfully processed 2 projects
+[23-Feb-2026 17:48:38 UTC] get_projects.php: Script ended at 2026-02-23 17:48:38
+[23-Feb-2026 17:51:03 UTC] get_projects.php: Script started at 2026-02-23 17:51:03
+[23-Feb-2026 17:51:03 UTC] get_projects.php: Starting main execution
+[23-Feb-2026 17:51:03 UTC] get_projects.php: Database connected successfully with PDO
+[23-Feb-2026 17:51:03 UTC] get_projects.php: Category received: 'give-with-love'
+[23-Feb-2026 17:51:03 UTC] get_projects.php: Database query test passed
+[23-Feb-2026 17:51:03 UTC] get_projects.php: Required tables exist
+[23-Feb-2026 17:51:03 UTC] get_projects.php: Preparing main query
+[23-Feb-2026 17:51:03 UTC] get_projects.php: Query executed, found 2 projects
+[23-Feb-2026 17:51:03 UTC] get_projects.php: Successfully processed 2 projects
+[23-Feb-2026 17:51:03 UTC] get_projects.php: Script ended at 2026-02-23 17:51:03
+[23-Feb-2026 17:52:08 UTC] get_projects.php: Script started at 2026-02-23 17:52:08
+[23-Feb-2026 17:52:08 UTC] get_projects.php: Starting main execution
+[23-Feb-2026 17:52:08 UTC] get_projects.php: Database connected successfully with PDO
+[23-Feb-2026 17:52:08 UTC] get_projects.php: Category received: 'give-with-love'
+[23-Feb-2026 17:52:08 UTC] get_projects.php: Database query test passed
+[23-Feb-2026 17:52:08 UTC] get_projects.php: Required tables exist
+[23-Feb-2026 17:52:08 UTC] get_projects.php: Preparing main query
+[23-Feb-2026 17:52:08 UTC] get_projects.php: Query executed, found 2 projects
+[23-Feb-2026 17:52:08 UTC] get_projects.php: Successfully processed 2 projects
+[23-Feb-2026 17:52:08 UTC] get_projects.php: Script ended at 2026-02-23 17:52:08
+[23-Feb-2026 17:53:24 UTC] get_projects.php: Script started at 2026-02-23 17:53:24
+[23-Feb-2026 17:53:24 UTC] get_projects.php: Starting main execution
+[23-Feb-2026 17:53:24 UTC] get_projects.php: Database connected successfully with PDO
+[23-Feb-2026 17:53:24 UTC] get_projects.php: Category received: 'give-with-love'
+[23-Feb-2026 17:53:24 UTC] get_projects.php: Database query test passed
+[23-Feb-2026 17:53:24 UTC] get_projects.php: Required tables exist
+[23-Feb-2026 17:53:24 UTC] get_projects.php: Preparing main query
+[23-Feb-2026 17:53:24 UTC] get_projects.php: Query executed, found 2 projects
+[23-Feb-2026 17:53:24 UTC] get_projects.php: Successfully processed 2 projects
+[23-Feb-2026 17:53:24 UTC] get_projects.php: Script ended at 2026-02-23 17:53:24
+[23-Feb-2026 17:57:54 UTC] get_projects.php: Script started at 2026-02-23 17:57:54
+[23-Feb-2026 17:57:54 UTC] get_projects.php: Starting main execution
+[23-Feb-2026 17:57:54 UTC] get_projects.php: Database connected successfully with PDO
+[23-Feb-2026 17:57:54 UTC] get_projects.php: Category received: 'learn-with-love'
+[23-Feb-2026 17:57:54 UTC] get_projects.php: Database query test passed
+[23-Feb-2026 17:57:54 UTC] get_projects.php: Required tables exist
+[23-Feb-2026 17:57:54 UTC] get_projects.php: Preparing main query
+[23-Feb-2026 17:57:54 UTC] get_projects.php: Query executed, found 2 projects
+[23-Feb-2026 17:57:54 UTC] get_projects.php: Successfully processed 2 projects
+[23-Feb-2026 17:57:54 UTC] get_projects.php: Script ended at 2026-02-23 17:57:54
+[23-Feb-2026 18:03:11 UTC] get_projects.php: Script started at 2026-02-23 18:03:11
+[23-Feb-2026 18:03:11 UTC] get_projects.php: Starting main execution
+[23-Feb-2026 18:03:11 UTC] get_projects.php: Database connected successfully with PDO
+[23-Feb-2026 18:03:11 UTC] get_projects.php: Category received: 'learn-with-love'
+[23-Feb-2026 18:03:11 UTC] get_projects.php: Database query test passed
+[23-Feb-2026 18:03:11 UTC] get_projects.php: Required tables exist
+[23-Feb-2026 18:03:11 UTC] get_projects.php: Preparing main query
+[23-Feb-2026 18:03:11 UTC] get_projects.php: Query executed, found 2 projects
+[23-Feb-2026 18:03:11 UTC] get_projects.php: Successfully processed 2 projects
+[23-Feb-2026 18:03:11 UTC] get_projects.php: Script ended at 2026-02-23 18:03:11
+[23-Feb-2026 18:04:25 UTC] get_projects.php: Script started at 2026-02-23 18:04:25
+[23-Feb-2026 18:04:25 UTC] get_projects.php: Starting main execution
+[23-Feb-2026 18:04:25 UTC] get_projects.php: Database connected successfully with PDO
+[23-Feb-2026 18:04:25 UTC] get_projects.php: Category received: 'give-with-love'
+[23-Feb-2026 18:04:25 UTC] get_projects.php: Database query test passed
+[23-Feb-2026 18:04:25 UTC] get_projects.php: Required tables exist
+[23-Feb-2026 18:04:25 UTC] get_projects.php: Preparing main query
+[23-Feb-2026 18:04:25 UTC] get_projects.php: Query executed, found 2 projects
+[23-Feb-2026 18:04:25 UTC] get_projects.php: Successfully processed 2 projects
+[23-Feb-2026 18:04:25 UTC] get_projects.php: Script ended at 2026-02-23 18:04:25
+[23-Feb-2026 18:17:48 UTC] get_projects.php: Script started at 2026-02-23 18:17:48
+[23-Feb-2026 18:17:48 UTC] get_projects.php: Starting main execution
+[23-Feb-2026 18:17:48 UTC] get_projects.php: Database connected successfully with PDO
+[23-Feb-2026 18:17:48 UTC] get_projects.php: Category received: 'learn-with-love'
+[23-Feb-2026 18:17:48 UTC] get_projects.php: Database query test passed
+[23-Feb-2026 18:17:48 UTC] get_projects.php: Required tables exist
+[23-Feb-2026 18:17:48 UTC] get_projects.php: Preparing main query
+[23-Feb-2026 18:17:48 UTC] get_projects.php: Query executed, found 2 projects
+[23-Feb-2026 18:17:48 UTC] get_projects.php: Successfully processed 2 projects
+[23-Feb-2026 18:17:48 UTC] get_projects.php: Script ended at 2026-02-23 18:17:48
+[23-Feb-2026 18:19:55 UTC] get_projects.php: Script started at 2026-02-23 18:19:55
+[23-Feb-2026 18:19:55 UTC] get_projects.php: Starting main execution
+[23-Feb-2026 18:19:55 UTC] get_projects.php: Database connected successfully with PDO
+[23-Feb-2026 18:19:55 UTC] get_projects.php: Category received: 'learn-with-love'
+[23-Feb-2026 18:19:55 UTC] get_projects.php: Database query test passed
+[23-Feb-2026 18:19:55 UTC] get_projects.php: Required tables exist
+[23-Feb-2026 18:19:55 UTC] get_projects.php: Preparing main query
+[23-Feb-2026 18:19:55 UTC] get_projects.php: Query executed, found 2 projects
+[23-Feb-2026 18:19:55 UTC] get_projects.php: Successfully processed 2 projects
+[23-Feb-2026 18:19:55 UTC] get_projects.php: Script ended at 2026-02-23 18:19:55
+[23-Feb-2026 18:20:54 UTC] get_projects.php: Script started at 2026-02-23 18:20:54
+[23-Feb-2026 18:20:54 UTC] get_projects.php: Starting main execution
+[23-Feb-2026 18:20:54 UTC] get_projects.php: Database connected successfully with PDO
+[23-Feb-2026 18:20:54 UTC] get_projects.php: Category received: 'learn-with-love'
+[23-Feb-2026 18:20:54 UTC] get_projects.php: Database query test passed
+[23-Feb-2026 18:20:54 UTC] get_projects.php: Required tables exist
+[23-Feb-2026 18:20:54 UTC] get_projects.php: Preparing main query
+[23-Feb-2026 18:20:54 UTC] get_projects.php: Query executed, found 2 projects
+[23-Feb-2026 18:20:54 UTC] get_projects.php: Successfully processed 2 projects
+[23-Feb-2026 18:20:54 UTC] get_projects.php: Script ended at 2026-02-23 18:20:54
+[23-Feb-2026 18:21:25 UTC] get_projects.php: Script started at 2026-02-23 18:21:25
+[23-Feb-2026 18:21:25 UTC] get_projects.php: Starting main execution
+[23-Feb-2026 18:21:25 UTC] get_projects.php: Database connected successfully with PDO
+[23-Feb-2026 18:21:25 UTC] get_projects.php: Category received: 'learn-with-love'
+[23-Feb-2026 18:21:25 UTC] get_projects.php: Database query test passed
+[23-Feb-2026 18:21:25 UTC] get_projects.php: Required tables exist
+[23-Feb-2026 18:21:25 UTC] get_projects.php: Preparing main query
+[23-Feb-2026 18:21:25 UTC] get_projects.php: Query executed, found 2 projects
+[23-Feb-2026 18:21:25 UTC] get_projects.php: Successfully processed 2 projects
+[23-Feb-2026 18:21:25 UTC] get_projects.php: Script ended at 2026-02-23 18:21:25
+[23-Feb-2026 18:27:32 UTC] get_projects.php: Script started at 2026-02-23 18:27:32
+[23-Feb-2026 18:27:32 UTC] get_projects.php: Starting main execution
+[23-Feb-2026 18:27:32 UTC] get_projects.php: Database connected successfully with PDO
+[23-Feb-2026 18:27:32 UTC] get_projects.php: Category received: 'learn-with-love'
+[23-Feb-2026 18:27:32 UTC] get_projects.php: Database query test passed
+[23-Feb-2026 18:27:32 UTC] get_projects.php: Required tables exist
+[23-Feb-2026 18:27:32 UTC] get_projects.php: Preparing main query
+[23-Feb-2026 18:27:32 UTC] get_projects.php: Query executed, found 2 projects
+[23-Feb-2026 18:27:32 UTC] get_projects.php: Successfully processed 2 projects
+[23-Feb-2026 18:27:32 UTC] get_projects.php: Script ended at 2026-02-23 18:27:32
+[23-Feb-2026 18:29:58 UTC] get_projects.php: Script started at 2026-02-23 18:29:58
+[23-Feb-2026 18:29:58 UTC] get_projects.php: Starting main execution
+[23-Feb-2026 18:29:58 UTC] get_projects.php: Database connected successfully with PDO
+[23-Feb-2026 18:29:58 UTC] get_projects.php: Category received: 'learn-with-love'
+[23-Feb-2026 18:29:58 UTC] get_projects.php: Database query test passed
+[23-Feb-2026 18:29:58 UTC] get_projects.php: Required tables exist
+[23-Feb-2026 18:29:58 UTC] get_projects.php: Preparing main query
+[23-Feb-2026 18:29:58 UTC] get_projects.php: Query executed, found 2 projects
+[23-Feb-2026 18:29:58 UTC] get_projects.php: Successfully processed 2 projects
+[23-Feb-2026 18:29:58 UTC] get_projects.php: Script ended at 2026-02-23 18:29:58
+[23-Feb-2026 18:40:07 UTC] get_projects.php: Script started at 2026-02-23 18:40:07
+[23-Feb-2026 18:40:07 UTC] get_projects.php: Starting main execution
+[23-Feb-2026 18:40:07 UTC] get_projects.php: Database connected successfully with PDO
+[23-Feb-2026 18:40:07 UTC] get_projects.php: Category received: 'learn-with-love'
+[23-Feb-2026 18:40:07 UTC] get_projects.php: Database query test passed
+[23-Feb-2026 18:40:07 UTC] get_projects.php: Required tables exist
+[23-Feb-2026 18:40:07 UTC] get_projects.php: Preparing main query
+[23-Feb-2026 18:40:07 UTC] get_projects.php: Query executed, found 2 projects
+[23-Feb-2026 18:40:07 UTC] get_projects.php: Successfully processed 2 projects
+[23-Feb-2026 18:40:07 UTC] get_projects.php: Script ended at 2026-02-23 18:40:07
+[23-Feb-2026 18:45:24 UTC] get_projects.php: Script started at 2026-02-23 18:45:24
+[23-Feb-2026 18:45:24 UTC] get_projects.php: Starting main execution
+[23-Feb-2026 18:45:24 UTC] get_projects.php: Database connected successfully with PDO
+[23-Feb-2026 18:45:24 UTC] get_projects.php: Category received: 'give-with-love'
+[23-Feb-2026 18:45:24 UTC] get_projects.php: Database query test passed
+[23-Feb-2026 18:45:24 UTC] get_projects.php: Required tables exist
+[23-Feb-2026 18:45:24 UTC] get_projects.php: Preparing main query
+[23-Feb-2026 18:45:24 UTC] get_projects.php: Query executed, found 2 projects
+[23-Feb-2026 18:45:24 UTC] get_projects.php: Successfully processed 2 projects
+[23-Feb-2026 18:45:24 UTC] get_projects.php: Script ended at 2026-02-23 18:45:24
+[23-Feb-2026 18:47:17 UTC] get_projects.php: Script started at 2026-02-23 18:47:17
+[23-Feb-2026 18:47:17 UTC] get_projects.php: Starting main execution
+[23-Feb-2026 18:47:17 UTC] get_projects.php: Database connected successfully with PDO
+[23-Feb-2026 18:47:17 UTC] get_projects.php: Category received: 'give-with-love'
+[23-Feb-2026 18:47:17 UTC] get_projects.php: Database query test passed
+[23-Feb-2026 18:47:17 UTC] get_projects.php: Required tables exist
+[23-Feb-2026 18:47:17 UTC] get_projects.php: Preparing main query
+[23-Feb-2026 18:47:17 UTC] get_projects.php: Query executed, found 2 projects
+[23-Feb-2026 18:47:17 UTC] get_projects.php: Successfully processed 2 projects
+[23-Feb-2026 18:47:17 UTC] get_projects.php: Script ended at 2026-02-23 18:47:17
+[23-Feb-2026 18:48:46 UTC] get_projects.php: Script started at 2026-02-23 18:48:46
+[23-Feb-2026 18:48:46 UTC] get_projects.php: Starting main execution
+[23-Feb-2026 18:48:46 UTC] get_projects.php: Database connected successfully with PDO
+[23-Feb-2026 18:48:46 UTC] get_projects.php: Category received: 'give-with-love'
+[23-Feb-2026 18:48:46 UTC] get_projects.php: Database query test passed
+[23-Feb-2026 18:48:46 UTC] get_projects.php: Required tables exist
+[23-Feb-2026 18:48:46 UTC] get_projects.php: Preparing main query
+[23-Feb-2026 18:48:46 UTC] get_projects.php: Query executed, found 2 projects
+[23-Feb-2026 18:48:46 UTC] get_projects.php: Successfully processed 2 projects
+[23-Feb-2026 18:48:46 UTC] get_projects.php: Script ended at 2026-02-23 18:48:46
+[23-Feb-2026 18:48:54 UTC] get_projects.php: Script started at 2026-02-23 18:48:54
+[23-Feb-2026 18:48:54 UTC] get_projects.php: Starting main execution
+[23-Feb-2026 18:48:54 UTC] get_projects.php: Database connected successfully with PDO
+[23-Feb-2026 18:48:54 UTC] get_projects.php: Category received: 'give-with-love'
+[23-Feb-2026 18:48:54 UTC] get_projects.php: Database query test passed
+[23-Feb-2026 18:48:54 UTC] get_projects.php: Required tables exist
+[23-Feb-2026 18:48:54 UTC] get_projects.php: Preparing main query
+[23-Feb-2026 18:48:54 UTC] get_projects.php: Query executed, found 2 projects
+[23-Feb-2026 18:48:54 UTC] get_projects.php: Successfully processed 2 projects
+[23-Feb-2026 18:48:54 UTC] get_projects.php: Script ended at 2026-02-23 18:48:54
+[23-Feb-2026 18:50:42 UTC] get_projects.php: Script started at 2026-02-23 18:50:42
+[23-Feb-2026 18:50:42 UTC] get_projects.php: Starting main execution
+[23-Feb-2026 18:50:42 UTC] get_projects.php: Database connected successfully with PDO
+[23-Feb-2026 18:50:42 UTC] get_projects.php: Category received: 'give-with-love'
+[23-Feb-2026 18:50:42 UTC] get_projects.php: Database query test passed
+[23-Feb-2026 18:50:42 UTC] get_projects.php: Required tables exist
+[23-Feb-2026 18:50:42 UTC] get_projects.php: Preparing main query
+[23-Feb-2026 18:50:42 UTC] get_projects.php: Query executed, found 2 projects
+[23-Feb-2026 18:50:42 UTC] get_projects.php: Successfully processed 2 projects
+[23-Feb-2026 18:50:42 UTC] get_projects.php: Script ended at 2026-02-23 18:50:42
+[24-Feb-2026 06:51:20 UTC] get_projects.php: Script started at 2026-02-24 06:51:20
+[24-Feb-2026 06:51:20 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 06:51:20 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 06:51:20 UTC] get_projects.php: Category received: 'care-with-love'
+[24-Feb-2026 06:51:20 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 06:51:20 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 06:51:20 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 06:51:20 UTC] get_projects.php: Query executed, found 0 projects
+[24-Feb-2026 06:51:20 UTC] get_projects.php: Successfully processed 0 projects
+[24-Feb-2026 06:51:20 UTC] get_projects.php: Script ended at 2026-02-24 06:51:20
+[24-Feb-2026 07:08:35 UTC] get_projects.php: Script started at 2026-02-24 07:08:35
+[24-Feb-2026 07:08:35 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 07:08:35 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 07:08:35 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 07:08:35 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 07:08:35 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 07:08:35 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 07:08:35 UTC] get_projects.php: Query executed, found 0 projects
+[24-Feb-2026 07:08:35 UTC] get_projects.php: Successfully processed 0 projects
+[24-Feb-2026 07:08:35 UTC] get_projects.php: Script ended at 2026-02-24 07:08:35
+[24-Feb-2026 08:45:17 UTC] get_projects.php: Script started at 2026-02-24 08:45:17
+[24-Feb-2026 08:45:17 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 08:45:17 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 08:45:17 UTC] get_projects.php: Category received: 'give-with-love'
+[24-Feb-2026 08:45:17 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 08:45:17 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 08:45:17 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 08:45:17 UTC] get_projects.php: Query executed, found 2 projects
+[24-Feb-2026 08:45:17 UTC] get_projects.php: Successfully processed 2 projects
+[24-Feb-2026 08:45:17 UTC] get_projects.php: Script ended at 2026-02-24 08:45:17
+[24-Feb-2026 09:05:01 UTC] get_projects.php: Script started at 2026-02-24 09:05:01
+[24-Feb-2026 09:05:01 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 09:05:01 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 09:05:01 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 09:05:01 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 09:05:01 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 09:05:01 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 09:05:01 UTC] get_projects.php: Query executed, found 1 projects
+[24-Feb-2026 09:05:01 UTC] get_projects.php: Successfully processed 1 projects
+[24-Feb-2026 09:05:01 UTC] get_projects.php: Script ended at 2026-02-24 09:05:01
+[24-Feb-2026 09:08:16 UTC] get_projects.php: Script started at 2026-02-24 09:08:16
+[24-Feb-2026 09:08:16 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 09:08:16 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 09:08:16 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 09:08:16 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 09:08:16 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 09:08:16 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 09:08:16 UTC] get_projects.php: Query executed, found 2 projects
+[24-Feb-2026 09:08:16 UTC] get_projects.php: Successfully processed 2 projects
+[24-Feb-2026 09:08:16 UTC] get_projects.php: Script ended at 2026-02-24 09:08:16
+[24-Feb-2026 09:11:24 UTC] get_projects.php: Script started at 2026-02-24 09:11:24
+[24-Feb-2026 09:11:24 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 09:11:24 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 09:11:24 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 09:11:24 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 09:11:24 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 09:11:24 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 09:11:24 UTC] get_projects.php: Query executed, found 3 projects
+[24-Feb-2026 09:11:24 UTC] get_projects.php: Successfully processed 3 projects
+[24-Feb-2026 09:11:24 UTC] get_projects.php: Script ended at 2026-02-24 09:11:24
+[24-Feb-2026 09:24:53 UTC] get_projects.php: Script started at 2026-02-24 09:24:53
+[24-Feb-2026 09:24:53 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 09:24:53 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 09:24:53 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 09:24:53 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 09:24:53 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 09:24:53 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 09:24:53 UTC] get_projects.php: Query executed, found 4 projects
+[24-Feb-2026 09:24:53 UTC] get_projects.php: Successfully processed 4 projects
+[24-Feb-2026 09:24:53 UTC] get_projects.php: Script ended at 2026-02-24 09:24:53
+[24-Feb-2026 09:46:38 UTC] get_projects.php: Script started at 2026-02-24 09:46:38
+[24-Feb-2026 09:46:38 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 09:46:38 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 09:46:38 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 09:46:38 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 09:46:38 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 09:46:38 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 09:46:38 UTC] get_projects.php: Query executed, found 5 projects
+[24-Feb-2026 09:46:38 UTC] get_projects.php: Successfully processed 5 projects
+[24-Feb-2026 09:46:38 UTC] get_projects.php: Script ended at 2026-02-24 09:46:38
+[24-Feb-2026 09:46:46 UTC] get_projects.php: Script started at 2026-02-24 09:46:46
+[24-Feb-2026 09:46:46 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 09:46:46 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 09:46:46 UTC] get_projects.php: Category received: 'give-with-love'
+[24-Feb-2026 09:46:46 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 09:46:46 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 09:46:46 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 09:46:46 UTC] get_projects.php: Query executed, found 2 projects
+[24-Feb-2026 09:46:46 UTC] get_projects.php: Successfully processed 2 projects
+[24-Feb-2026 09:46:46 UTC] get_projects.php: Script ended at 2026-02-24 09:46:46
+[24-Feb-2026 09:46:52 UTC] get_projects.php: Script started at 2026-02-24 09:46:52
+[24-Feb-2026 09:46:52 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 09:46:52 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 09:46:52 UTC] get_projects.php: Category received: 'give-with-love'
+[24-Feb-2026 09:46:52 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 09:46:52 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 09:46:52 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 09:46:52 UTC] get_projects.php: Query executed, found 2 projects
+[24-Feb-2026 09:46:52 UTC] get_projects.php: Successfully processed 2 projects
+[24-Feb-2026 09:46:52 UTC] get_projects.php: Script ended at 2026-02-24 09:46:52
+[24-Feb-2026 09:47:01 UTC] get_projects.php: Script started at 2026-02-24 09:47:01
+[24-Feb-2026 09:47:01 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 09:47:01 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 09:47:01 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 09:47:01 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 09:47:01 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 09:47:01 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 09:47:01 UTC] get_projects.php: Query executed, found 5 projects
+[24-Feb-2026 09:47:01 UTC] get_projects.php: Successfully processed 5 projects
+[24-Feb-2026 09:47:01 UTC] get_projects.php: Script ended at 2026-02-24 09:47:01
+[24-Feb-2026 09:47:10 UTC] get_projects.php: Script started at 2026-02-24 09:47:10
+[24-Feb-2026 09:47:10 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 09:47:10 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 09:47:10 UTC] get_projects.php: Category received: 'give-with-love'
+[24-Feb-2026 09:47:10 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 09:47:10 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 09:47:10 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 09:47:10 UTC] get_projects.php: Query executed, found 2 projects
+[24-Feb-2026 09:47:10 UTC] get_projects.php: Successfully processed 2 projects
+[24-Feb-2026 09:47:10 UTC] get_projects.php: Script ended at 2026-02-24 09:47:10
+[24-Feb-2026 09:47:51 UTC] get_projects.php: Script started at 2026-02-24 09:47:51
+[24-Feb-2026 09:47:51 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 09:47:51 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 09:47:51 UTC] get_projects.php: Category received: 'give-with-love'
+[24-Feb-2026 09:47:51 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 09:47:51 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 09:47:51 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 09:47:51 UTC] get_projects.php: Query executed, found 2 projects
+[24-Feb-2026 09:47:51 UTC] get_projects.php: Successfully processed 2 projects
+[24-Feb-2026 09:47:51 UTC] get_projects.php: Script ended at 2026-02-24 09:47:51
+[24-Feb-2026 09:49:14 UTC] get_projects.php: Script started at 2026-02-24 09:49:14
+[24-Feb-2026 09:49:14 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 09:49:14 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 09:49:14 UTC] get_projects.php: Category received: 'give-with-love'
+[24-Feb-2026 09:49:14 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 09:49:14 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 09:49:14 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 09:49:14 UTC] get_projects.php: Query executed, found 0 projects
+[24-Feb-2026 09:49:14 UTC] get_projects.php: Successfully processed 0 projects
+[24-Feb-2026 09:49:14 UTC] get_projects.php: Script ended at 2026-02-24 09:49:14
+[24-Feb-2026 09:50:18 UTC] get_projects.php: Script started at 2026-02-24 09:50:18
+[24-Feb-2026 09:50:18 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 09:50:18 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 09:50:18 UTC] get_projects.php: Category received: 'give-with-love'
+[24-Feb-2026 09:50:18 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 09:50:18 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 09:50:18 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 09:50:18 UTC] get_projects.php: Query executed, found 0 projects
+[24-Feb-2026 09:50:18 UTC] get_projects.php: Successfully processed 0 projects
+[24-Feb-2026 09:50:18 UTC] get_projects.php: Script ended at 2026-02-24 09:50:18
+[24-Feb-2026 09:50:20 UTC] get_projects.php: Script started at 2026-02-24 09:50:20
+[24-Feb-2026 09:50:20 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 09:50:20 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 09:50:20 UTC] get_projects.php: Category received: 'give-with-love'
+[24-Feb-2026 09:50:20 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 09:50:20 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 09:50:20 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 09:50:20 UTC] get_projects.php: Query executed, found 0 projects
+[24-Feb-2026 09:50:20 UTC] get_projects.php: Successfully processed 0 projects
+[24-Feb-2026 09:50:20 UTC] get_projects.php: Script ended at 2026-02-24 09:50:20
+[24-Feb-2026 09:50:26 UTC] get_projects.php: Script started at 2026-02-24 09:50:26
+[24-Feb-2026 09:50:26 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 09:50:26 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 09:50:26 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 09:50:26 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 09:50:26 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 09:50:26 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 09:50:26 UTC] get_projects.php: Query executed, found 4 projects
+[24-Feb-2026 09:50:26 UTC] get_projects.php: Successfully processed 4 projects
+[24-Feb-2026 09:50:26 UTC] get_projects.php: Script ended at 2026-02-24 09:50:26
+[24-Feb-2026 09:52:59 UTC] get_projects.php: Script started at 2026-02-24 09:52:59
+[24-Feb-2026 09:52:59 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 09:52:59 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 09:52:59 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 09:52:59 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 09:52:59 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 09:52:59 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 09:52:59 UTC] get_projects.php: Query executed, found 5 projects
+[24-Feb-2026 09:52:59 UTC] get_projects.php: Successfully processed 5 projects
+[24-Feb-2026 09:52:59 UTC] get_projects.php: Script ended at 2026-02-24 09:52:59
+[24-Feb-2026 09:53:32 UTC] get_projects.php: Script started at 2026-02-24 09:53:32
+[24-Feb-2026 09:53:32 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 09:53:32 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 09:53:32 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 09:53:32 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 09:53:32 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 09:53:32 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 09:53:32 UTC] get_projects.php: Query executed, found 5 projects
+[24-Feb-2026 09:53:32 UTC] get_projects.php: Successfully processed 5 projects
+[24-Feb-2026 09:53:32 UTC] get_projects.php: Script ended at 2026-02-24 09:53:32
+[24-Feb-2026 09:53:35 UTC] get_projects.php: Script started at 2026-02-24 09:53:35
+[24-Feb-2026 09:53:35 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 09:53:35 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 09:53:35 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 09:53:35 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 09:53:35 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 09:53:35 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 09:53:35 UTC] get_projects.php: Query executed, found 5 projects
+[24-Feb-2026 09:53:35 UTC] get_projects.php: Successfully processed 5 projects
+[24-Feb-2026 09:53:35 UTC] get_projects.php: Script ended at 2026-02-24 09:53:35
+[24-Feb-2026 10:04:19 UTC] get_projects.php: Script started at 2026-02-24 10:04:19
+[24-Feb-2026 10:04:19 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 10:04:19 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 10:04:19 UTC] get_projects.php: Category received: 'give-with-love'
+[24-Feb-2026 10:04:19 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 10:04:19 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 10:04:19 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 10:04:19 UTC] get_projects.php: Query executed, found 1 projects
+[24-Feb-2026 10:04:19 UTC] get_projects.php: Successfully processed 1 projects
+[24-Feb-2026 10:04:19 UTC] get_projects.php: Script ended at 2026-02-24 10:04:19
+[24-Feb-2026 10:04:39 UTC] get_projects.php: Script started at 2026-02-24 10:04:39
+[24-Feb-2026 10:04:39 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 10:04:39 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 10:04:39 UTC] get_projects.php: Category received: 'give-with-love'
+[24-Feb-2026 10:04:39 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 10:04:39 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 10:04:39 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 10:04:39 UTC] get_projects.php: Query executed, found 1 projects
+[24-Feb-2026 10:04:39 UTC] get_projects.php: Successfully processed 1 projects
+[24-Feb-2026 10:04:39 UTC] get_projects.php: Script ended at 2026-02-24 10:04:39
+[24-Feb-2026 10:04:41 UTC] get_projects.php: Script started at 2026-02-24 10:04:41
+[24-Feb-2026 10:04:41 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 10:04:41 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 10:04:41 UTC] get_projects.php: Category received: 'give-with-love'
+[24-Feb-2026 10:04:41 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 10:04:41 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 10:04:41 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 10:04:41 UTC] get_projects.php: Query executed, found 1 projects
+[24-Feb-2026 10:04:41 UTC] get_projects.php: Successfully processed 1 projects
+[24-Feb-2026 10:04:41 UTC] get_projects.php: Script ended at 2026-02-24 10:04:41
+[24-Feb-2026 10:06:15 UTC] get_projects.php: Script started at 2026-02-24 10:06:15
+[24-Feb-2026 10:06:15 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 10:06:15 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 10:06:15 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 10:06:15 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 10:06:15 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 10:06:15 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 10:06:15 UTC] get_projects.php: Query executed, found 5 projects
+[24-Feb-2026 10:06:15 UTC] get_projects.php: Successfully processed 5 projects
+[24-Feb-2026 10:06:15 UTC] get_projects.php: Script ended at 2026-02-24 10:06:15
+[24-Feb-2026 10:13:34 UTC] get_projects.php: Script started at 2026-02-24 10:13:34
+[24-Feb-2026 10:13:34 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 10:13:34 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 10:13:34 UTC] get_projects.php: Category received: 'give-with-love'
+[24-Feb-2026 10:13:34 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 10:13:34 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 10:13:34 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 10:13:34 UTC] get_projects.php: Query executed, found 2 projects
+[24-Feb-2026 10:13:34 UTC] get_projects.php: Successfully processed 2 projects
+[24-Feb-2026 10:13:34 UTC] get_projects.php: Script ended at 2026-02-24 10:13:34
+[24-Feb-2026 10:16:38 UTC] get_projects.php: Script started at 2026-02-24 10:16:38
+[24-Feb-2026 10:16:38 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 10:16:38 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 10:16:38 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 10:16:38 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 10:16:38 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 10:16:38 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 10:16:38 UTC] get_projects.php: Query executed, found 6 projects
+[24-Feb-2026 10:16:38 UTC] get_projects.php: Successfully processed 6 projects
+[24-Feb-2026 10:16:38 UTC] get_projects.php: Script ended at 2026-02-24 10:16:38
+[24-Feb-2026 10:16:45 UTC] get_projects.php: Script started at 2026-02-24 10:16:45
+[24-Feb-2026 10:16:45 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 10:16:45 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 10:16:45 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 10:16:45 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 10:16:45 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 10:16:45 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 10:16:45 UTC] get_projects.php: Query executed, found 6 projects
+[24-Feb-2026 10:16:45 UTC] get_projects.php: Successfully processed 6 projects
+[24-Feb-2026 10:16:45 UTC] get_projects.php: Script ended at 2026-02-24 10:16:45
+[24-Feb-2026 10:16:48 UTC] get_projects.php: Script started at 2026-02-24 10:16:48
+[24-Feb-2026 10:16:48 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 10:16:48 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 10:16:48 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 10:16:48 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 10:16:48 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 10:16:48 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 10:16:48 UTC] get_projects.php: Query executed, found 6 projects
+[24-Feb-2026 10:16:48 UTC] get_projects.php: Successfully processed 6 projects
+[24-Feb-2026 10:16:48 UTC] get_projects.php: Script ended at 2026-02-24 10:16:48
+[24-Feb-2026 10:16:54 UTC] get_projects.php: Script started at 2026-02-24 10:16:54
+[24-Feb-2026 10:16:54 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 10:16:54 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 10:16:54 UTC] get_projects.php: Category received: 'give-with-love'
+[24-Feb-2026 10:16:54 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 10:16:54 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 10:16:54 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 10:16:54 UTC] get_projects.php: Query executed, found 2 projects
+[24-Feb-2026 10:16:54 UTC] get_projects.php: Successfully processed 2 projects
+[24-Feb-2026 10:16:54 UTC] get_projects.php: Script ended at 2026-02-24 10:16:54
+[24-Feb-2026 10:16:55 UTC] get_projects.php: Script started at 2026-02-24 10:16:55
+[24-Feb-2026 10:16:55 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 10:16:55 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 10:16:55 UTC] get_projects.php: Category received: 'give-with-love'
+[24-Feb-2026 10:16:55 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 10:16:55 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 10:16:55 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 10:16:55 UTC] get_projects.php: Query executed, found 2 projects
+[24-Feb-2026 10:16:55 UTC] get_projects.php: Successfully processed 2 projects
+[24-Feb-2026 10:16:55 UTC] get_projects.php: Script ended at 2026-02-24 10:16:55
+[24-Feb-2026 10:17:26 UTC] get_projects.php: Script started at 2026-02-24 10:17:26
+[24-Feb-2026 10:17:26 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 10:17:26 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 10:17:26 UTC] get_projects.php: Category received: 'give-with-love'
+[24-Feb-2026 10:17:26 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 10:17:26 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 10:17:26 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 10:17:26 UTC] get_projects.php: Query executed, found 2 projects
+[24-Feb-2026 10:17:26 UTC] get_projects.php: Successfully processed 2 projects
+[24-Feb-2026 10:17:26 UTC] get_projects.php: Script ended at 2026-02-24 10:17:26
+[24-Feb-2026 10:18:06 UTC] get_projects.php: Script started at 2026-02-24 10:18:06
+[24-Feb-2026 10:18:06 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 10:18:06 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 10:18:06 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 10:18:06 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 10:18:06 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 10:18:06 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 10:18:06 UTC] get_projects.php: Query executed, found 6 projects
+[24-Feb-2026 10:18:06 UTC] get_projects.php: Successfully processed 6 projects
+[24-Feb-2026 10:18:06 UTC] get_projects.php: Script ended at 2026-02-24 10:18:06
+[24-Feb-2026 10:18:09 UTC] get_projects.php: Script started at 2026-02-24 10:18:09
+[24-Feb-2026 10:18:09 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 10:18:09 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 10:18:09 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 10:18:09 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 10:18:10 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 10:18:10 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 10:18:10 UTC] get_projects.php: Query executed, found 6 projects
+[24-Feb-2026 10:18:10 UTC] get_projects.php: Successfully processed 6 projects
+[24-Feb-2026 10:18:10 UTC] get_projects.php: Script ended at 2026-02-24 10:18:10
+[24-Feb-2026 10:27:29 UTC] get_projects.php: Script started at 2026-02-24 10:27:29
+[24-Feb-2026 10:27:29 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 10:27:29 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 10:27:29 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 10:27:29 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 10:27:29 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 10:27:29 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 10:27:29 UTC] get_projects.php: Query executed, found 7 projects
+[24-Feb-2026 10:27:29 UTC] get_projects.php: Successfully processed 7 projects
+[24-Feb-2026 10:27:29 UTC] get_projects.php: Script ended at 2026-02-24 10:27:29
+[24-Feb-2026 10:31:31 UTC] get_projects.php: Script started at 2026-02-24 10:31:31
+[24-Feb-2026 10:31:31 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 10:31:31 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 10:31:31 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 10:31:31 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 10:31:31 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 10:31:31 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 10:31:31 UTC] get_projects.php: Query executed, found 7 projects
+[24-Feb-2026 10:31:31 UTC] get_projects.php: Successfully processed 7 projects
+[24-Feb-2026 10:31:31 UTC] get_projects.php: Script ended at 2026-02-24 10:31:31
+[24-Feb-2026 10:31:34 UTC] get_projects.php: Script started at 2026-02-24 10:31:34
+[24-Feb-2026 10:31:34 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 10:31:34 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 10:31:34 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 10:31:34 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 10:31:34 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 10:31:34 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 10:31:34 UTC] get_projects.php: Query executed, found 7 projects
+[24-Feb-2026 10:31:34 UTC] get_projects.php: Successfully processed 7 projects
+[24-Feb-2026 10:31:34 UTC] get_projects.php: Script ended at 2026-02-24 10:31:34
+[24-Feb-2026 10:36:08 UTC] get_projects.php: Script started at 2026-02-24 10:36:08
+[24-Feb-2026 10:36:08 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 10:36:08 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 10:36:08 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 10:36:08 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 10:36:08 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 10:36:08 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 10:36:08 UTC] get_projects.php: Query executed, found 8 projects
+[24-Feb-2026 10:36:08 UTC] get_projects.php: Successfully processed 8 projects
+[24-Feb-2026 10:36:08 UTC] get_projects.php: Script ended at 2026-02-24 10:36:08
+[24-Feb-2026 10:40:45 UTC] get_projects.php: Script started at 2026-02-24 10:40:45
+[24-Feb-2026 10:40:45 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 10:40:45 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 10:40:45 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 10:40:45 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 10:40:45 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 10:40:45 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 10:40:45 UTC] get_projects.php: Query executed, found 9 projects
+[24-Feb-2026 10:40:45 UTC] get_projects.php: Successfully processed 9 projects
+[24-Feb-2026 10:40:45 UTC] get_projects.php: Script ended at 2026-02-24 10:40:45
+[24-Feb-2026 10:45:10 UTC] get_projects.php: Script started at 2026-02-24 10:45:10
+[24-Feb-2026 10:45:10 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 10:45:10 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 10:45:10 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 10:45:10 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 10:45:10 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 10:45:10 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 10:45:10 UTC] get_projects.php: Query executed, found 10 projects
+[24-Feb-2026 10:45:10 UTC] get_projects.php: Successfully processed 10 projects
+[24-Feb-2026 10:45:10 UTC] get_projects.php: Script ended at 2026-02-24 10:45:10
+[24-Feb-2026 10:45:48 UTC] get_projects.php: Script started at 2026-02-24 10:45:48
+[24-Feb-2026 10:45:48 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 10:45:48 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 10:45:48 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 10:45:48 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 10:45:48 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 10:45:48 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 10:45:48 UTC] get_projects.php: Query executed, found 10 projects
+[24-Feb-2026 10:45:48 UTC] get_projects.php: Successfully processed 10 projects
+[24-Feb-2026 10:45:48 UTC] get_projects.php: Script ended at 2026-02-24 10:45:48
+[24-Feb-2026 10:53:44 UTC] get_projects.php: Script started at 2026-02-24 10:53:44
+[24-Feb-2026 10:53:44 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 10:53:44 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 10:53:44 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 10:53:44 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 10:53:44 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 10:53:44 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 10:53:44 UTC] get_projects.php: Query executed, found 11 projects
+[24-Feb-2026 10:53:44 UTC] get_projects.php: Successfully processed 11 projects
+[24-Feb-2026 10:53:44 UTC] get_projects.php: Script ended at 2026-02-24 10:53:44
+[24-Feb-2026 11:27:03 UTC] get_projects.php: Script started at 2026-02-24 11:27:03
+[24-Feb-2026 11:27:03 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 11:27:03 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 11:27:03 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 11:27:03 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 11:27:03 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 11:27:03 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 11:27:03 UTC] get_projects.php: Query executed, found 11 projects
+[24-Feb-2026 11:27:03 UTC] get_projects.php: Successfully processed 11 projects
+[24-Feb-2026 11:27:03 UTC] get_projects.php: Script ended at 2026-02-24 11:27:03
+[24-Feb-2026 11:36:11 UTC] get_projects.php: Script started at 2026-02-24 11:36:11
+[24-Feb-2026 11:36:11 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 11:36:11 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 11:36:11 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 11:36:12 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 11:36:12 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 11:36:12 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 11:36:12 UTC] get_projects.php: Query executed, found 11 projects
+[24-Feb-2026 11:36:12 UTC] get_projects.php: Successfully processed 11 projects
+[24-Feb-2026 11:36:12 UTC] get_projects.php: Script ended at 2026-02-24 11:36:12
+[24-Feb-2026 11:36:14 UTC] get_projects.php: Script started at 2026-02-24 11:36:14
+[24-Feb-2026 11:36:14 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 11:36:14 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 11:36:14 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 11:36:14 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 11:36:14 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 11:36:14 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 11:36:14 UTC] get_projects.php: Query executed, found 11 projects
+[24-Feb-2026 11:36:14 UTC] get_projects.php: Successfully processed 11 projects
+[24-Feb-2026 11:36:14 UTC] get_projects.php: Script ended at 2026-02-24 11:36:14
+[24-Feb-2026 11:38:04 UTC] get_projects.php: Script started at 2026-02-24 11:38:04
+[24-Feb-2026 11:38:04 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 11:38:05 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 11:38:05 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 11:38:06 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 11:38:06 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 11:38:06 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 11:38:07 UTC] get_projects.php: Query executed, found 11 projects
+[24-Feb-2026 11:38:07 UTC] get_projects.php: Successfully processed 11 projects
+[24-Feb-2026 11:38:07 UTC] get_projects.php: Script ended at 2026-02-24 11:38:07
+[24-Feb-2026 11:38:11 UTC] get_projects.php: Script started at 2026-02-24 11:38:11
+[24-Feb-2026 11:38:11 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 11:38:13 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 11:38:13 UTC] get_projects.php: Category received: 'give-with-love'
+[24-Feb-2026 11:38:13 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 11:38:13 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 11:38:13 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 11:38:15 UTC] get_projects.php: Query executed, found 6 projects
+[24-Feb-2026 11:38:15 UTC] get_projects.php: Successfully processed 6 projects
+[24-Feb-2026 11:38:15 UTC] get_projects.php: Script ended at 2026-02-24 11:38:15
+[24-Feb-2026 11:38:21 UTC] get_projects.php: Script started at 2026-02-24 11:38:21
+[24-Feb-2026 11:38:21 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 11:38:21 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 11:38:21 UTC] get_projects.php: Category received: 'give-with-love'
+[24-Feb-2026 11:38:21 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 11:38:21 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 11:38:21 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 11:38:21 UTC] get_projects.php: Query executed, found 6 projects
+[24-Feb-2026 11:38:21 UTC] get_projects.php: Successfully processed 6 projects
+[24-Feb-2026 11:38:21 UTC] get_projects.php: Script ended at 2026-02-24 11:38:21
+[24-Feb-2026 11:40:16 UTC] get_projects.php: Script started at 2026-02-24 11:40:16
+[24-Feb-2026 11:40:16 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 11:40:16 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 11:40:16 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 11:40:16 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 11:40:16 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 11:40:16 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 11:40:16 UTC] get_projects.php: Query executed, found 12 projects
+[24-Feb-2026 11:40:16 UTC] get_projects.php: Successfully processed 12 projects
+[24-Feb-2026 11:40:16 UTC] get_projects.php: Script ended at 2026-02-24 11:40:16
+[24-Feb-2026 11:40:18 UTC] get_projects.php: Script started at 2026-02-24 11:40:18
+[24-Feb-2026 11:40:18 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 11:40:18 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 11:40:18 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 11:40:18 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 11:40:18 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 11:40:18 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 11:40:18 UTC] get_projects.php: Query executed, found 12 projects
+[24-Feb-2026 11:40:18 UTC] get_projects.php: Successfully processed 12 projects
+[24-Feb-2026 11:40:18 UTC] get_projects.php: Script ended at 2026-02-24 11:40:18
+[24-Feb-2026 12:02:52 UTC] get_projects.php: Script started at 2026-02-24 12:02:52
+[24-Feb-2026 12:02:52 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 12:02:52 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 12:02:52 UTC] get_projects.php: Category received: 'give-with-love'
+[24-Feb-2026 12:02:52 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 12:02:52 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 12:02:52 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 12:02:52 UTC] get_projects.php: Query executed, found 8 projects
+[24-Feb-2026 12:02:52 UTC] get_projects.php: Successfully processed 8 projects
+[24-Feb-2026 12:02:52 UTC] get_projects.php: Script ended at 2026-02-24 12:02:52
+[24-Feb-2026 12:09:43 UTC] get_projects.php: Script started at 2026-02-24 12:09:43
+[24-Feb-2026 12:09:43 UTC] get_projects.php: Starting main execution
+[24-Feb-2026 12:09:44 UTC] get_projects.php: Database connected successfully with PDO
+[24-Feb-2026 12:09:44 UTC] get_projects.php: Category received: 'grow-with-love'
+[24-Feb-2026 12:09:44 UTC] get_projects.php: Database query test passed
+[24-Feb-2026 12:09:44 UTC] get_projects.php: Required tables exist
+[24-Feb-2026 12:09:44 UTC] get_projects.php: Preparing main query
+[24-Feb-2026 12:09:44 UTC] get_projects.php: Query executed, found 13 projects
+[24-Feb-2026 12:09:44 UTC] get_projects.php: Successfully processed 13 projects
+[24-Feb-2026 12:09:44 UTC] get_projects.php: Script ended at 2026-02-24 12:09:44
+[25-Feb-2026 04:17:38 UTC] get_projects.php: Script started at 2026-02-25 04:17:38
+[25-Feb-2026 04:17:38 UTC] get_projects.php: Starting main execution
+[25-Feb-2026 04:17:38 UTC] get_projects.php: Database connected successfully with PDO
+[25-Feb-2026 04:17:38 UTC] get_projects.php: Category received: 'grow-with-love'
+[25-Feb-2026 04:17:38 UTC] get_projects.php: Database query test passed
+[25-Feb-2026 04:17:38 UTC] get_projects.php: Required tables exist
+[25-Feb-2026 04:17:38 UTC] get_projects.php: Preparing main query
+[25-Feb-2026 04:17:38 UTC] get_projects.php: Query executed, found 13 projects
+[25-Feb-2026 04:17:38 UTC] get_projects.php: Successfully processed 13 projects
+[25-Feb-2026 04:17:38 UTC] get_projects.php: Script ended at 2026-02-25 04:17:38
+[25-Feb-2026 04:31:22 UTC] get_projects.php: Script started at 2026-02-25 04:31:22
+[25-Feb-2026 04:31:22 UTC] get_projects.php: Starting main execution
+[25-Feb-2026 04:31:22 UTC] get_projects.php: Database connected successfully with PDO
+[25-Feb-2026 04:31:22 UTC] get_projects.php: Category received: 'grow-with-love'
+[25-Feb-2026 04:31:22 UTC] get_projects.php: Database query test passed
+[25-Feb-2026 04:31:22 UTC] get_projects.php: Required tables exist
+[25-Feb-2026 04:31:22 UTC] get_projects.php: Preparing main query
+[25-Feb-2026 04:31:22 UTC] get_projects.php: Query executed, found 14 projects
+[25-Feb-2026 04:31:22 UTC] get_projects.php: Successfully processed 14 projects
+[25-Feb-2026 04:31:22 UTC] get_projects.php: Script ended at 2026-02-25 04:31:22
+[25-Feb-2026 07:25:50 UTC] get_projects.php: Script started at 2026-02-25 07:25:50
+[25-Feb-2026 07:25:50 UTC] get_projects.php: Starting main execution
+[25-Feb-2026 07:25:50 UTC] get_projects.php: Database connected successfully with PDO
+[25-Feb-2026 07:25:50 UTC] get_projects.php: Category received: 'give-with-love'
+[25-Feb-2026 07:25:50 UTC] get_projects.php: Database query test passed
+[25-Feb-2026 07:25:50 UTC] get_projects.php: Required tables exist
+[25-Feb-2026 07:25:50 UTC] get_projects.php: Preparing main query
+[25-Feb-2026 07:25:50 UTC] get_projects.php: Query executed, found 21 projects
+[25-Feb-2026 07:25:50 UTC] get_projects.php: Successfully processed 21 projects
+[25-Feb-2026 07:25:50 UTC] get_projects.php: Script ended at 2026-02-25 07:25:50
+[25-Feb-2026 07:25:57 UTC] get_projects.php: Script started at 2026-02-25 07:25:57
+[25-Feb-2026 07:25:57 UTC] get_projects.php: Starting main execution
+[25-Feb-2026 07:25:57 UTC] get_projects.php: Database connected successfully with PDO
+[25-Feb-2026 07:25:57 UTC] get_projects.php: Category received: 'give-with-love'
+[25-Feb-2026 07:25:57 UTC] get_projects.php: Database query test passed
+[25-Feb-2026 07:25:57 UTC] get_projects.php: Required tables exist
+[25-Feb-2026 07:25:57 UTC] get_projects.php: Preparing main query
+[25-Feb-2026 07:25:57 UTC] get_projects.php: Query executed, found 21 projects
+[25-Feb-2026 07:25:57 UTC] get_projects.php: Successfully processed 21 projects
+[25-Feb-2026 07:25:57 UTC] get_projects.php: Script ended at 2026-02-25 07:25:57
+[25-Feb-2026 09:21:31 UTC] get_projects.php: Script started at 2026-02-25 09:21:31
+[25-Feb-2026 09:21:31 UTC] get_projects.php: Starting main execution
+[25-Feb-2026 09:21:31 UTC] get_projects.php: Database connected successfully with PDO
+[25-Feb-2026 09:21:31 UTC] get_projects.php: Category received: 'give-with-love'
+[25-Feb-2026 09:21:31 UTC] get_projects.php: Database query test passed
+[25-Feb-2026 09:21:31 UTC] get_projects.php: Required tables exist
+[25-Feb-2026 09:21:31 UTC] get_projects.php: Preparing main query
+[25-Feb-2026 09:21:31 UTC] get_projects.php: Query executed, found 23 projects
+[25-Feb-2026 09:21:31 UTC] get_projects.php: Successfully processed 23 projects
+[25-Feb-2026 09:21:31 UTC] get_projects.php: Script ended at 2026-02-25 09:21:31
+[25-Feb-2026 10:11:16 UTC] get_projects.php: Script started at 2026-02-25 10:11:16
+[25-Feb-2026 10:11:16 UTC] get_projects.php: Starting main execution
+[25-Feb-2026 10:11:16 UTC] get_projects.php: Database connected successfully with PDO
+[25-Feb-2026 10:11:16 UTC] get_projects.php: Category received: 'give-with-love'
+[25-Feb-2026 10:11:16 UTC] get_projects.php: Database query test passed
+[25-Feb-2026 10:11:16 UTC] get_projects.php: Required tables exist
+[25-Feb-2026 10:11:16 UTC] get_projects.php: Preparing main query
+[25-Feb-2026 10:11:16 UTC] get_projects.php: Query executed, found 28 projects
+[25-Feb-2026 10:11:16 UTC] get_projects.php: Successfully processed 28 projects
+[25-Feb-2026 10:11:16 UTC] get_projects.php: Script ended at 2026-02-25 10:11:16
+[25-Feb-2026 10:42:38 UTC] get_projects.php: Script started at 2026-02-25 10:42:38
+[25-Feb-2026 10:42:38 UTC] get_projects.php: Starting main execution
+[25-Feb-2026 10:42:38 UTC] get_projects.php: Database connected successfully with PDO
+[25-Feb-2026 10:42:38 UTC] get_projects.php: Category received: 'give-with-love'
+[25-Feb-2026 10:42:38 UTC] get_projects.php: Database query test passed
+[25-Feb-2026 10:42:38 UTC] get_projects.php: Required tables exist
+[25-Feb-2026 10:42:38 UTC] get_projects.php: Preparing main query
+[25-Feb-2026 10:42:38 UTC] get_projects.php: Query executed, found 29 projects
+[25-Feb-2026 10:42:38 UTC] get_projects.php: Successfully processed 29 projects
+[25-Feb-2026 10:42:38 UTC] get_projects.php: Script ended at 2026-02-25 10:42:38
+[25-Feb-2026 10:42:48 UTC] get_projects.php: Script started at 2026-02-25 10:42:48
+[25-Feb-2026 10:42:48 UTC] get_projects.php: Starting main execution
+[25-Feb-2026 10:42:48 UTC] get_projects.php: Database connected successfully with PDO
+[25-Feb-2026 10:42:48 UTC] get_projects.php: Category received: 'give-with-love'
+[25-Feb-2026 10:42:48 UTC] get_projects.php: Database query test passed
+[25-Feb-2026 10:42:48 UTC] get_projects.php: Required tables exist
+[25-Feb-2026 10:42:48 UTC] get_projects.php: Preparing main query
+[25-Feb-2026 10:42:48 UTC] get_projects.php: Query executed, found 29 projects
+[25-Feb-2026 10:42:48 UTC] get_projects.php: Successfully processed 29 projects
+[25-Feb-2026 10:42:48 UTC] get_projects.php: Script ended at 2026-02-25 10:42:48
+[25-Feb-2026 10:44:14 UTC] get_projects.php: Script started at 2026-02-25 10:44:14
+[25-Feb-2026 10:44:14 UTC] get_projects.php: Starting main execution
+[25-Feb-2026 10:44:14 UTC] get_projects.php: Database connected successfully with PDO
+[25-Feb-2026 10:44:14 UTC] get_projects.php: Category received: 'give-with-love'
+[25-Feb-2026 10:44:14 UTC] get_projects.php: Database query test passed
+[25-Feb-2026 10:44:14 UTC] get_projects.php: Required tables exist
+[25-Feb-2026 10:44:14 UTC] get_projects.php: Preparing main query
+[25-Feb-2026 10:44:14 UTC] get_projects.php: Query executed, found 30 projects
+[25-Feb-2026 10:44:14 UTC] get_projects.php: Successfully processed 30 projects
+[25-Feb-2026 10:44:14 UTC] get_projects.php: Script ended at 2026-02-25 10:44:14
+[25-Feb-2026 11:28:22 UTC] get_projects.php: Script started at 2026-02-25 11:28:22
+[25-Feb-2026 11:28:22 UTC] get_projects.php: Starting main execution
+[25-Feb-2026 11:28:22 UTC] get_projects.php: Database connected successfully with PDO
+[25-Feb-2026 11:28:22 UTC] get_projects.php: Category received: 'give-with-love'
+[25-Feb-2026 11:28:22 UTC] get_projects.php: Database query test passed
+[25-Feb-2026 11:28:22 UTC] get_projects.php: Required tables exist
+[25-Feb-2026 11:28:22 UTC] get_projects.php: Preparing main query
+[25-Feb-2026 11:28:22 UTC] get_projects.php: Query executed, found 34 projects
+[25-Feb-2026 11:28:22 UTC] get_projects.php: Successfully processed 34 projects
+[25-Feb-2026 11:28:22 UTC] get_projects.php: Script ended at 2026-02-25 11:28:22
+[25-Feb-2026 12:13:23 UTC] get_projects.php: Script started at 2026-02-25 12:13:23
+[25-Feb-2026 12:13:23 UTC] get_projects.php: Starting main execution
+[25-Feb-2026 12:13:23 UTC] get_projects.php: Database connected successfully with PDO
+[25-Feb-2026 12:13:23 UTC] get_projects.php: Category received: 'give-with-love'
+[25-Feb-2026 12:13:23 UTC] get_projects.php: Database query test passed
+[25-Feb-2026 12:13:23 UTC] get_projects.php: Required tables exist
+[25-Feb-2026 12:13:23 UTC] get_projects.php: Preparing main query
+[25-Feb-2026 12:13:23 UTC] get_projects.php: Query executed, found 35 projects
+[25-Feb-2026 12:13:23 UTC] get_projects.php: Successfully processed 35 projects
+[25-Feb-2026 12:13:23 UTC] get_projects.php: Script ended at 2026-02-25 12:13:23
+[26-Feb-2026 04:04:30 UTC] get_projects.php: Script started at 2026-02-26 04:04:30
+[26-Feb-2026 04:04:30 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 04:04:30 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 04:04:30 UTC] get_projects.php: Category received: 'give-with-love'
+[26-Feb-2026 04:04:30 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 04:04:30 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 04:04:30 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 04:04:30 UTC] get_projects.php: Query executed, found 40 projects
+[26-Feb-2026 04:04:30 UTC] get_projects.php: Successfully processed 40 projects
+[26-Feb-2026 04:04:30 UTC] get_projects.php: Script ended at 2026-02-26 04:04:30
+[26-Feb-2026 04:04:57 UTC] get_projects.php: Script started at 2026-02-26 04:04:57
+[26-Feb-2026 04:04:57 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 04:04:57 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 04:04:57 UTC] get_projects.php: Category received: 'give-with-love'
+[26-Feb-2026 04:04:57 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 04:04:57 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 04:04:57 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 04:04:57 UTC] get_projects.php: Query executed, found 40 projects
+[26-Feb-2026 04:04:57 UTC] get_projects.php: Successfully processed 40 projects
+[26-Feb-2026 04:04:57 UTC] get_projects.php: Script ended at 2026-02-26 04:04:57
+[26-Feb-2026 04:22:54 UTC] get_projects.php: Script started at 2026-02-26 04:22:54
+[26-Feb-2026 04:22:54 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 04:22:54 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 04:22:54 UTC] get_projects.php: Category received: 'give-with-love'
+[26-Feb-2026 04:22:54 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 04:22:54 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 04:22:54 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 04:22:54 UTC] get_projects.php: Query executed, found 41 projects
+[26-Feb-2026 04:22:54 UTC] get_projects.php: Successfully processed 41 projects
+[26-Feb-2026 04:22:54 UTC] get_projects.php: Script ended at 2026-02-26 04:22:54
+[26-Feb-2026 04:25:07 UTC] get_projects.php: Script started at 2026-02-26 04:25:07
+[26-Feb-2026 04:25:07 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 04:25:07 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 04:25:07 UTC] get_projects.php: Category received: 'give-with-love'
+[26-Feb-2026 04:25:07 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 04:25:07 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 04:25:07 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 04:25:07 UTC] get_projects.php: Query executed, found 42 projects
+[26-Feb-2026 04:25:07 UTC] get_projects.php: Successfully processed 42 projects
+[26-Feb-2026 04:25:07 UTC] get_projects.php: Script ended at 2026-02-26 04:25:07
+[26-Feb-2026 04:29:06 UTC] get_projects.php: Script started at 2026-02-26 04:29:06
+[26-Feb-2026 04:29:06 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 04:29:06 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 04:29:06 UTC] get_projects.php: Category received: 'give-with-love'
+[26-Feb-2026 04:29:06 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 04:29:06 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 04:29:06 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 04:29:06 UTC] get_projects.php: Query executed, found 42 projects
+[26-Feb-2026 04:29:06 UTC] get_projects.php: Successfully processed 42 projects
+[26-Feb-2026 04:29:06 UTC] get_projects.php: Script ended at 2026-02-26 04:29:06
+[26-Feb-2026 04:29:53 UTC] get_projects.php: Script started at 2026-02-26 04:29:53
+[26-Feb-2026 04:29:53 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 04:29:53 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 04:29:53 UTC] get_projects.php: Category received: 'care-with-love'
+[26-Feb-2026 04:29:53 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 04:29:53 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 04:29:53 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 04:29:53 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 04:29:53 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 04:29:53 UTC] get_projects.php: Script ended at 2026-02-26 04:29:53
+[26-Feb-2026 05:04:09 UTC] get_projects.php: Script started at 2026-02-26 05:04:09
+[26-Feb-2026 05:04:09 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 05:04:09 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 05:04:09 UTC] get_projects.php: Category received: 'grow-with-love'
+[26-Feb-2026 05:04:09 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 05:04:09 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 05:04:09 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 05:04:09 UTC] get_projects.php: Query executed, found 16 projects
+[26-Feb-2026 05:04:09 UTC] get_projects.php: Successfully processed 16 projects
+[26-Feb-2026 05:04:09 UTC] get_projects.php: Script ended at 2026-02-26 05:04:09
+[26-Feb-2026 05:21:33 UTC] get_projects.php: Script started at 2026-02-26 05:21:33
+[26-Feb-2026 05:21:33 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 05:21:33 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 05:21:33 UTC] get_projects.php: Category received: 'care-with-love'
+[26-Feb-2026 05:21:33 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 05:21:33 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 05:21:33 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 05:21:33 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 05:21:33 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 05:21:33 UTC] get_projects.php: Script ended at 2026-02-26 05:21:33
+[26-Feb-2026 06:24:59 UTC] get_projects.php: Script started at 2026-02-26 06:24:59
+[26-Feb-2026 06:24:59 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 06:24:59 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 06:24:59 UTC] get_projects.php: Category received: 'grow-with-love'
+[26-Feb-2026 06:24:59 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 06:24:59 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 06:24:59 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 06:24:59 UTC] get_projects.php: Query executed, found 17 projects
+[26-Feb-2026 06:24:59 UTC] get_projects.php: Successfully processed 17 projects
+[26-Feb-2026 06:24:59 UTC] get_projects.php: Script ended at 2026-02-26 06:24:59
+[26-Feb-2026 06:28:32 UTC] get_projects.php: Script started at 2026-02-26 06:28:32
+[26-Feb-2026 06:28:32 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 06:28:32 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 06:28:32 UTC] get_projects.php: Category received: 'grow-with-love'
+[26-Feb-2026 06:28:32 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 06:28:32 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 06:28:32 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 06:28:32 UTC] get_projects.php: Query executed, found 18 projects
+[26-Feb-2026 06:28:32 UTC] get_projects.php: Successfully processed 18 projects
+[26-Feb-2026 06:28:32 UTC] get_projects.php: Script ended at 2026-02-26 06:28:32
+[26-Feb-2026 06:35:35 UTC] get_projects.php: Script started at 2026-02-26 06:35:35
+[26-Feb-2026 06:35:35 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 06:35:35 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 06:35:35 UTC] get_projects.php: Category received: 'give-with-love'
+[26-Feb-2026 06:35:35 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 06:35:35 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 06:35:35 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 06:35:35 UTC] get_projects.php: Query executed, found 44 projects
+[26-Feb-2026 06:35:35 UTC] get_projects.php: Successfully processed 44 projects
+[26-Feb-2026 06:35:35 UTC] get_projects.php: Script ended at 2026-02-26 06:35:35
+[26-Feb-2026 06:35:37 UTC] get_projects.php: Script started at 2026-02-26 06:35:37
+[26-Feb-2026 06:35:37 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 06:35:37 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 06:35:37 UTC] get_projects.php: Category received: 'give-with-love'
+[26-Feb-2026 06:35:37 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 06:35:37 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 06:35:37 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 06:35:37 UTC] get_projects.php: Query executed, found 44 projects
+[26-Feb-2026 06:35:37 UTC] get_projects.php: Successfully processed 44 projects
+[26-Feb-2026 06:35:37 UTC] get_projects.php: Script ended at 2026-02-26 06:35:37
+[26-Feb-2026 06:43:50 UTC] get_projects.php: Script started at 2026-02-26 06:43:50
+[26-Feb-2026 06:43:50 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 06:43:50 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 06:43:50 UTC] get_projects.php: Category received: 'grow-with-love'
+[26-Feb-2026 06:43:50 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 06:43:50 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 06:43:50 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 06:43:50 UTC] get_projects.php: Query executed, found 19 projects
+[26-Feb-2026 06:43:50 UTC] get_projects.php: Successfully processed 19 projects
+[26-Feb-2026 06:43:50 UTC] get_projects.php: Script ended at 2026-02-26 06:43:50
+[26-Feb-2026 06:57:20 UTC] get_projects.php: Script started at 2026-02-26 06:57:20
+[26-Feb-2026 06:57:20 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 06:57:20 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 06:57:20 UTC] get_projects.php: Category received: 'grow-with-love'
+[26-Feb-2026 06:57:20 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 06:57:20 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 06:57:20 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 06:57:20 UTC] get_projects.php: Query executed, found 19 projects
+[26-Feb-2026 06:57:20 UTC] get_projects.php: Successfully processed 19 projects
+[26-Feb-2026 06:57:20 UTC] get_projects.php: Script ended at 2026-02-26 06:57:20
+[26-Feb-2026 06:57:24 UTC] get_projects.php: Script started at 2026-02-26 06:57:24
+[26-Feb-2026 06:57:24 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 06:57:24 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 06:57:24 UTC] get_projects.php: Category received: 'grow-with-love'
+[26-Feb-2026 06:57:24 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 06:57:24 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 06:57:24 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 06:57:24 UTC] get_projects.php: Query executed, found 19 projects
+[26-Feb-2026 06:57:24 UTC] get_projects.php: Successfully processed 19 projects
+[26-Feb-2026 06:57:24 UTC] get_projects.php: Script ended at 2026-02-26 06:57:24
+[26-Feb-2026 06:58:17 UTC] get_projects.php: Script started at 2026-02-26 06:58:17
+[26-Feb-2026 06:58:17 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 06:58:17 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 06:58:17 UTC] get_projects.php: Category received: 'grow-with-love'
+[26-Feb-2026 06:58:17 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 06:58:17 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 06:58:17 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 06:58:17 UTC] get_projects.php: Query executed, found 19 projects
+[26-Feb-2026 06:58:17 UTC] get_projects.php: Successfully processed 19 projects
+[26-Feb-2026 06:58:17 UTC] get_projects.php: Script ended at 2026-02-26 06:58:17
+[26-Feb-2026 07:04:14 UTC] get_projects.php: Script started at 2026-02-26 07:04:14
+[26-Feb-2026 07:04:14 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 07:04:14 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 07:04:14 UTC] get_projects.php: Category received: 'grow-with-love'
+[26-Feb-2026 07:04:14 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 07:04:14 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 07:04:14 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 07:04:14 UTC] get_projects.php: Query executed, found 20 projects
+[26-Feb-2026 07:04:14 UTC] get_projects.php: Successfully processed 20 projects
+[26-Feb-2026 07:04:14 UTC] get_projects.php: Script ended at 2026-02-26 07:04:14
+[26-Feb-2026 07:09:08 UTC] get_projects.php: Script started at 2026-02-26 07:09:08
+[26-Feb-2026 07:09:08 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 07:09:08 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 07:09:08 UTC] get_projects.php: Category received: 'grow-with-love'
+[26-Feb-2026 07:09:08 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 07:09:08 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 07:09:08 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 07:09:08 UTC] get_projects.php: Query executed, found 21 projects
+[26-Feb-2026 07:09:08 UTC] get_projects.php: Successfully processed 21 projects
+[26-Feb-2026 07:09:08 UTC] get_projects.php: Script ended at 2026-02-26 07:09:08
+[26-Feb-2026 07:12:07 UTC] get_projects.php: Script started at 2026-02-26 07:12:07
+[26-Feb-2026 07:12:07 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 07:12:07 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 07:12:07 UTC] get_projects.php: Category received: 'grow-with-love'
+[26-Feb-2026 07:12:07 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 07:12:07 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 07:12:07 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 07:12:07 UTC] get_projects.php: Query executed, found 22 projects
+[26-Feb-2026 07:12:07 UTC] get_projects.php: Successfully processed 22 projects
+[26-Feb-2026 07:12:07 UTC] get_projects.php: Script ended at 2026-02-26 07:12:07
+[26-Feb-2026 07:15:52 UTC] get_projects.php: Script started at 2026-02-26 07:15:52
+[26-Feb-2026 07:15:52 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 07:15:52 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 07:15:52 UTC] get_projects.php: Category received: 'grow-with-love'
+[26-Feb-2026 07:15:52 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 07:15:52 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 07:15:52 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 07:15:52 UTC] get_projects.php: Query executed, found 23 projects
+[26-Feb-2026 07:15:52 UTC] get_projects.php: Successfully processed 23 projects
+[26-Feb-2026 07:15:52 UTC] get_projects.php: Script ended at 2026-02-26 07:15:52
+[26-Feb-2026 07:19:25 UTC] get_projects.php: Script started at 2026-02-26 07:19:25
+[26-Feb-2026 07:19:25 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 07:19:25 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 07:19:25 UTC] get_projects.php: Category received: 'grow-with-love'
+[26-Feb-2026 07:19:25 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 07:19:25 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 07:19:25 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 07:19:25 UTC] get_projects.php: Query executed, found 24 projects
+[26-Feb-2026 07:19:25 UTC] get_projects.php: Successfully processed 24 projects
+[26-Feb-2026 07:19:25 UTC] get_projects.php: Script ended at 2026-02-26 07:19:25
+[26-Feb-2026 07:27:32 UTC] get_projects.php: Script started at 2026-02-26 07:27:32
+[26-Feb-2026 07:27:32 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 07:27:32 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 07:27:32 UTC] get_projects.php: Category received: 'grow-with-love'
+[26-Feb-2026 07:27:32 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 07:27:32 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 07:27:32 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 07:27:32 UTC] get_projects.php: Query executed, found 25 projects
+[26-Feb-2026 07:27:32 UTC] get_projects.php: Successfully processed 25 projects
+[26-Feb-2026 07:27:32 UTC] get_projects.php: Script ended at 2026-02-26 07:27:32
+[26-Feb-2026 07:30:18 UTC] get_projects.php: Script started at 2026-02-26 07:30:18
+[26-Feb-2026 07:30:18 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 07:30:18 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 07:30:18 UTC] get_projects.php: Category received: 'grow-with-love'
+[26-Feb-2026 07:30:18 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 07:30:18 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 07:30:18 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 07:30:18 UTC] get_projects.php: Query executed, found 26 projects
+[26-Feb-2026 07:30:18 UTC] get_projects.php: Successfully processed 26 projects
+[26-Feb-2026 07:30:18 UTC] get_projects.php: Script ended at 2026-02-26 07:30:18
+[26-Feb-2026 08:55:12 UTC] get_projects.php: Script started at 2026-02-26 08:55:12
+[26-Feb-2026 08:55:12 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 08:55:12 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 08:55:12 UTC] get_projects.php: Category received: 'grow-with-love'
+[26-Feb-2026 08:55:12 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 08:55:12 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 08:55:12 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 08:55:12 UTC] get_projects.php: Query executed, found 26 projects
+[26-Feb-2026 08:55:12 UTC] get_projects.php: Successfully processed 26 projects
+[26-Feb-2026 08:55:12 UTC] get_projects.php: Script ended at 2026-02-26 08:55:12
+[26-Feb-2026 09:03:23 UTC] get_projects.php: Script started at 2026-02-26 09:03:23
+[26-Feb-2026 09:03:23 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 09:03:23 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 09:03:23 UTC] get_projects.php: Category received: 'grow-with-love'
+[26-Feb-2026 09:03:23 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 09:03:23 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 09:03:23 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 09:03:23 UTC] get_projects.php: Query executed, found 27 projects
+[26-Feb-2026 09:03:23 UTC] get_projects.php: Successfully processed 27 projects
+[26-Feb-2026 09:03:23 UTC] get_projects.php: Script ended at 2026-02-26 09:03:23
+[26-Feb-2026 09:07:00 UTC] get_projects.php: Script started at 2026-02-26 09:07:00
+[26-Feb-2026 09:07:00 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 09:07:00 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 09:07:00 UTC] get_projects.php: Category received: 'grow-with-love'
+[26-Feb-2026 09:07:00 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 09:07:00 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 09:07:00 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 09:07:00 UTC] get_projects.php: Query executed, found 28 projects
+[26-Feb-2026 09:07:00 UTC] get_projects.php: Successfully processed 28 projects
+[26-Feb-2026 09:07:00 UTC] get_projects.php: Script ended at 2026-02-26 09:07:00
+[26-Feb-2026 09:10:11 UTC] get_projects.php: Script started at 2026-02-26 09:10:11
+[26-Feb-2026 09:10:11 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 09:10:11 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 09:10:11 UTC] get_projects.php: Category received: 'grow-with-love'
+[26-Feb-2026 09:10:11 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 09:10:11 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 09:10:11 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 09:10:11 UTC] get_projects.php: Query executed, found 29 projects
+[26-Feb-2026 09:10:11 UTC] get_projects.php: Successfully processed 29 projects
+[26-Feb-2026 09:10:11 UTC] get_projects.php: Script ended at 2026-02-26 09:10:11
+[26-Feb-2026 09:12:15 UTC] get_projects.php: Script started at 2026-02-26 09:12:15
+[26-Feb-2026 09:12:15 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 09:12:15 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 09:12:15 UTC] get_projects.php: Category received: 'grow-with-love'
+[26-Feb-2026 09:12:15 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 09:12:15 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 09:12:15 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 09:12:15 UTC] get_projects.php: Query executed, found 29 projects
+[26-Feb-2026 09:12:15 UTC] get_projects.php: Successfully processed 29 projects
+[26-Feb-2026 09:12:15 UTC] get_projects.php: Script ended at 2026-02-26 09:12:15
+[26-Feb-2026 09:23:54 UTC] get_projects.php: Script started at 2026-02-26 09:23:54
+[26-Feb-2026 09:23:54 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 09:23:54 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 09:23:54 UTC] get_projects.php: Category received: 'grow-with-love'
+[26-Feb-2026 09:23:54 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 09:23:54 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 09:23:54 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 09:23:54 UTC] get_projects.php: Query executed, found 29 projects
+[26-Feb-2026 09:23:54 UTC] get_projects.php: Successfully processed 29 projects
+[26-Feb-2026 09:23:54 UTC] get_projects.php: Script ended at 2026-02-26 09:23:54
+[26-Feb-2026 09:26:43 UTC] get_projects.php: Script started at 2026-02-26 09:26:43
+[26-Feb-2026 09:26:43 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 09:26:43 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 09:26:43 UTC] get_projects.php: Category received: 'give-with-love'
+[26-Feb-2026 09:26:43 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 09:26:43 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 09:26:43 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 09:26:43 UTC] get_projects.php: Query executed, found 44 projects
+[26-Feb-2026 09:26:43 UTC] get_projects.php: Successfully processed 44 projects
+[26-Feb-2026 09:26:43 UTC] get_projects.php: Script ended at 2026-02-26 09:26:43
+[26-Feb-2026 09:28:29 UTC] get_projects.php: Script started at 2026-02-26 09:28:29
+[26-Feb-2026 09:28:29 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 09:28:29 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 09:28:29 UTC] get_projects.php: Category received: 'grow-with-love'
+[26-Feb-2026 09:28:29 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 09:28:29 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 09:28:29 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 09:28:29 UTC] get_projects.php: Query executed, found 29 projects
+[26-Feb-2026 09:28:29 UTC] get_projects.php: Successfully processed 29 projects
+[26-Feb-2026 09:28:29 UTC] get_projects.php: Script ended at 2026-02-26 09:28:29
+[26-Feb-2026 09:28:42 UTC] get_projects.php: Script started at 2026-02-26 09:28:42
+[26-Feb-2026 09:28:42 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 09:28:42 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 09:28:42 UTC] get_projects.php: Category received: 'give-with-love'
+[26-Feb-2026 09:28:42 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 09:28:42 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 09:28:42 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 09:28:42 UTC] get_projects.php: Query executed, found 44 projects
+[26-Feb-2026 09:28:42 UTC] get_projects.php: Successfully processed 44 projects
+[26-Feb-2026 09:28:42 UTC] get_projects.php: Script ended at 2026-02-26 09:28:42
+[26-Feb-2026 09:28:46 UTC] get_projects.php: Script started at 2026-02-26 09:28:46
+[26-Feb-2026 09:28:46 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 09:28:46 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 09:28:46 UTC] get_projects.php: Category received: 'care-with-love'
+[26-Feb-2026 09:28:46 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 09:28:46 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 09:28:46 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 09:28:46 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 09:28:46 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 09:28:46 UTC] get_projects.php: Script ended at 2026-02-26 09:28:46
+[26-Feb-2026 09:28:58 UTC] get_projects.php: Script started at 2026-02-26 09:28:58
+[26-Feb-2026 09:28:58 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 09:28:58 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 09:28:58 UTC] get_projects.php: Category received: 'give-with-love'
+[26-Feb-2026 09:28:58 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 09:28:58 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 09:28:58 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 09:28:58 UTC] get_projects.php: Query executed, found 44 projects
+[26-Feb-2026 09:28:58 UTC] get_projects.php: Successfully processed 44 projects
+[26-Feb-2026 09:28:58 UTC] get_projects.php: Script ended at 2026-02-26 09:28:58
+[26-Feb-2026 09:29:03 UTC] get_projects.php: Script started at 2026-02-26 09:29:03
+[26-Feb-2026 09:29:03 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 09:29:03 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 09:29:03 UTC] get_projects.php: Category received: 'give-with-love'
+[26-Feb-2026 09:29:03 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 09:29:03 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 09:29:03 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 09:29:03 UTC] get_projects.php: Query executed, found 44 projects
+[26-Feb-2026 09:29:03 UTC] get_projects.php: Successfully processed 44 projects
+[26-Feb-2026 09:29:03 UTC] get_projects.php: Script ended at 2026-02-26 09:29:03
+[26-Feb-2026 09:29:10 UTC] get_projects.php: Script started at 2026-02-26 09:29:10
+[26-Feb-2026 09:29:10 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 09:29:10 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 09:29:10 UTC] get_projects.php: Category received: 'care-with-love'
+[26-Feb-2026 09:29:10 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 09:29:10 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 09:29:10 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 09:29:10 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 09:29:10 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 09:29:10 UTC] get_projects.php: Script ended at 2026-02-26 09:29:10
+[26-Feb-2026 09:29:13 UTC] get_projects.php: Script started at 2026-02-26 09:29:13
+[26-Feb-2026 09:29:13 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 09:29:13 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 09:29:13 UTC] get_projects.php: Category received: 'care-with-love'
+[26-Feb-2026 09:29:13 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 09:29:13 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 09:29:13 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 09:29:13 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 09:29:13 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 09:29:13 UTC] get_projects.php: Script ended at 2026-02-26 09:29:13
+[26-Feb-2026 09:29:45 UTC] get_projects.php: Script started at 2026-02-26 09:29:45
+[26-Feb-2026 09:29:45 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 09:29:45 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 09:29:45 UTC] get_projects.php: Category received: 'care-with-love'
+[26-Feb-2026 09:29:45 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 09:29:45 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 09:29:45 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 09:29:45 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 09:29:45 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 09:29:45 UTC] get_projects.php: Script ended at 2026-02-26 09:29:45
+[26-Feb-2026 09:29:47 UTC] get_projects.php: Script started at 2026-02-26 09:29:47
+[26-Feb-2026 09:29:47 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 09:29:47 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 09:29:47 UTC] get_projects.php: Category received: 'care-with-love'
+[26-Feb-2026 09:29:47 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 09:29:47 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 09:29:47 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 09:29:47 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 09:29:47 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 09:29:47 UTC] get_projects.php: Script ended at 2026-02-26 09:29:47
+[26-Feb-2026 09:48:55 UTC] get_projects.php: Script started at 2026-02-26 09:48:55
+[26-Feb-2026 09:48:55 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 09:48:55 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 09:48:55 UTC] get_projects.php: Category received: 'learn-with-love'
+[26-Feb-2026 09:48:55 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 09:48:55 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 09:48:55 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 09:48:55 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 09:48:55 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 09:48:55 UTC] get_projects.php: Script ended at 2026-02-26 09:48:55
+[26-Feb-2026 10:03:02 UTC] get_projects.php: Script started at 2026-02-26 10:03:02
+[26-Feb-2026 10:03:02 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:03:02 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:03:02 UTC] get_projects.php: Category received: 'give-with-love'
+[26-Feb-2026 10:03:02 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:03:02 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:03:02 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:03:02 UTC] get_projects.php: Query executed, found 44 projects
+[26-Feb-2026 10:03:02 UTC] get_projects.php: Successfully processed 44 projects
+[26-Feb-2026 10:03:02 UTC] get_projects.php: Script ended at 2026-02-26 10:03:02
+[26-Feb-2026 10:05:57 UTC] get_projects.php: Script started at 2026-02-26 10:05:57
+[26-Feb-2026 10:05:57 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:05:57 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:05:57 UTC] get_projects.php: Category received: 'grow-with-love'
+[26-Feb-2026 10:05:57 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:05:57 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:05:57 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:05:57 UTC] get_projects.php: Query executed, found 29 projects
+[26-Feb-2026 10:05:57 UTC] get_projects.php: Successfully processed 29 projects
+[26-Feb-2026 10:05:57 UTC] get_projects.php: Script ended at 2026-02-26 10:05:57
+[26-Feb-2026 10:08:57 UTC] get_projects.php: Script started at 2026-02-26 10:08:57
+[26-Feb-2026 10:08:57 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:08:57 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:08:57 UTC] get_projects.php: Category received: 'care-with-love'
+[26-Feb-2026 10:08:57 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:08:57 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:08:57 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:08:57 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 10:08:57 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 10:08:57 UTC] get_projects.php: Script ended at 2026-02-26 10:08:57
+[26-Feb-2026 10:10:19 UTC] get_projects.php: Script started at 2026-02-26 10:10:19
+[26-Feb-2026 10:10:19 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:10:19 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:10:19 UTC] get_projects.php: Category received: 'learn-with-love'
+[26-Feb-2026 10:10:19 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:10:19 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:10:19 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:10:19 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 10:10:19 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 10:10:19 UTC] get_projects.php: Script ended at 2026-02-26 10:10:19
+[26-Feb-2026 10:10:20 UTC] get_projects.php: Script started at 2026-02-26 10:10:20
+[26-Feb-2026 10:10:20 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:10:20 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:10:20 UTC] get_projects.php: Category received: 'learn-with-love'
+[26-Feb-2026 10:10:20 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:10:20 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:10:20 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:10:20 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 10:10:20 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 10:10:20 UTC] get_projects.php: Script ended at 2026-02-26 10:10:20
+[26-Feb-2026 10:11:49 UTC] get_projects.php: Script started at 2026-02-26 10:11:49
+[26-Feb-2026 10:11:49 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:11:49 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:11:49 UTC] get_projects.php: Category received: 'learn-with-love'
+[26-Feb-2026 10:11:49 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:11:49 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:11:49 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:11:49 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 10:11:49 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 10:11:49 UTC] get_projects.php: Script ended at 2026-02-26 10:11:49
+[26-Feb-2026 10:13:00 UTC] get_projects.php: Script started at 2026-02-26 10:13:00
+[26-Feb-2026 10:13:00 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:13:00 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:13:00 UTC] get_projects.php: Category received: 'learn-with-love'
+[26-Feb-2026 10:13:00 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:13:00 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:13:00 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:13:00 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 10:13:00 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 10:13:00 UTC] get_projects.php: Script ended at 2026-02-26 10:13:00
+[26-Feb-2026 10:13:41 UTC] get_projects.php: Script started at 2026-02-26 10:13:41
+[26-Feb-2026 10:13:41 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:13:41 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:13:41 UTC] get_projects.php: Category received: 'learn-with-love'
+[26-Feb-2026 10:13:41 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:13:41 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:13:41 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:13:41 UTC] get_projects.php: Query executed, found 1 projects
+[26-Feb-2026 10:13:41 UTC] get_projects.php: Successfully processed 1 projects
+[26-Feb-2026 10:13:41 UTC] get_projects.php: Script ended at 2026-02-26 10:13:41
+[26-Feb-2026 10:13:47 UTC] get_projects.php: Script started at 2026-02-26 10:13:47
+[26-Feb-2026 10:13:47 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:13:47 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:13:47 UTC] get_projects.php: Category received: 'learn-with-love'
+[26-Feb-2026 10:13:47 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:13:47 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:13:47 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:13:47 UTC] get_projects.php: Query executed, found 1 projects
+[26-Feb-2026 10:13:47 UTC] get_projects.php: Successfully processed 1 projects
+[26-Feb-2026 10:13:47 UTC] get_projects.php: Script ended at 2026-02-26 10:13:47
+[26-Feb-2026 10:14:31 UTC] get_projects.php: Script started at 2026-02-26 10:14:31
+[26-Feb-2026 10:14:31 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:14:31 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:14:31 UTC] get_projects.php: Category received: 'learn-with-love'
+[26-Feb-2026 10:14:31 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:14:31 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:14:31 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:14:31 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 10:14:31 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 10:14:31 UTC] get_projects.php: Script ended at 2026-02-26 10:14:31
+[26-Feb-2026 10:14:45 UTC] get_projects.php: Script started at 2026-02-26 10:14:45
+[26-Feb-2026 10:14:45 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:14:45 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:14:45 UTC] get_projects.php: Category received: 'learn-with-love'
+[26-Feb-2026 10:14:45 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:14:45 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:14:45 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:14:45 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 10:14:45 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 10:14:45 UTC] get_projects.php: Script ended at 2026-02-26 10:14:45
+[26-Feb-2026 10:15:34 UTC] get_projects.php: Script started at 2026-02-26 10:15:34
+[26-Feb-2026 10:15:34 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:15:34 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:15:34 UTC] get_projects.php: Category received: 'learn-with-love'
+[26-Feb-2026 10:15:34 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:15:34 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:15:34 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:15:34 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 10:15:34 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 10:15:34 UTC] get_projects.php: Script ended at 2026-02-26 10:15:34
+[26-Feb-2026 10:16:06 UTC] get_projects.php: Script started at 2026-02-26 10:16:06
+[26-Feb-2026 10:16:06 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:16:06 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:16:06 UTC] get_projects.php: Category received: 'care-with-love'
+[26-Feb-2026 10:16:06 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:16:06 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:16:06 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:16:06 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 10:16:06 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 10:16:06 UTC] get_projects.php: Script ended at 2026-02-26 10:16:06
+[26-Feb-2026 10:19:40 UTC] get_projects.php: Script started at 2026-02-26 10:19:40
+[26-Feb-2026 10:19:40 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:19:40 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:19:40 UTC] get_projects.php: Category received: 'grow-with-love'
+[26-Feb-2026 10:19:40 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:19:40 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:19:40 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:19:40 UTC] get_projects.php: Query executed, found 29 projects
+[26-Feb-2026 10:19:40 UTC] get_projects.php: Successfully processed 29 projects
+[26-Feb-2026 10:19:40 UTC] get_projects.php: Script ended at 2026-02-26 10:19:40
+[26-Feb-2026 10:19:50 UTC] get_projects.php: Script started at 2026-02-26 10:19:50
+[26-Feb-2026 10:19:50 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:19:50 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:19:50 UTC] get_projects.php: Category received: 'grow-with-love'
+[26-Feb-2026 10:19:50 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:19:50 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:19:50 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:19:50 UTC] get_projects.php: Query executed, found 29 projects
+[26-Feb-2026 10:19:50 UTC] get_projects.php: Successfully processed 29 projects
+[26-Feb-2026 10:19:50 UTC] get_projects.php: Script ended at 2026-02-26 10:19:50
+[26-Feb-2026 10:19:56 UTC] get_projects.php: Script started at 2026-02-26 10:19:56
+[26-Feb-2026 10:19:56 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:19:56 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:19:56 UTC] get_projects.php: Category received: 'learn-with-love'
+[26-Feb-2026 10:19:56 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:19:56 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:19:56 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:19:56 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 10:19:56 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 10:19:56 UTC] get_projects.php: Script ended at 2026-02-26 10:19:56
+[26-Feb-2026 10:21:39 UTC] get_projects.php: Script started at 2026-02-26 10:21:39
+[26-Feb-2026 10:21:39 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:21:39 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:21:39 UTC] get_projects.php: Category received: 'care-with-love'
+[26-Feb-2026 10:21:39 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:21:39 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:21:39 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:21:39 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 10:21:39 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 10:21:39 UTC] get_projects.php: Script ended at 2026-02-26 10:21:39
+[26-Feb-2026 10:21:40 UTC] get_projects.php: Script started at 2026-02-26 10:21:40
+[26-Feb-2026 10:21:40 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:21:40 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:21:40 UTC] get_projects.php: Category received: 'care-with-love'
+[26-Feb-2026 10:21:40 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:21:40 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:21:40 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:21:40 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 10:21:40 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 10:21:40 UTC] get_projects.php: Script ended at 2026-02-26 10:21:40
+[26-Feb-2026 10:22:12 UTC] get_projects.php: Script started at 2026-02-26 10:22:12
+[26-Feb-2026 10:22:12 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:22:12 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:22:12 UTC] get_projects.php: Category received: 'grow-with-love'
+[26-Feb-2026 10:22:12 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:22:12 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:22:12 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:22:12 UTC] get_projects.php: Query executed, found 29 projects
+[26-Feb-2026 10:22:12 UTC] get_projects.php: Successfully processed 29 projects
+[26-Feb-2026 10:22:12 UTC] get_projects.php: Script ended at 2026-02-26 10:22:12
+[26-Feb-2026 10:22:23 UTC] get_projects.php: Script started at 2026-02-26 10:22:23
+[26-Feb-2026 10:22:23 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:22:23 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:22:23 UTC] get_projects.php: Category received: 'grow-with-love'
+[26-Feb-2026 10:22:23 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:22:23 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:22:23 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:22:23 UTC] get_projects.php: Query executed, found 29 projects
+[26-Feb-2026 10:22:23 UTC] get_projects.php: Successfully processed 29 projects
+[26-Feb-2026 10:22:23 UTC] get_projects.php: Script ended at 2026-02-26 10:22:23
+[26-Feb-2026 10:23:44 UTC] get_projects.php: Script started at 2026-02-26 10:23:44
+[26-Feb-2026 10:23:44 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:23:44 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:23:44 UTC] get_projects.php: Category received: 'care-with-love'
+[26-Feb-2026 10:23:44 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:23:44 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:23:44 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:23:44 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 10:23:44 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 10:23:44 UTC] get_projects.php: Script ended at 2026-02-26 10:23:44
+[26-Feb-2026 10:23:52 UTC] get_projects.php: Script started at 2026-02-26 10:23:52
+[26-Feb-2026 10:23:52 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:23:52 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:23:52 UTC] get_projects.php: Category received: 'give-with-love'
+[26-Feb-2026 10:23:52 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:23:52 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:23:52 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:23:52 UTC] get_projects.php: Query executed, found 44 projects
+[26-Feb-2026 10:23:52 UTC] get_projects.php: Successfully processed 44 projects
+[26-Feb-2026 10:23:52 UTC] get_projects.php: Script ended at 2026-02-26 10:23:52
+[26-Feb-2026 10:24:38 UTC] get_projects.php: Script started at 2026-02-26 10:24:38
+[26-Feb-2026 10:24:38 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:24:38 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:24:38 UTC] get_projects.php: Category received: 'care-with-love'
+[26-Feb-2026 10:24:38 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:24:38 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:24:38 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:24:38 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 10:24:38 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 10:24:38 UTC] get_projects.php: Script ended at 2026-02-26 10:24:38
+[26-Feb-2026 10:25:35 UTC] get_projects.php: Script started at 2026-02-26 10:25:35
+[26-Feb-2026 10:25:35 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:25:35 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:25:35 UTC] get_projects.php: Category received: 'care-with-love'
+[26-Feb-2026 10:25:35 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:25:35 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:25:35 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:25:35 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 10:25:35 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 10:25:35 UTC] get_projects.php: Script ended at 2026-02-26 10:25:35
+[26-Feb-2026 10:28:35 UTC] get_projects.php: Script started at 2026-02-26 10:28:35
+[26-Feb-2026 10:28:35 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:28:35 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:28:35 UTC] get_projects.php: Category received: 'learn-with-love'
+[26-Feb-2026 10:28:35 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:28:35 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:28:35 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:28:35 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 10:28:35 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 10:28:35 UTC] get_projects.php: Script ended at 2026-02-26 10:28:35
+[26-Feb-2026 10:28:37 UTC] get_projects.php: Script started at 2026-02-26 10:28:37
+[26-Feb-2026 10:28:37 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:28:37 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:28:37 UTC] get_projects.php: Category received: 'learn-with-love'
+[26-Feb-2026 10:28:37 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:28:37 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:28:37 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:28:37 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 10:28:37 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 10:28:37 UTC] get_projects.php: Script ended at 2026-02-26 10:28:37
+[26-Feb-2026 10:28:37 UTC] get_projects.php: Script started at 2026-02-26 10:28:37
+[26-Feb-2026 10:28:37 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:28:37 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:28:37 UTC] get_projects.php: Category received: 'learn-with-love'
+[26-Feb-2026 10:28:37 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:28:37 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:28:37 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:28:37 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 10:28:37 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 10:28:37 UTC] get_projects.php: Script ended at 2026-02-26 10:28:37
+[26-Feb-2026 10:28:43 UTC] get_projects.php: Script started at 2026-02-26 10:28:43
+[26-Feb-2026 10:28:43 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:28:43 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:28:43 UTC] get_projects.php: Category received: 'learn-with-love'
+[26-Feb-2026 10:28:43 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:28:43 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:28:43 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:28:43 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 10:28:43 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 10:28:43 UTC] get_projects.php: Script ended at 2026-02-26 10:28:43
+[26-Feb-2026 10:29:36 UTC] get_projects.php: Script started at 2026-02-26 10:29:36
+[26-Feb-2026 10:29:36 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:29:36 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:29:36 UTC] get_projects.php: Category received: 'learn-with-love'
+[26-Feb-2026 10:29:36 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:29:36 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:29:36 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:29:36 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 10:29:36 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 10:29:36 UTC] get_projects.php: Script ended at 2026-02-26 10:29:36
+[26-Feb-2026 10:30:08 UTC] get_projects.php: Script started at 2026-02-26 10:30:08
+[26-Feb-2026 10:30:08 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:30:08 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:30:08 UTC] get_projects.php: Category received: 'learn-with-love'
+[26-Feb-2026 10:30:08 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:30:08 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:30:08 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:30:08 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 10:30:08 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 10:30:08 UTC] get_projects.php: Script ended at 2026-02-26 10:30:08
+[26-Feb-2026 10:30:11 UTC] get_projects.php: Script started at 2026-02-26 10:30:11
+[26-Feb-2026 10:30:11 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:30:11 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:30:11 UTC] get_projects.php: Category received: 'learn-with-love'
+[26-Feb-2026 10:30:11 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:30:11 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:30:11 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:30:11 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 10:30:11 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 10:30:11 UTC] get_projects.php: Script ended at 2026-02-26 10:30:11
+[26-Feb-2026 10:30:12 UTC] get_projects.php: Script started at 2026-02-26 10:30:12
+[26-Feb-2026 10:30:12 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:30:12 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:30:12 UTC] get_projects.php: Category received: 'learn-with-love'
+[26-Feb-2026 10:30:12 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:30:12 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:30:12 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:30:12 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 10:30:12 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 10:30:12 UTC] get_projects.php: Script ended at 2026-02-26 10:30:12
+[26-Feb-2026 10:31:04 UTC] get_projects.php: Script started at 2026-02-26 10:31:04
+[26-Feb-2026 10:31:04 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:31:04 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:31:04 UTC] get_projects.php: Category received: 'learn-with-love'
+[26-Feb-2026 10:31:04 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:31:04 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:31:04 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:31:04 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 10:31:04 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 10:31:04 UTC] get_projects.php: Script ended at 2026-02-26 10:31:04
+[26-Feb-2026 10:31:04 UTC] get_projects.php: Script started at 2026-02-26 10:31:04
+[26-Feb-2026 10:31:04 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:31:04 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:31:04 UTC] get_projects.php: Category received: 'learn-with-love'
+[26-Feb-2026 10:31:04 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:31:04 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:31:04 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:31:04 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 10:31:04 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 10:31:04 UTC] get_projects.php: Script ended at 2026-02-26 10:31:04
+[26-Feb-2026 10:35:13 UTC] get_projects.php: Script started at 2026-02-26 10:35:13
+[26-Feb-2026 10:35:13 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:35:13 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:35:13 UTC] get_projects.php: Category received: 'give-with-love'
+[26-Feb-2026 10:35:13 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:35:13 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:35:13 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:35:13 UTC] get_projects.php: Query executed, found 44 projects
+[26-Feb-2026 10:35:13 UTC] get_projects.php: Successfully processed 44 projects
+[26-Feb-2026 10:35:13 UTC] get_projects.php: Script ended at 2026-02-26 10:35:13
+[26-Feb-2026 10:37:03 UTC] get_projects.php: Script started at 2026-02-26 10:37:03
+[26-Feb-2026 10:37:03 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:37:03 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:37:03 UTC] get_projects.php: Category received: 'give-with-love'
+[26-Feb-2026 10:37:03 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:37:03 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:37:03 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:37:03 UTC] get_projects.php: Query executed, found 44 projects
+[26-Feb-2026 10:37:03 UTC] get_projects.php: Successfully processed 44 projects
+[26-Feb-2026 10:37:03 UTC] get_projects.php: Script ended at 2026-02-26 10:37:03
+[26-Feb-2026 10:39:07 UTC] get_projects.php: Script started at 2026-02-26 10:39:07
+[26-Feb-2026 10:39:07 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:39:07 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:39:07 UTC] get_projects.php: Category received: 'learn-with-love'
+[26-Feb-2026 10:39:07 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:39:07 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:39:07 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:39:07 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 10:39:07 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 10:39:07 UTC] get_projects.php: Script ended at 2026-02-26 10:39:07
+[26-Feb-2026 10:47:28 UTC] get_projects.php: Script started at 2026-02-26 10:47:28
+[26-Feb-2026 10:47:28 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:47:28 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:47:28 UTC] get_projects.php: Category received: 'give-with-love'
+[26-Feb-2026 10:47:28 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:47:28 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:47:28 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:47:28 UTC] get_projects.php: Query executed, found 44 projects
+[26-Feb-2026 10:47:28 UTC] get_projects.php: Successfully processed 44 projects
+[26-Feb-2026 10:47:28 UTC] get_projects.php: Script ended at 2026-02-26 10:47:28
+[26-Feb-2026 10:48:35 UTC] get_projects.php: Script started at 2026-02-26 10:48:35
+[26-Feb-2026 10:48:35 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:48:35 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:48:35 UTC] get_projects.php: Category received: 'care-with-love'
+[26-Feb-2026 10:48:35 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:48:35 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:48:35 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:48:36 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 10:48:36 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 10:48:36 UTC] get_projects.php: Script ended at 2026-02-26 10:48:36
+[26-Feb-2026 10:48:36 UTC] get_projects.php: Script started at 2026-02-26 10:48:36
+[26-Feb-2026 10:48:36 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:48:36 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:48:36 UTC] get_projects.php: Category received: 'care-with-love'
+[26-Feb-2026 10:48:36 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:48:36 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:48:36 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:48:36 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 10:48:36 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 10:48:36 UTC] get_projects.php: Script ended at 2026-02-26 10:48:36
+[26-Feb-2026 10:50:24 UTC] get_projects.php: Script started at 2026-02-26 10:50:24
+[26-Feb-2026 10:50:24 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:50:24 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:50:24 UTC] get_projects.php: Category received: 'grow-with-love'
+[26-Feb-2026 10:50:24 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:50:24 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:50:24 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:50:24 UTC] get_projects.php: Query executed, found 29 projects
+[26-Feb-2026 10:50:24 UTC] get_projects.php: Successfully processed 29 projects
+[26-Feb-2026 10:50:24 UTC] get_projects.php: Script ended at 2026-02-26 10:50:24
+[26-Feb-2026 10:55:26 UTC] get_projects.php: Script started at 2026-02-26 10:55:26
+[26-Feb-2026 10:55:26 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 10:55:26 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 10:55:26 UTC] get_projects.php: Category received: 'learn-with-love'
+[26-Feb-2026 10:55:26 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 10:55:26 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 10:55:26 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 10:55:26 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 10:55:26 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 10:55:26 UTC] get_projects.php: Script ended at 2026-02-26 10:55:26
+[26-Feb-2026 11:01:36 UTC] get_projects.php: Script started at 2026-02-26 11:01:36
+[26-Feb-2026 11:01:36 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 11:01:36 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 11:01:36 UTC] get_projects.php: Category received: 'learn-with-love'
+[26-Feb-2026 11:01:36 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 11:01:36 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 11:01:36 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 11:01:36 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 11:01:36 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 11:01:36 UTC] get_projects.php: Script ended at 2026-02-26 11:01:36
+[26-Feb-2026 11:01:47 UTC] get_projects.php: Script started at 2026-02-26 11:01:47
+[26-Feb-2026 11:01:47 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 11:01:47 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 11:01:47 UTC] get_projects.php: Category received: 'learn-with-love'
+[26-Feb-2026 11:01:47 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 11:01:47 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 11:01:47 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 11:01:47 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 11:01:47 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 11:01:47 UTC] get_projects.php: Script ended at 2026-02-26 11:01:47
+[26-Feb-2026 11:10:23 UTC] get_projects.php: Script started at 2026-02-26 11:10:23
+[26-Feb-2026 11:10:23 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 11:10:23 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 11:10:23 UTC] get_projects.php: Category received: 'learn-with-love'
+[26-Feb-2026 11:10:23 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 11:10:23 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 11:10:23 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 11:10:23 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 11:10:23 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 11:10:23 UTC] get_projects.php: Script ended at 2026-02-26 11:10:23
+[26-Feb-2026 11:10:49 UTC] get_projects.php: Script started at 2026-02-26 11:10:49
+[26-Feb-2026 11:10:49 UTC] get_projects.php: Starting main execution
+[26-Feb-2026 11:10:49 UTC] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 11:10:49 UTC] get_projects.php: Category received: 'learn-with-love'
+[26-Feb-2026 11:10:49 UTC] get_projects.php: Database query test passed
+[26-Feb-2026 11:10:49 UTC] get_projects.php: Required tables exist
+[26-Feb-2026 11:10:49 UTC] get_projects.php: Preparing main query
+[26-Feb-2026 11:10:49 UTC] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 11:10:49 UTC] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 11:10:49 UTC] get_projects.php: Script ended at 2026-02-26 11:10:49
+[26-Feb-2026 12:20:55 Europe/Berlin] get_projects.php: Script started at 2026-02-26 12:20:55
+[26-Feb-2026 12:20:55 Europe/Berlin] get_projects.php: Starting main execution
+[26-Feb-2026 12:20:55 Europe/Berlin] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'withlove'@'localhost' (using password: YES)
+[26-Feb-2026 12:20:55 Europe/Berlin] get_projects.php: Exception caught: Database connection failed in C:\xampp\htdocs\wlngo\admin\api\config.php on line 19
+[26-Feb-2026 12:20:55 Europe/Berlin] get_projects.php: Script ended at 2026-02-26 12:20:55
+[26-Feb-2026 12:22:20 Europe/Berlin] get_projects.php: Script started at 2026-02-26 12:22:20
+[26-Feb-2026 12:22:20 Europe/Berlin] get_projects.php: Starting main execution
+[26-Feb-2026 12:22:20 Europe/Berlin] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 12:22:20 Europe/Berlin] get_projects.php: Category received: 'learn-with-love'
+[26-Feb-2026 12:22:20 Europe/Berlin] get_projects.php: Database query test passed
+[26-Feb-2026 12:22:20 Europe/Berlin] get_projects.php: Required tables exist
+[26-Feb-2026 12:22:20 Europe/Berlin] get_projects.php: Preparing main query
+[26-Feb-2026 12:22:20 Europe/Berlin] get_projects.php: Query executed, found 1 projects
+[26-Feb-2026 12:22:20 Europe/Berlin] get_projects.php: Successfully processed 1 projects
+[26-Feb-2026 12:22:20 Europe/Berlin] get_projects.php: Script ended at 2026-02-26 12:22:20
+[26-Feb-2026 12:22:23 Europe/Berlin] get_projects.php: Script started at 2026-02-26 12:22:23
+[26-Feb-2026 12:22:23 Europe/Berlin] get_projects.php: Starting main execution
+[26-Feb-2026 12:22:23 Europe/Berlin] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 12:22:23 Europe/Berlin] get_projects.php: Category received: 'learn-with-love'
+[26-Feb-2026 12:22:23 Europe/Berlin] get_projects.php: Database query test passed
+[26-Feb-2026 12:22:23 Europe/Berlin] get_projects.php: Required tables exist
+[26-Feb-2026 12:22:23 Europe/Berlin] get_projects.php: Preparing main query
+[26-Feb-2026 12:22:23 Europe/Berlin] get_projects.php: Query executed, found 1 projects
+[26-Feb-2026 12:22:23 Europe/Berlin] get_projects.php: Successfully processed 1 projects
+[26-Feb-2026 12:22:23 Europe/Berlin] get_projects.php: Script ended at 2026-02-26 12:22:23
+[26-Feb-2026 12:22:26 Europe/Berlin] get_projects.php: Script started at 2026-02-26 12:22:26
+[26-Feb-2026 12:22:26 Europe/Berlin] get_projects.php: Starting main execution
+[26-Feb-2026 12:22:26 Europe/Berlin] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 12:22:26 Europe/Berlin] get_projects.php: Category received: 'care-with-love'
+[26-Feb-2026 12:22:26 Europe/Berlin] get_projects.php: Database query test passed
+[26-Feb-2026 12:22:26 Europe/Berlin] get_projects.php: Required tables exist
+[26-Feb-2026 12:22:26 Europe/Berlin] get_projects.php: Preparing main query
+[26-Feb-2026 12:22:26 Europe/Berlin] get_projects.php: Query executed, found 0 projects
+[26-Feb-2026 12:22:26 Europe/Berlin] get_projects.php: Successfully processed 0 projects
+[26-Feb-2026 12:22:26 Europe/Berlin] get_projects.php: Script ended at 2026-02-26 12:22:26
+[26-Feb-2026 12:22:36 Europe/Berlin] get_projects.php: Script started at 2026-02-26 12:22:36
+[26-Feb-2026 12:22:36 Europe/Berlin] get_projects.php: Starting main execution
+[26-Feb-2026 12:22:36 Europe/Berlin] get_projects.php: Database connected successfully with PDO
+[26-Feb-2026 12:22:36 Europe/Berlin] get_projects.php: Category received: 'give-with-love'
+[26-Feb-2026 12:22:36 Europe/Berlin] get_projects.php: Database query test passed
+[26-Feb-2026 12:22:36 Europe/Berlin] get_projects.php: Required tables exist
+[26-Feb-2026 12:22:36 Europe/Berlin] get_projects.php: Preparing main query
+[26-Feb-2026 12:22:36 Europe/Berlin] get_projects.php: Query executed, found 4 projects
+[26-Feb-2026 12:22:36 Europe/Berlin] get_projects.php: Successfully processed 4 projects
+[26-Feb-2026 12:22:36 Europe/Berlin] get_projects.php: Script ended at 2026-02-26 12:22:36

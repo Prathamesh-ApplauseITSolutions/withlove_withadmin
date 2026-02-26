@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event & media</title>
+    <link href="./img/favicon.ico" rel="icon">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="./lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Topbar Start -->
+    <div id="topnavbar"></div>
+    <!-- Topbar End -->
+
+    <div id="navbar-placeholder"></div>
+
+    <script>
+        $(document).ready(function () {
+            $("#topnavbar").load("topnavbar.html");
+        });
+        $(document).ready(function () {
+            $("#navbar-placeholder").load("navbar.html");
+        });
+    </script>
+
+
+
+    <div class="image-header">
+        <img src="./img/common_bg.webp" alt="Header Image">
+        <div class="gradient-overlay"></div>
+        <div class="text-overlay mx-auto">
+            <h1 class="fw-bold text-dark">Media</h1>
+            <nav aria-label="breadcrumb" class="breadcrumb-overlay">
+                <ol class="breadcrumb m-0 justify-content-center">
+                    <li class="breadcrumb-item">
+                        <a href="./index.html" class="text-dark">Home</a>
+                    </li>
+                    <li class="breadcrumb-item active text-light text-dark" aria-current="page">
+                        <a href="./event_media.html" class="text-dark">Media</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- **event start***** -->
+    <!-- ********common heading*********** -->
+    <div class="text-center mb-4 mt-4">
+        <h2 class="sub-title position-relative d-inline-block">
+            Our Events
+            <span class="headline-double"></span>
+        </h2>
+    </div>
+    <!-- ********common heading*********** -->
+    <!-- ******event and media tab*********** -->
+    <section class="project-section">
+        <ul class="nav nav-tabs" id="projectTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="ongoing-tab" data-bs-toggle="tab" data-bs-target="#ongoing"
+                    type="button" role="tab">
+                    Events
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="past-tab" data-bs-toggle="tab" data-bs-target="#past" type="button"
+                    role="tab">
+                    Media
+                </button>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <!-- ONGOING PROJECTS -->
+            <div class="tab-pane fade show active" id="ongoing" role="tabpanel">
+                <div class="row g-4" id="ongoingCards">
+                    <!-- 8 cards visible initially -->
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="small-card common_border"><img src="./img/projects/Garden_Future.jpg"
+                                alt="Garden_Future" class="img-fluid card-img" loading="lazy">
+                            <div class="card-body">
+                                <p class="mb-0"><span class="label">Project Name:</span> Garden of the Future</p>
+                                <p class="mb-0"><span class="label">Month of Execution:</span> April 2025 </p>
+                                <p class="mb-0"><span class="label">Venue:</span> Sadhu Vaswani Mission, Pune </p>
+                                <p class="mb-0"><span class="label">Beneficiaries:</span> Children and adult volunteers
+                                    participating</p>
+                                <p class="mb-0"><span class="label">Description:</span>
+                                <p class="mb-0 description"> A day of love, learning, and connection, where ngo interns took the lead
+                                    in guiding children and creating meaningful experiences. By actively participating
+                                    in activities, they nurtured kindness, growth, and togetherness...</p>
+                                </p>
+                                <a href="./readmore.html" class="shimmer-btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="small-card common_border"><img src="./img/events/Teacher_Appreciation.jpg"
+                                alt="Appreciation Picnic" class="img-fluid card-img" loading="lazy">
+                            <div class="card-body">
+                                <p class="mb-0"><span class="label">Event Name:</span> Teacher Appreciation Picnic</p>
+                                <p class="mb-0"><span class="label">Month of Execution:</span> April 2025
+                                </p>
+                                <p class="mb-0"><span class="label">Venue:</span> Hausai Lake Resort, Pune
+                                </p>
+                                <p class="mb-0"><span class="label">Beneficiaries:</span> Teachers of Epiphany School
+                                </p>
+                                <p class="mb-0"><span class="label">Description:</span>
+                                <p class="mb-0 description">With the support of our generous donors, we organized a picnic to honor
+                                    the dedication and hard work of the teachers at Epiphany School. This event provided
+                                    a day of relaxation, joy, and appreciation, celebrating the educators who shape
+                                    young lives every day...</p>
+                                </p>
+                                <a href="./readmore.html" class="shimmer-btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="small-card common_border"><img src="./img/projects/Yoga_Wellness.png"
+                                alt="yoga wellness" class="img-fluid card-img" loading="lazy">
+                            <div class="card-body">
+                                <p class="mb-0"><span class="label">Event Name:</span> Yoga & Wellness Workshop</p>
+                                <p class="mb-0"><span class="label">Month of Execution:</span> June 2025 </p>
+                                <p class="mb-0"><span class="label">Venue:</span> Aadhar school, Kharadi, Pune</p>
+                                <p class="mb-0"><span class="label">Beneficiaries:</span> Children of the labour camp school</p>
+                                <p class="mb-0"><span class="label">Description:</span>
+                                <p class="mb-0 description">During International Yoga Week, With Love NGO conducted a special Yoga & Wellness Workshop for children growing up in challenging environments. Led by Rupal Ma’am, a seasoned yoga professor at St. Mira’s College, and Dr. Nidhi Agarwal, a family physician and holistic healer, the session blended movement, mindfulness, and inner peace. Our dedicated interns facilitated interactive activities, ensuring each child felt safe, seen, and empowered. Through this initiative, children learned how yoga can improve focus, calm nerves, and build inner strength, bringing wellness and mindfulness to every corner of the city.</p>
+                                </p>
+                                </p><a href="./readmore.html" class="shimmer-btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="small-card common_border"><img src="./img/events/Raksha_Bandhan.png"
+                                alt="Teacher Appreciation Picnic" class="img-fluid card-img" loading="lazy">
+                            <div class="card-body">                               
+                                 <p class="mb-0"><span class="label">Event Name:</span> Raksha Bandhan Celebration</p>
+                                <p class="mb-0"><span class="label">Month of Execution:</span> August  2025 </p>
+                                <p class="mb-0"><span class="label">Venue:</span> Various labour camps and underfunded schools</p>
+                                <p class="mb-0"><span class="label">Beneficiaries:</span> Children of these schools</p>
+                                <p class="mb-0"><span class="label">Description:</span>
+                                <p class="mb-0 description">In collaboration with The House of Sakhi, With Love NGO distributed gifts and essentials to children across various schools on Raksha Bandhan. The initiative aimed to foster joy, care, and the spirit of giving, ensuring that every child felt valued and included during the festival.
+</p>
+                                </p>
+                                <a href="./readmore.html" class="shimmer-btn">Read More</a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="small-card common_border"><img src="./img/events/Feed_Forward.jfif"
+                                alt="Teacher Appreciation Picnic" class="img-fluid card-img" loading="lazy">
+                            <div class="card-body">
+                                <p class="mb-0"><span class="label">Event Name:</span> First Pune Experience for
+                                    Lonavala Orphanage Kids</p>
+                                <p class="mb-0"><span class="label">Month of Execution:</span> September 2025 </p>
+                                <p class="mb-0"><span class="label">Venue:</span> Pune, Maharashtra</p>
+                                <p class="mb-0"><span class="label">Beneficiaries:</span> Orphaned children from a
+                                    residential care home in Lonavala </p>
+                                <p class="mb-0"><span class="label">Description:</span>
+                                <p class="mb-0 description"> With Love NGO organized a special day trip for children from a Lonavala
+                                    residential home, giving them their first experience of Pune. The itinerary included
+                                    a visit to Amanora Mall, fun activities at Carnimax play centre, lunch at
+                                    McDonald’s, a metro ride, and a visit to Dagdusheth Temple...</p>
+                                </p><a href="./readmore.html" class="shimmer-btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                  
+                </div>
+
+
+
+                <div class="see-more-container">
+                    <button class="see-more-btn" id="seeMoreOngoing">See More ❯❯</button>
+                </div>
+            </div>
+
+            <!-- PAST PROJECTS -->
+            <div class="tab-pane fade" id="past" role="tabpanel">
+                <div class="row g-4" id="pastCards">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="small-card  common_border">
+                            <!-- <video class="img-fluid card-img" autoplay muted loop playsinline>
+                                <source src="./img/Padhenge.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video> -->
+                              <img src="./img/events/Woman_Awards.jpg" alt="yoga"
+                                class="img-fluid card-img" loading="lazy">
+                            <div class="card-body">
+                              <p class="mb-0"><span class="label">Media Name:</span> Woman TV Awards</p>
+                                <p class="mb-0"><span class="label">Description:</span>
+                                <p class="mb-0 description">With Love NGO proudly partnered with the Woman TV Awards Season 5, celebrating Women’s Day and the inspiring journeys of the ‘Top 100 Social Media Influencers & PR Experts of India.’ Through this collaboration, our NGO contributed to recognizing and amplifying women’s achievements, fostering empowerment, visibility, and the celebration of impactful work across social media and PR sectors.</p>
+                                </p>
+                                <a href="./readmore.html" class="shimmer-btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                         <div class="small-card  common_border">
+                              <img src="./img/events/Podcast_Interview.jpeg" alt="yoga"
+                                class="img-fluid card-img" loading="lazy">
+                            <div class="card-body">
+                              <p class="mb-0"><span class="label">Media Name:</span> Podcast Interview at The Breathing Room
+                              </p>
+                                <p class="mb-0"><span class="label">Description:</span> </p>
+                                <p class="mb-0 description">The Breathing Room interviewed With Love NGO founder Dimple Somji to explore how social media can amplify philanthropy and the true essence of the NGO. During the podcast, Dimple shared insights on the organization’s mission, its impact through small acts of kindness, and the transformative difference these efforts make in the lives of underprivileged children and communities.</p>
+                               
+                                <a href="./readmore.html" class="shimmer-btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="small-card  common_border">
+                            <!-- <img src="./img/Chief_Guest.jfif"
+                                alt="Teacher Appreciation Picnic" class="img-fluid card-img" loading="lazy"> -->
+                                <video class="img-fluid card-img" autoplay muted loop playsinline>
+                                <source src="./img/events/Padhenge.MP4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="card-body">
+                                   <p class="mb-0"><span class="label">Media Name:</span> Padhenge Toh Badhenge – Founder Interview
+                              </p>
+                                <p class="mb-0"><span class="label">Description:</span> </p>
+                                <p class="mb-0 description">With Love NGO founder Dimple Somji was interviewed by RJ Tia to highlight the Padhenge Toh Badhenge initiative by Fever FM, which collects books from those who have more to give to children who dream of learning but lack resources. During the session, Dimple shared insights about the NGO’s mission and the transformative impact of collective kindness, reinforcing that even small acts, when done together, can create ripples of meaningful change in the community.</p>
+                                <a href="./readmore.html" class="shimmer-btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="small-card  common_border "><img src="./img/events/Womb_Healing.jpg" alt="NGO Stall "
+                                class="img-fluid card-img" loading="lazy">
+                            <div class="card-body">
+                                <p class="mb-0"><span class="label">Media Name:</span> Womb Healing Workshop
+                                <p class="mb-0"><span class="label">Description:</span> </p>
+                                <p class="mb-0 description">With Love NGO hosted a Womb Healing workshop led by Dr. Nidhi, creating a sacred space for participants to reconnect with their body’s wisdom. The session focused on meditation, release, and healing, fostering self-awareness and collective stillness. All proceeds from the workshop supported the initiatives of With Love NGO, reinforcing the organization’s commitment to holistic well-being and empowerment.</p>
+                                <a href="./readmore.html" class="shimmer-btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="see-more-container">
+                    <button class="see-more-btn" id="seeMorePast">See More ❯❯</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ******event and media tab*********** -->
+
+    <!-- ****************************Footer********************** -->
+
+    <div id="footer-container"></div>
+
+    <!-- ****************************Footer********************** -->
+    <script>
+        // Using fetch to load navbar.html dynamically
+        fetch("topnavbar.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-container').innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error loading the navbar:', error);
+                document.getElementById('navbar-container').innerHTML = "<p>Navbar could not be loaded.</p>";
+            });
+        // ****************
+        fetch("navbar.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-container').innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error loading the navbar:', error);
+                document.getElementById('navbar-container').innerHTML = "<p>Navbar could not be loaded.</p>";
+            });
+
+        fetch("footer.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-container').innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error loading the footer:', error);
+                document.getElementById('footer-container').innerHTML = "<p>Footer could not be loaded.</p>";
+            });
+
+
+
+
+        // Add hidden additional cards for both tabs
+    //     const ongoingExtra = `
+    //   <div class="col-lg-4 col-md-6 col-sm-12"><div class="small-card common_border"><img src="./img/events/NGO_Stall.jpg" alt="" class="img-fluid card-img" loading="lazy"><div class="card-body"><h5>NGO Stall at Ombre Diwali Trunk Show</h5><p>Established small libraries in rural schools to promote reading habits.With Love NGO participated in the Ombre Diwali Trunk Show, showcasing festive products curated by Aksharsparsh Sanstha.</p><a href="./readmore.html" class="shimmer-btn">Read More</a></div></div></div>
+    //   <div class="col-lg-4 col-md-6 col-sm-12"><div class="small-card common_border "><img src="./img/events/Sound_Healing.png" alt="" class="img-fluid card-img" loading="lazy"><div class="card-body"><h5>Sound Healing Workshop</h5><p>Hosted a special workshop led by expert Cyril, where sound became a tool for healing, relaxation, and inner peace.</p><a href="./readmore.html" class="shimmer-btn">Read More</a></div></div></div>
+    //   <div class="col-lg-4 col-md-6 col-sm-12"><div class="small-card common_border "><img src="./img/events/ganeshutsv_8.png" alt="" class="img-fluid card-img" loading="lazy"><div class="card-body"><h5>Uniting Festivity and Responsibility on Ganesh Utsav</h5><p>An inspiring eco-friendly Ganesha-making workshop to encourage Pune’s citizens to sculpt their own Ganpati Bappa Idol using shaadu-mati.</p><a href="./readmore.html" class="shimmer-btn">Read More</a></div></div></div>
+    //   `;
+
+    //     const pastExtra = `
+    //   <div class="col-lg-4 col-md-6 col-sm-12"><div class="small-card common_border "><img src="./img/events/Annual_Day.jpg" alt="" class="img-fluid card-img" loading="lazy"><div class="card-body"><h5>Chief Guest at Epiphany Annual Day</h5><p>Our founder Dimple Somji was invited as the Chief Guest at the Annual Day of Epiphany School.</p><a href="./readmore.html" class="shimmer-btn">Read More</a></div></div></div>
+    //   <div class="col-lg-4 col-md-6 col-sm-12"><div class="small-card common_border "><img src="./img/events/Keynote.jpg" alt="" class="img-fluid card-img" loading="lazy"><div class="card-body"><h5>Keynote at MUN-MIS</h5><p>The founders of 'With Love Charitable Foundation,' were invited as key speakers at the MIS MUN</p><a href="./readmore.html" class="shimmer-btn">Read More</a></div></div></div>
+    //   <div class="col-lg-4 col-md-6 col-sm-12"><div class="small-card common_border "><img src="./img/events/radio.jpg" alt="" class="img-fluid card-img" loading="lazy"><div class="card-body"><h5>Radio one interview</h5><p>Radio one was giving ashoutout to organisations run by Women on the occassion of Womens day and With Love Ngo was a part of this intiative.</p><a href="./readmore.html" class="shimmer-btn">Read More</a></div></div></div>
+    //   `;
+
+        document.getElementById('seeMoreOngoing').addEventListener('click', () => {
+            document.getElementById('ongoingCards').innerHTML += ongoingExtra;
+            document.getElementById('seeMoreOngoing').style.display = 'none';
+        });
+
+        document.getElementById('seeMorePast').addEventListener('click', () => {
+            document.getElementById('pastCards').innerHTML += pastExtra;
+            document.getElementById('seeMorePast').style.display = 'none';
+        });
+        // ********tabs js*********
+
+
+
+
+    </script>
+
+
+    <script src="./lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="./lib/wow/wow.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

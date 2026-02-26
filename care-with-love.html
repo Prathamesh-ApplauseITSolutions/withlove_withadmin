@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Care With Love - Our Programs</title>
+    <link href="./img/favicon.ico" rel="icon">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css?v=20260214-1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="./lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <style>
+        .photo-modal {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.75);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            padding: 20px;
+        }
+
+        .photo-modal.is-open {
+            display: flex;
+        }
+
+        .photo-modal-content {
+            position: relative;
+            width: min(820px, 92vw);
+            border-radius: 14px;
+            overflow: hidden;
+            background: transparent;
+        }
+
+        .photo-modal-count {
+            position: absolute;
+            top: -38px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #fff;
+            font-size: 20px;
+            font-weight: 500;
+            z-index: 2;
+            line-height: 1;
+        }
+
+        .photo-modal-image-wrap {
+            width: 100%;
+            border-radius: 14px;
+            overflow: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .photo-modal-image {
+            max-width: 100%;
+            max-height: 90vh;
+            width: auto;
+            height: auto;
+            display: block;
+            object-fit: contain;
+        }
+
+        .photo-modal-video {
+            max-width: 100%;
+            max-height: 90vh;
+            width: auto;
+            height: auto;
+            display: block;
+            object-fit: contain;
+        }
+
+        .photo-modal-btn {
+           position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 45px;
+    height: 45px;
+    border: 0;
+    border-radius: 50%;
+    background: rgb(255 255 255 / 52%);
+    color: #111;
+    font-size: 24px;
+    line-height: 1;
+    z-index: 2;
+        }
+
+        .photo-modal-btn:hover {
+            background: rgba(255, 255, 255, 0.95);
+        }
+
+        .photo-modal-btn-prev {
+            left: 6vw;
+        }
+
+        .photo-modal-btn-next {
+            right: 6vw;
+        }
+
+        .photo-modal-close {
+            position: absolute;
+            top: 20px;
+            right: 90px;
+            border: 0;
+            background: transparent;
+            color: #fff;
+            font-size: 40px;
+            line-height: 1;
+            z-index: 2;
+        }
+
+        @media (max-width: 768px) {
+            .photo-modal-btn {
+                width: 46px;
+                height: 46px;
+                font-size: 22px;
+            }
+
+            .photo-modal-btn-prev {
+                left: 15px;
+            }
+
+            .photo-modal-btn-next {
+                right: 15px;
+            }
+
+            .photo-modal-count {
+                top: -30px;
+                font-size: 16px;
+            }
+
+            .photo-modal-close {
+                top: 10px;
+                right: 12px;
+                font-size: 34px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Topbar Start -->
+    <div id="topnavbar"></div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <div id="navbar-placeholder"></div>
+
+    <script>
+        $(document).ready(function () {
+            $("#topnavbar").load("topnavbar.html");
+        });
+        $(document).ready(function () {
+            $("#navbar-placeholder").load("navbar.html");
+        });
+    </script>
+    <!-- Navbar end -->
+    
+    <div class="image-header">
+        <img src="./img/common_bg.webp" alt="Header Image">
+        <div class="gradient-overlay"></div>
+        <div class="text-overlay mx-auto">
+            <h1 class="fw-bold text-dark">Care With Love</h1>
+            <nav aria-label="breadcrumb" class="breadcrumb-overlay">
+                <ol class="breadcrumb m-0 justify-content-center">
+                    <li class="breadcrumb-item">
+                        <a href="./index.html" class="text-dark">Home</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="#" class="text-dark">Programs</a>
+                    </li>
+                    <li class="breadcrumb-item active text-light text-dark" aria-current="page">
+                        <a href="./care-with-love.html" class="text-dark">Care With Love</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    
+    <!-- Content Section -->
+    <div class="container py-5 px-2">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <div class="quote-box" style="background-image: url('./img/learn-withlove-img.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                    <div class="quote-content">
+                        <div class="quote-icon quote-start">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div class="quote-text">
+                            <h3 class="quote-title">Nutrition, Health & Basic Needs</h3>
+                            <p class="quote-description">Because dignity begins with care.
+From nutritious meals and foodgrain support to hygiene education and wellness initiatives, we ensure vulnerable communities receive immediate support with compassion and respect — especially in times of crisis.</p>
+                        </div>
+                        <div class="quote-icon quote-end">
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="photo-modal" id="photoModal" aria-hidden="true">
+        <button class="photo-modal-close" id="photoModalClose" aria-label="Close gallery">&times;</button>
+        <button class="photo-modal-btn photo-modal-btn-prev" id="photoModalPrev" aria-label="Previous image">
+            <i class="fas fa-angle-left"></i>
+        </button>
+        <div class="photo-modal-content">
+            <div class="photo-modal-count" id="photoModalCount">1/1</div>
+            <div class="photo-modal-image-wrap">
+                <img id="photoModalImage" class="photo-modal-image" src="" alt="Project gallery image">
+                <video id="photoModalVideo" class="photo-modal-video" controls style="display: none;"></video>
+            </div>
+        </div>
+        <button class="photo-modal-btn photo-modal-btn-next" id="photoModalNext" aria-label="Next image">
+            <i class="fas fa-angle-right"></i>
+        </button>
+    </div>
+    
+    <!-- Sponsor Section -->
+    <div class="container py-5 px-2 sponsor-section">
+        <div class="row">
+            <!-- Left Column (4) -->
+            <div class="col-lg-4 col-md-5">
+                <div class="sponsor-nav">
+                    <div class="nav-item active">
+                        <img src="./img/sweetlings/sweet1.jpg"alt="Sponsor a child's education">
+                        <span>Sweetlings Project- Reliance Foundation</span>
+                    </div>
+                    <div class="nav-item">
+                        <img src="./img/events/Appreciation Picnic.png" alt="Back to School campaign">
+                        <span>Feed Forward for Hunger Crisis</span>
+                    </div>
+                    <div class="nav-item">
+                        <img src="./img/joy_of_giving/joy4.jpg" alt="Label Padhega India">
+                        <span>Joy of Giving</span>
+                    </div>
+                    <div class="nav-item">
+                        <img src="./img/dental_sponsor/1.jpg" alt="Book Donation with Padhenge Toh Badhenge">
+                        <span>Sponsor a childs dental treatment </span>
+                    </div>
+                    <div class="nav-item">
+                        <img src="./newproject_imgs/medical_recovery/Burnt child donation post_20250625_193753_0000.png" alt="Book Donation with Padhenge Toh Badhenge">
+                        <span>Medical support for burn recovery </span>
+                    </div>
+                    <div class="nav-item">
+                        <img src="./newproject_imgs/workshop_img2.png" alt="Book Donation with Padhenge Toh Badhenge">
+                        <span>Menstrual education workshop</span>
+                    </div>
+                    <div class="nav-item">
+                        <img src="./newproject_imgs/distribution_drives/foodgrain.jpg", alt="Book Donation with Padhenge Toh Badhenge">
+                        <span>Foodgrain distribution drives</span>
+                    </div>
+                     <div class="nav-item">
+                        <img src="./newproject_imgs/MGS_img/soni1.jpg" alt="Book Donation with Padhenge Toh Badhenge">
+                        <span>Foodgrain distribution to MGS</span>
+                    </div>
+                    <div class="nav-item">
+                        <img src=    "./newproject_imgs/dental_camp/dental1.jpg" alt="Book Donation with Padhenge Toh Badhenge">
+                        <span>Dental camp at Ghar</span>
+                    </div>
+                    <div class="nav-item">
+                        <img src="./newproject_imgs/MGS_img/soni1.jpg" alt="Book Donation with Padhenge Toh Badhenge">
+                        <span>Food grain distribution</span>
+                    </div>
+                    <div class="nav-item">
+                        <img src="./newproject_imgs/medical_camp/schmed12.jpg" alt="Book Donation with Padhenge Toh Badhenge">
+                        <span>Medical camp at school</span>
+                    </div>
+                    <div class="nav-item">
+                        <img src="./newproject_imgs/blood_donation/4.jpg" alt="Book Donation with Padhenge Toh Badhenge">
+                        <span>Blood Donation Drive</span>
+                    </div>
+                     <div class="nav-item">
+                        <img src=    "./newproject_imgs/cerebral_Palsy/palsy3.jpg" alt="Book Donation with Padhenge Toh Badhenge">
+                        <span>Donation to children with Cerebral Palsy</span>
+                    </div>
+                     <div class="nav-item">
+                        <img src= "./newproject_imgs/milk_donation/222.jpg" alt="Book Donation with Padhenge Toh Badhenge">
+                        <span>Milk Donation in pandemic</span>
+                    </div>
+                     <div class="nav-item">
+                        <img src= "./newproject_imgs/medical_POI_foundation/MED1.jpeg" alt="Book Donation with Padhenge Toh Badhenge">
+                        <span>Medical camp in Association Dr. G D POI Foundation</span>
+                    </div>
+                     <div class="nav-item">
+                        <img src=  "./newproject_imgs/project_joybags/jb10.jpeg",alt="Book Donation with Padhenge Toh Badhenge">
+                        <span>Project Joybags</span>
+                    </div>
+                     <div class="nav-item">
+                        <img src= "./newproject_imgs/yoga_workshop/1.png" alt="Book Donation with Padhenge Toh Badhenge">
+                        <span>Yoga and Wellness Workshop 2025</span>
+                    </div>
+                     <div class="nav-item">
+                        <img src= "./newproject_imgs/hard_rock_cafe/feed6.jpg" alt="Book Donation with Padhenge Toh Badhenge">
+                        <span>Feed Forward with hard rock cafe</span>
+                    </div>
+                     <div class="nav-item">
+                        <img src=     "./newproject_imgs/smiles_for _all/2.jpg" alt="Book Donation with Padhenge Toh Badhenge">
+                        <span>Smiles for All</span>
+                    </div>
+                     <div class="nav-item">
+                        <img src=   "./newproject_imgs/joy_of_giving_2018/1.jpeg" alt="Book Donation with Padhenge Toh Badhenge">
+                        <span>Joy of giving 2018</span>
+                    </div>
+                </div>
+                
+                <!-- Navigation Buttons -->
+                <div class="sponsor-nav-buttons">
+                    <button class="sponsor-nav-btn" id="prevBtn">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <button class="sponsor-nav-btn" id="nextBtn">
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Right Column (8) -->
+            <div class="col-lg-8 col-md-7">
+                <div class="sponsor-content">
+                    <h2 class="sponsor-title">Sponsor a child's education</h2>
+                    
+                    <div class="row">
+                        <!-- Image Column -->
+                        <div class="col-lg-5 col-md-12">
+                            <div class="sponsor-image">
+                                <img src="./img/3.webp" alt="Child reading book">
+                            </div>
+                            
+                            <div class="see-more">
+                                <a href="#" class="see-more-link">See More Photos</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Content Column -->
+                        <div class="col-lg-7 col-md-12">
+                            <div class="sponsor-details">
+                                <div class="detail-item">
+                                    <strong>Month of Execution:</strong> 
+                                    <span>January 2024 onwards</span>
+                                </div>
+                                <div class="detail-item">
+                                    <strong>Venue:</strong> 
+                                    <span>Epiphany School</span>
+                                </div>
+                                <div class="detail-item">
+                                    <strong>Beneficiaries:</strong> 
+                                    <span>Underprivileged kids , Five Students from Epiphany School</span>
+                                </div>
+                            </div>
+                            
+                            <div class="sponsor-description">
+                                <h4>Description</h4>
+                                <div class="description-content">
+                                    <p>The "Sweetlings" program is a comprehensive rehabilitation initiative for children with Type 1 Diabetes.</p>
+                                    <p>It brings together a team of pediatricians, pediatric endocrinologists, dietitians, diabetes educators, psychologists, social workers, and peer educators, with volunteers playing a regular role in the clinic, Every Saturday, the clinic offers free services to underprivileged children at Jehangir Hospital, benefiting over 650 young-patients.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ****************************Footer********************** -->
+    <div id="footer-container"></div>
+    <!-- ****************************Footer********************** -->
+    <script>
+        fetch("topnavbar.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('topnavbar').innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error loading the topnavbar:', error);
+                document.getElementById('topnavbar').innerHTML = "<p>Topnavbar could not be loaded.</p>";
+            });
+
+        fetch("navbar.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-placeholder').innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error loading the navbar:', error);
+                document.getElementById('navbar-placeholder').innerHTML = "<p>Navbar could not be loaded.</p>";
+            });
+
+        fetch("footer.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-container').innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error loading the footer:', error);
+                document.getElementById('footer-container').innerHTML = "<p>Footer could not be loaded.</p>";
+            });
+    </script>
+
+    <script src="./lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="./lib/wow/wow.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/main.js"></script>
+    
+    <!-- Sponsor Navigation JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const sponsorNav = document.querySelector('.sponsor-nav');
+            const initialNavItems = Array.from(sponsorNav.querySelectorAll('.nav-item'));
+            const sponsorTitle = document.querySelector('.sponsor-title');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const sponsorImage = document.querySelector('.sponsor-image img');
+            const detailItems = document.querySelectorAll('.detail-item');
+            let currentIndex = 0;
+            let currentPage = 0;
+            const itemsPerPage = 4;
+            
+            const sponsorDataConfig = [
+                {
+                    title: "Sweetlings Project- Reliance Foundation",
+                    image: "./img/sweetlings/sweet1.jpg",
+                    month: " June 2024 onwards",
+                    venue: "Jehangir Hospital",
+                    beneficiaries: "Underprivileged diabetic kids",
+                    description: "The \"Sweetlings\" program is a comprehensive rehabilitation initiative for children with Type 1 Diabetes. It brings together a team of pediatricians, pediatric endocrinologists, dietitians, diabetes educators, psychologists, social workers, and peer educators, with volunteers playing a regular role in the clinic, Every Saturday, the clinic offers free services to underprivileged children at Jehangir Hospital, benefiting over 650 young-patients.",
+
+                    gallery: [
+                        "./img/sweetlings/sweet1.jpg",
+                        "./img/sweetlings/sweet2.jpg",
+                        "./img/sweetlings/sweet3.png",
+                        "./img/sweetlings/sweet4.jpg",
+                        "./img/sweetlings/sweet5.jpg",
+                        "./img/sweetlings/sweet6.jpg"
+                        // "./img/sweetlings/sweet7.jpg",
+                        // "./img/sweetlings/sweet8.jpg"
+                    ]
+                },
+                {
+                    title: "Feed Forward for Hunger Crisis",
+                    image: "./img/feed_Hunger/2.jpg",
+                    month: "April 2024 onwards",
+                    venue: "Pune Restaurants",
+                    beneficiaries: "All those in need of food across Pune City",
+                    description: "Let's make a lasting impact together. Feed Forward is n initiative aimed at reducing food wastage and supporting those in need within our community. It aims to organise the surplus of the food industry and help serve it to those in need. It's no secret that the restaurant industry generates a significant amount of food waste daily. However, by working together, we can implement proactive measures to minimize this waste and make a positive impact. One effective way to do this is by donating leftover and excess food to local shelters or charitable organizations. Partnering with us would involve simple yet impactful steps, such as identifying surplus food at the end of each day, properly storing it to maintain freshness, and informing us for regular pickups or drop-offs to designated donation centers. Not only would this help reduce food waste, but it would also provide nutritious meals to individuals and families facing food insecurity. By participating in this initiative, your restaurant can demonstrate a commitment to social responsibility and environmental sustainability while also fostering goodwill within the community. Additionally, it presents an opportunity to attract socially conscious customers who value businesses that prioritize giving back. We believe that by working together, we can make a meaningful difference in addressing food waste and supporting those in need. We more than happy to discuss this proposal further and answer any questions you may have. Together, we can create a brighter and more sustainable future for all.",
+                    gallery: [
+                        "./img/feed_Hunger/1.jpg",
+                        "./img/feed_Hunger/11.jpg",
+                        "./img/feed_Hunger/2.jpg",
+                        "./img/feed_Hunger/3.jpg",
+                        "./img/feed_Hunger/4.jpg",
+                        "./img/feed_Hunger/5.jpg",
+                        "./img/feed_Hunger/6.jpg"
+                    ]
+                },
+                {
+                    title: "Joy of Giving",
+                    image: "./img/joy_of_giving/joy4.jpg",
+                    month: "August 2023 onwards",
+                    venue: "All across Pune",
+                    beneficiaries: "Underprivileged families across Pune",
+                    description: "You get a chance to do good deeds for the underprivileged kids & their families & make their life full of khushiyan. If a single person buys a joy bag for 500/- , you will feed 1 family. With the funds gathered, we purchase bags of joy—kilo after kilo. These aren't just bags; they were bags full of essentials, offering comfort to underprivileged families, especially those with diabetic children in Jehangir Hospital, Pune. Let's sparkle their lives & make sure there are only smiles.", 
+                    gallery: [
+                        "./img/joy_of_giving/joy1.jpg",
+                        "./img/joy_of_giving/joy2.jpg",
+                        "./img/joy_of_giving/joy3.jpg",
+                        "./img/joy_of_giving/joy4.jpg",
+                        "./img/joy_of_giving/joy5.jpg"
+                    ]
+                },
+                {
+                    title: "Sponsor a childs dental treatment ",
+                    image: "./img/dental_sponsor/1.jpg",
+                    month: " July 2023 onwards",
+                    venue: "Dentalogy clinic, Pune",
+                    beneficiaries: "Mahatma Gandhi School kids, Pune",
+                    description: "With Love NGO sponsored dental treatments for underprivileged children from Mahatma Gandhi School, Pune. This initiative ensures that children receive essential dental care services including check-ups, cleanings, and necessary treatments at Dentalogy clinic. Good oral health is crucial for overall well-being, and this program helps children maintain healthy smiles while preventing dental issues that could affect their education and quality of life.",
+                    gallery: [
+                        "./img/dental_sponsor/1.jpg",
+                        "./img/dental_sponsor/2.jpg",
+                        "./img/dental_sponsor/5.jpg",
+                        "./img/dental_sponsor/6.jpg",
+                        "./img/dental_sponsor/6.mp4",
+                        "./img/dental_sponsor/7.jpg",
+                        "./img/dental_sponsor/8.mp4"
+                    ]
+                },
+                {
+                    title: "Medical Support for Burn Recovery",
+                    image: "./newproject_imgs/medical_recovery/Burnt child donation post_20250625_193753_0000.png",
+                    month: "April 2025",
+                    venue: "Pune",
+                    beneficiaries: "One-year-old child recovering from burns",
+                    description: "A one-year-old child suffered a burn injury, which affected her ability to enjoy simple joys like holding her toys. With nearly ₹1 lakh required for treatment, With Love NGO, supported by its community of donors, stepped in to provide financial and emotional support. This initiative underscored the power of collective care, ensuring that recovery was made possible through compassion, generosity, and timely intervention.",
+                    gallery: [
+                        "./newproject_imgs/medical_recovery/2_20250626_001204_0000.png",
+                        "./newproject_imgs/medical_recovery/3_20250626_001204_0001.png",
+                        "./newproject_imgs/medical_recovery/4_20250626_001204_0002.png",
+                        "./newproject_imgs/medical_recovery/Burnt child donation post_20250625_193753_0000.png"
+                    ]
+                },
+                {
+                    title: "Menstrual Education Workshop",
+                    image: "./newproject_imgs/workshop_img2.png",
+                    month: "March 2025",
+                    venue: "Symbiosis School of Economics, Pune",
+                    beneficiaries: "Mothers of children of Aadhar Labour camp",
+                    description: "Adushree and Bhavya of Symbiosis School of Economics conducted a workshop focused on menstrual education and awareness, aiming to drive meaningful change. The session empowered women with knowledge, debunked myths, and provided sustainable menstrual solutions. This initiative reinforced the importance of dignity, health, and fostering stigma-free conversations around menstruation.",
+                    gallery: [
+                        "./newproject_imgs/mensturalworkshop.mp4",
+                        "./img/news/news_1.jpg"
+                       
+                    ]
+                },
+                {
+                    title: "Foodgrain distribution drives",
+                    image: "./newproject_imgs/distribution_drives/foodgrain.jpg",
+                    month: "October and November 2024",
+                    venue: "Shasakiya Bahuuddeshiya Divyang Samishra Kendra, Pune, Aksharsparsh Matimand Vidyalay and Karyashaala, Pune, Mahatma Gandhi School, Pune",
+                    beneficiaries: "65 visually impaired people, families of the school, and mentally challenged people",
+                    description: "With Love NGO supported 150 visually impaired women and 25 children by distributing essential Diwali kits. These joybags ensured they could celebrate the festive season with dignity and happiness. Of these, 65 kits were personally donated by With Love NGO. On Pitru Paksh Amavasya, the NGO collected and distributed food grains to fulfill the needs of MGS School. This act of gratitude, dedicated to honoring our ancestors, supported the school with essential supplies for their Diwali celebrations. The NGO continued providing support to Aksharsparsh Matimand Vidyalay by providing them with all essential food grains, ration kits, household items and cleaning supplies. Through generous donations, this initiative provides essential supplies and food grains to families, addressing their critical needs and offering significant support to improve their quality of life.",
+                    gallery: [
+                        "./newproject_imgs/distribution_drives/foodgrain.jpg",
+                        "./newproject_imgs/distribution_drives/foodgrain_1.jpg",
+                        "./newproject_imgs/distribution_drives/foodgrain_3.jpg",
+                        "./newproject_imgs/distribution_drives/foodgrain_5.jpg",
+                        "./newproject_imgs/distribution_drives/foodgrain_8.jpg",
+                        "./newproject_imgs/distribution_drives/foodgrain_9.jpg"
+                    ]
+                },
+                 {
+                    title: "Foodgrain distribution to MGS",
+                    image:     "./newproject_imgs/MGS_img/soni1.jpg",
+                    month: "July 2024",
+                    venue: "Mahatma Gandhi School",
+                    beneficiaries: "Hostel girls of Mahatma Gandhi School",
+                    description: "Ms. Sonika Khani generously distributed essential food grains to support the hostel run by Mahatma Gandhi School, ensuring that the resident students have access to nutritious meals. This initiative is part of her ongoing efforts to uplift the community and provide for the basic needs of underprivileged children. By addressing food security, Ms. Khani is helping to create a stable and supportive environment for the students, enabling them to focus on their education and personal growth. Her contribution reflects a deep commitment to social welfare and the well-being of the younger generation.",
+                    gallery: [
+                        "./newproject_imgs/MGS_img/soni1.jpg",
+                        "./newproject_imgs/MGS_img/soni2.jpg",
+                        "./newproject_imgs/MGS_img/soni3.jpg"
+                    ]
+                },
+                     {
+                    title: "Dental camp at Ghar",
+                    image:     "./newproject_imgs/dental_camp/dental1.jpg",
+                    month: "April 2024",
+                    venue: "Yerwada, Pune",
+                    beneficiaries: "Children of Ghar aashram",
+                    description: "Dr. Riddhi Sakla and her dedicated team organized a free Dental Camp at Ghar Ashram, focusing on oral health and well-being of the young girls residing there. The initiative aimed to provide comprehensive dental care, including check-ups, cleanings, and treatments, ensuring that girls received the necessary attention to maintain healthy smiles. The camp also included educational sessions on oral hygiene practices, empowering the girls with knowledge to take care of their dental health in the long term. This compassionate project reflects Dr. Sakla's commitment to giving back to the community and supporting the health of underprivileged children.",
+                    gallery: [
+                        "./newproject_imgs/dental_camp/dental1.jpg",
+                        "./newproject_imgs/dental_camp/dental2.jpg",
+                        "./newproject_imgs/dental_camp/dental3.jpg",
+                        "./newproject_imgs/dental_camp/dental6.jpg",
+                        "./newproject_imgs/dental_camp/dental7.jpg"
+                    ]
+                },
+                     {
+                    title: "Food grains distribution",
+                    image:     "./newproject_imgs/MGS_img/soni1.jpg",
+                    month: "July 2024",
+                    venue: "Mahatma Gandhi School",
+                    beneficiaries: "Hostel girls of Mahatma Gandhi School",
+                    description: "Ms. Sonika Khani generously distributed essential food grains to support the hostel run by Mahatma Gandhi School, ensuring that the resident students have access to nutritious meals. This initiative is part of her ongoing efforts to uplift the community and provide for the basic needs of underprivileged children. By addressing food security, Ms. Khani is helping to create a stable and supportive environment for the students, enabling them to focus on their education and personal growth. Her contribution reflects a deep commitment to social welfare and the well-being of the younger generation.",
+                    gallery: [
+                        "./newproject_imgs/MGS_img/soni1.jpg",
+                        "./newproject_imgs/MGS_img/soni2.jpg",
+                        "./newproject_imgs/MGS_img/soni3.jpg"
+                    ]
+                },
+                     {
+                    title: "Medical camp at school",
+                    image: "./newproject_imgs/medical_camp/schmed12.jpg",
+                    month: "August 2022",
+                    venue: "Mahatma Gandhi School, Pune",
+                    beneficiaries: "20 kids",
+                    description: "Dr Nidhi Agarwal is a connoisseur of Holistic approach to propagate medicine free lifestyle for the last 12 years! She is a Homeopathic physician, Lifestyle & Wellness Coach, Relationship Counsellor, a holistic healer and Director of Prakash Holistic Health Care Centre (PHCC). She says, 'Promoting path of cure with a holistic approach with simple lifestyle changes, less dependency on medicines and overall remedial approach to my 50,000 patients.' This medical camp check-up was for 5 to 9 years along with a session on importance of nutrition for 10 to 13 years of children from Mahatma Gandhi School.",
+                    gallery: [
+                        "./newproject_imgs/medical_camp/schmed11.jpg",
+                        "./newproject_imgs/medical_camp/schmed12.jpg",
+                        "./newproject_imgs/medical_camp/schmed13.jpg",
+                        "./newproject_imgs/medical_camp/schmed14.jpg",
+                        "./newproject_imgs/medical_camp/schmed4.jpg",
+                        "./newproject_imgs/medical_camp/schmed9.jpg"
+                    ]
+                },
+                    {
+                    title: "Blood Donation Drive",
+                    image: "./newproject_imgs/blood_donation/4.jpg",
+                    month: "May 2021",
+                    venue: "Prem's, Pune and Swig, Pune",
+                    beneficiaries: "Covid affected people",
+                    description: "In order to help patients of the ongoing Coronavirus pandemic, With Love conducted a Plasma awareness online campaign followed by plasma and blood donation drives were set up in the month of May in association with SPG Foundation. Kind volunteers came and helped out by donating blood and plasma for the care of patients. We collected 52 blood bags and 9 Plasmas. All in all, both events were very fruitful.",
+                    gallery: [
+                        "./newproject_imgs/blood_donation/1.jpg",
+                        "./newproject_imgs/blood_donation/2.jpg",
+                        "./newproject_imgs/blood_donation/3.jpg",
+                        "./newproject_imgs/blood_donation/4.jpg",
+                        "./newproject_imgs/blood_donation/6.jpg",
+                        "./newproject_imgs/blood_donation/12.jpg",
+                        "./newproject_imgs/blood_donation/13.jpg"
+                    ]
+                },
+                    {
+                    title: "Donation to children with Cerebral Palsy",
+                    image:     "./newproject_imgs/cerebral_Palsy/palsy3.jpg",
+                    month: "October 2021",
+                    venue: "Savali School, Pune",
+                    beneficiaries: "20 kids",
+                    description: "One of the most important thing you can do is to let people know that they are not alone. You know that they can't help you back, but doing a good deed just gives you happiness for a lifetime! Savali School in Kothrud Pune is a shelter for children with Cerebral Palsy and multiple physical and mental disabilities. They were in need for essential toilet supplies for their children. Things they were provided - cooking refind oil, Parachute hair oil, bathing soap, Rin bar and liquid handwash. Team With Love contributed in the form of money towards this cause.",
+                    gallery: [
+                        "./newproject_imgs/cerebral_Palsy/palsy1.jpg",
+                        "./newproject_imgs/cerebral_Palsy/palsy3.jpg",
+                        "./newproject_imgs/cerebral_Palsy/palsy4.jpg",
+                        "./newproject_imgs/cerebral_Palsy/palsy5.jpg"
+                    ]
+                },
+                    {
+                    title: "Milk Donation in pandemic",
+                    image: "./newproject_imgs/milk_donation/222.jpg",
+                    month: "April 2020",
+                    venue: "Loui Braille Visually Challenged Organisation, Pune",
+                    beneficiaries: "50 children",
+                    description: "The children of Loui Braille Visually Challenged Organisation, Pune used to fulfil their basic needs by playing the orchestra and earning an income. Due to the lockdown, they had no means of earning left. With love ngo stepped in to provide 50 people their daily needs of milk everyday for a month.",
+                    gallery: [
+                        "./newproject_imgs/milk_donation/MILK1.jpeg",
+                        "./newproject_imgs/milk_donation/222.jpg"
+                    ]
+                },
+                    {
+                    title: "Medical camp in Association Dr. G D POI Foundation",
+                    image:  "./newproject_imgs/medical_POI_foundation/MED1.jpeg",
+                    month: "February 2017",
+                    venue: "Raigad, Maharashtra",
+                    beneficiaries: "1500",
+                    description: "Even after decades of freedom, India is struggling to provide basic health services to its people. According to government sources annually, about 2 million children under 5 years of age die due to preventable diseases. The situation calls for timely care and diagnosis which can reduce the incidence of morbidity and mortality. Fortunately there are organizations that are devoted to the cause of upliftment and care of tribal people. One such tall name in the medical field which is also recorded in the Limca Book of Records is 'Dr. G.D. Pol Foundation', Navi Mumbai. 'With Love, For You Charitable Foundation' in association with the 'Dr. G.D. Pol Foundation' took the initiative of holding an Ayurvedic and Dental medical camp to provide healthcare services to marginalized communities in remote rural & tribal areas. The camp was for almost 1500 people and was held in Raigad on 4th Feb. 2017. The medical camp had a host of senior and expert medical professionals attending to the population. The patients who attended this camp will be treated at the Foundation's hospital at Kharghar as an extension service for better and affordable health are. 'With Love' contributed by funding the treatment of all the patients treated through this camp. The project included gynaecological, paediatric, ophthalmology and surgical services, dental etc., besides other general interventions. Apart from the medical aspect, 'With Love' also donated reference, story and subject books to 'Late D.G.Tatkare High School', Sutarwadi to set up an effective and efficient library for the rural kids studying there. In today's growing world of knowledge, 'With Love' added a new dimension of learning in the life of these rural Children.",
+                    gallery: [
+                        "./newproject_imgs/medical_POI_foundation/MED1.jpeg",
+                        "./newproject_imgs/medical_POI_foundation/MED2.jpeg",
+                        "./newproject_imgs/medical_POI_foundation/MED3.jpeg",
+                        "./newproject_imgs/medical_POI_foundation/MED13 (1).jpeg",
+                        "./newproject_imgs/medical_POI_foundation/MED14.jpeg",
+                        "./newproject_imgs/medical_POI_foundation/MED15.jpeg"
+                    ]
+                },
+                    {
+                    title: "Project Joybags",
+                    image:  "./newproject_imgs/project_joybags/jb10.jpeg",
+                    month: "October 2016",
+                    venue: "Karathi Village, Zilla Baramati",
+                    beneficiaries: "100 Families",
+                    description: "Deepawali symbolizes the victory of good over evil. 'With Love' For You Charitable Foundation celebrated this Diwali by distributing Joy Bags. Each bag had 5kgs of grocery like rice, dal, sugar, aata, oil, jowari, candles, diyas & odomos given to people living in villages 100kms away from Pune, earning their daily bread by working in farms. It was overwhelming to see the reaction of villagers that shifted from confusion to gratitude when they realized that we travelled all the way for the distribution. That Diwali truly brought out smiles of joy in all of us and the blessings we got has definitely been the best gift for With Love. A big thank you to all our donors and each one who show faith in 'WITH LOVE'! In the lights that illuminate our homes and hearts, this simple truth finds new reason and hope.",
+                    gallery: [
+                        "./newproject_imgs/project_joybags/jb2.jpeg",
+                        "./newproject_imgs/project_joybags/jb4.jpeg",
+                        "./newproject_imgs/project_joybags/jb7.jpeg",
+                        "./newproject_imgs/project_joybags/jb8.jpeg",
+                        "./newproject_imgs/project_joybags/jb10.jpeg",
+                        "./newproject_imgs/project_joybags/jb14.jpeg",
+                        "./newproject_imgs/project_joybags/jb15.jpeg"
+                    ]
+                },
+                    {
+                    title: "Yoga and Wellness Workshop 2025",
+                    image:  "./newproject_imgs/yoga_workshop/1.png",
+                    month: "June 2025",
+                    venue: "Aadhar school, Kharadi, Pune",
+                    beneficiaries: "Children of the labour camp school",
+                    description: "During International Yoga Week, With Love NGO conducted a special Yoga & Wellness Workshop for children growing up in challenging environments. Led by Rupal Ma'am, a seasoned yoga professor at St. Mira's College, and Dr. Nidhi Agarwal, a family physician and holistic healer, the session blended movement, mindfulness, and inner peace. Our dedicated interns facilitated interactive activities, ensuring each child felt safe, seen, and empowered. Through this initiative, children learned how yoga can improve focus, calm nerves, and build inner strength, bringing wellness and mindfulness to every corner of the city.",
+                    gallery: [
+                        "./newproject_imgs/yoga_workshop/1.png",
+                        "./newproject_imgs/yoga_workshop/2.png",
+                        "./newproject_imgs/yoga_workshop/3.png",
+                        "./newproject_imgs/yoga_workshop/4.png",
+                        "./newproject_imgs/yoga_workshop/5.png"
+                    ]
+                },
+                    {
+                    title: "Feed Forward with hard rock cafe",
+                    image:"./newproject_imgs/hard_rock_cafe/feed6.jpg",
+                    month: "May 2024",
+                    venue: "Magarpatta, Pune",
+                    beneficiaries: "76 underprivileged individuals in the Magarpatta slum community",
+                    description: "Cyclists and history enthusiasts, all united under the HRC banner, participated in this charity ride with a unified purpose. The event aimed to uplift the underprivileged community in Magarpatta, Pune. Through this initiative, HRC underscored its dedication to combating food insecurity and promoting social equity. By the end of the ride, 76 individuals were provided with a nourishing meal for the day, reflecting HRC's commitment to creating positive social impact and supporting those in need within the community.",
+                    gallery: [
+                        "./newproject_imgs/hard_rock_cafe/feed1.jfif",
+                        "./newproject_imgs/hard_rock_cafe/feed4.jpg",
+                        "./newproject_imgs/hard_rock_cafe/feed5.jpg",
+                        "./newproject_imgs/hard_rock_cafe/feed6.jpg",
+                        "./newproject_imgs/hard_rock_cafe/feed9.jpg",
+                        "./newproject_imgs/hard_rock_cafe/feed10.jpg"
+                    ]
+                },
+                    {
+                    title: "Smiles for All",
+                    image:    "./newproject_imgs/smiles_for _all/2.jpg",
+                    month: "July 2023",
+                    venue: "Dentalogy Clinic, Pune",
+                    beneficiaries: "25",
+                    description: "On 1st of July, Dr. Ketkee Asnani chose to extend her love into the community that she has so lovingly built over the years and invited children of Mahatma Gandhi School for free dental checkups, loads of games, snacks and goodies. Her event 'Smiles For All' was hosted by Dimple Somji, assisted by Neelima Ladkat and supported by NGO 'With Love Charitable Foundation'. Her fellow doctors, patients, friends and family were also invited to spend this special day together to inspire everyone to give back to the community through their time and resources. About 25 children came to the clinic by a specially arranged bus, had their dental check ups and plans were drawn out for their future remedial treatment. The rest of the evening was spent in games, snacks and each child went back with a goody bag filled with happiness and joy and promise of better teeth in the days to come.",
+                    gallery: [
+                        "./newproject_imgs/smiles_for _all/1.jpg",
+                        "./newproject_imgs/smiles_for _all/2.jpg",
+                        "./newproject_imgs/smiles_for _all/3.jpg",
+                        "./newproject_imgs/smiles_for _all/4.jpg",
+                        "./newproject_imgs/smiles_for _all/6.jpg",
+                        "./newproject_imgs/smiles_for _all/9.jpg"
+                    ]
+                },
+                    {
+                    title: "Joy of giving 2018",
+                    image:    "./newproject_imgs/joy_of_giving_2018/1.jpeg",
+                    month: "April",
+                    venue: "Ekatmik Balvikas Seva Yojna",
+                    beneficiaries: "K2 children of Vivero",
+                    description: "During the Joy of Giving week, children of Vivero collected, toys, clothes and books. Many of them understood about who was going to receive the toys and hence donated it voluntarily. As part of the Community Service project we took K2 children to the school Ekathmik Balvikas Seva Yojna. Pune on 4th April to distribute the collection with the help of the NGO 'With Love! It was heartwarming to see the children enthusiastically handover toys and clothes to the children at that school. The children experienced the feeling of empathy.",
+                    gallery: [
+                        "./newproject_imgs/joy_of_giving_2018/1.jpeg",
+                        "./newproject_imgs/joy_of_giving_2018/2.jpeg",
+                        "./newproject_imgs/joy_of_giving_2018/3.jpeg",
+                        "./newproject_imgs/joy_of_giving_2018/4.jpeg",
+                        "./newproject_imgs/joy_of_giving_2018/12.jpeg"
+                    ]
+                },
+
+
+
+            ];
+
+            let sponsorData = [];
+
+            // Function to sort projects by date (latest first)
+            function sortProjectsByDate(projects) {
+                return projects.sort((a, b) => {
+                    // Parse month strings like "September 2025", "April 2025", "January 2024 onwards"
+                    const dateA = parseMonthString(a.month);
+                    const dateB = parseMonthString(b.month);
+                    
+                    // Sort by date descending (latest first)
+                    return dateB.getTime() - dateA.getTime();
+                });
+            }
+
+            // Function to parse month string into Date object
+            function parseMonthString(monthStr) {
+                if (!monthStr || monthStr === 'N/A') {
+                    return new Date(0); // Default to epoch for invalid dates
+                }
+                
+                // Handle special case like "January 2024 onwards"
+                if (monthStr.includes('onwards')) {
+                    monthStr = monthStr.replace(' onwards', '');
+                }
+                
+                // Month names mapping
+                const monthNames = {
+                    'january': 0, 'february': 1, 'march': 2, 'april': 3,
+                    'may': 4, 'june': 5, 'july': 6, 'august': 7,
+                    'september': 8, 'october': 9, 'november': 10, 'december': 11
+                };
+                
+                // Parse format like "September 2025" or "April 2025"
+                const parts = monthStr.trim().toLowerCase().split(/\s+/);
+                if (parts.length >= 2) {
+                    const monthName = parts[0];
+                    const year = parseInt(parts[1]);
+                    
+                    if (monthNames[monthName] && !isNaN(year)) {
+                        return new Date(year, monthNames[monthName], 1);
+                    }
+                }
+                
+                // Fallback to current date if parsing fails
+                return new Date(0);
+            }
+
+            // Fetch projects from database
+            async function fetchProjectsFromDatabase() {
+                try {
+                    const response = await fetch('./admin/api/get_projects.php?category=care-with-love');
+                    const data = await response.json();
+                    
+                    if (data.success && data.projects.length > 0) {
+                        // Combine database projects with static projects
+                        // Database projects come first, then static projects
+                        sponsorData = [...data.projects, ...sponsorDataConfig];
+                        console.log('Loaded projects from database:', data.projects.length, 'projects');
+                    } else {
+                        // Use only static data if database fails or has no projects
+                        sponsorData = [...sponsorDataConfig];
+                        console.log('Using static data only');
+                    }
+                } catch (error) {
+                    console.error('Error fetching projects from database:', error);
+                    // Fallback to static data
+                    sponsorData = [...sponsorDataConfig];
+                }
+                
+                // Initialize UI after data is loaded
+                // Sort projects by date (latest first)
+                sponsorData = sortProjectsByDate(sponsorData);
+                
+                // Initialize UI after data is loaded and sorted
+                initializeUI();
+            }
+            
+            // Call fetch when DOM is ready
+            fetchProjectsFromDatabase();
+
+            function initializeUI() {
+                // Ensure each project has a gallery
+                sponsorData = sponsorData.map((item, index) => {
+                    return {
+                        ...item,
+                        gallery: (item.gallery && item.gallery.length) ? item.gallery : [item.featured_image]
+                    };
+                });
+
+                // Initialize first card as active
+                if (sponsorData.length) {
+                    updateActiveCard(0, false);
+                }
+            }
+
+            const seeMoreLink = document.querySelector('.see-more-link');
+            const photoModal = document.getElementById('photoModal');
+            const photoModalImage = document.getElementById('photoModalImage');
+            const photoModalVideo = document.getElementById('photoModalVideo');
+            const photoModalCount = document.getElementById('photoModalCount');
+            const photoModalClose = document.getElementById('photoModalClose');
+            const photoModalPrev = document.getElementById('photoModalPrev');
+            const photoModalNext = document.getElementById('photoModalNext');
+
+            let currentGallery = [];
+            let currentGalleryIndex = 0;
+
+            function getTotalPages() {
+                return Math.max(1, Math.ceil(sponsorData.length / itemsPerPage));
+            }
+
+            function renderVisibleNavItems() {
+                const start = currentPage * itemsPerPage;
+                const end = Math.min(start + itemsPerPage, sponsorData.length);
+                sponsorNav.innerHTML = '';
+
+                for (let i = start; i < end; i++) {
+                    const item = document.createElement('div');
+                    item.className = 'nav-item';
+                    if (i === currentIndex) {
+                        item.classList.add('active');
+                    }
+
+                    item.innerHTML = `
+                        <img src="${sponsorData[i].image}" alt="${sponsorData[i].title}">
+                        <span>${sponsorData[i].title}</span>
+                    `;
+
+                    item.addEventListener('click', () => updateActiveCard(i, false));
+                    sponsorNav.appendChild(item);
+                }
+            }
+
+            function renderGalleryImage() {
+                if (!currentGallery.length) return;
+                
+                const currentSrc = currentGallery[currentGalleryIndex];
+                const isVideo = currentSrc.toLowerCase().endsWith('.mp4') || currentSrc.toLowerCase().endsWith('.webm') || currentSrc.toLowerCase().endsWith('.ogg');
+                
+                if (isVideo) {
+                    photoModalImage.style.display = 'none';
+                    photoModalVideo.style.display = 'block';
+                    photoModalVideo.src = currentSrc;
+                    photoModalVideo.play();
+                } else {
+                    photoModalVideo.style.display = 'none';
+                    photoModalVideo.pause();
+                    photoModalVideo.src = '';
+                    photoModalImage.style.display = 'block';
+                    photoModalImage.src = currentSrc;
+                }
+                
+                photoModalCount.textContent = `${currentGalleryIndex + 1}/${currentGallery.length}`;
+            }
+
+            function openGalleryForCurrentProject() {
+                currentGallery = sponsorData[currentIndex].gallery || [sponsorData[currentIndex].image];
+                currentGalleryIndex = 0;
+                renderGalleryImage();
+                photoModal.classList.add('is-open');
+                photoModal.setAttribute('aria-hidden', 'false');
+                document.body.style.overflow = 'hidden';
+            }
+
+            function closeGallery() {
+                photoModal.classList.remove('is-open');
+                photoModal.setAttribute('aria-hidden', 'true');
+                document.body.style.overflow = '';
+            }
+
+            function showNextGalleryImage() {
+                if (!currentGallery.length) return;
+                currentGalleryIndex = (currentGalleryIndex + 1) % currentGallery.length;
+                renderGalleryImage();
+            }
+
+            function showPrevGalleryImage() {
+                if (!currentGallery.length) return;
+                currentGalleryIndex = (currentGalleryIndex - 1 + currentGallery.length) % currentGallery.length;
+                renderGalleryImage();
+            }
+            
+            function updateActiveCard(index, keepCurrentPage) {
+                if (!sponsorData.length) return;
+                currentIndex = index;
+
+                if (!keepCurrentPage) {
+                    currentPage = Math.floor(currentIndex / itemsPerPage);
+                }
+
+                renderVisibleNavItems();
+
+                // Update content
+                sponsorTitle.textContent = sponsorData[index].title;
+                if (sponsorImage) {
+                    sponsorImage.src = sponsorData[index].image;
+                }
+                
+                // Update details
+                if (detailItems[0]) detailItems[0].querySelector('span').textContent = sponsorData[index].month;
+                if (detailItems[1]) detailItems[1].querySelector('span').textContent = sponsorData[index].venue;
+                if (detailItems[2]) detailItems[2].querySelector('span').textContent = sponsorData[index].beneficiaries;
+                
+                // Update description
+                const descriptionContent = document.querySelector('.description-content');
+                if (descriptionContent) {
+                    if (sponsorData[index].description) {
+                        // Split long descriptions into sentences and create paragraphs
+                        const sentences = sponsorData[index].description.match(/[^.!?]+[.!?]+/g) || [sponsorData[index].description];
+                        const paragraphs = [];
+                        let currentParagraph = '';
+                        
+                        sentences.forEach((sentence, index) => {
+                            currentParagraph += sentence.trim();
+                            // Create a new paragraph every 2-3 sentences or if the paragraph is getting long
+                            if ((index + 1) % 2 === 0 || currentParagraph.length > 200) {
+                                paragraphs.push(currentParagraph.trim());
+                                currentParagraph = '';
+                            }
+                        });
+                        
+                        if (currentParagraph.trim()) {
+                            paragraphs.push(currentParagraph.trim());
+                        }
+                        
+                        descriptionContent.innerHTML = paragraphs.map(paragraph => `<p>${paragraph}</p>`).join('');
+                    }
+                }
+            }
+            
+            // Navigation button handlers
+            prevBtn.addEventListener('click', () => {
+                const totalPages = getTotalPages();
+                currentPage = (currentPage - 1 + totalPages) % totalPages;
+                updateActiveCard(currentPage * itemsPerPage, true);
+            });
+            
+            nextBtn.addEventListener('click', () => {
+                const totalPages = getTotalPages();
+                currentPage = (currentPage + 1) % totalPages;
+                updateActiveCard(currentPage * itemsPerPage, true);
+            });
+
+            seeMoreLink.addEventListener('click', (event) => {
+                event.preventDefault();
+                openGalleryForCurrentProject();
+            });
+
+            photoModalClose.addEventListener('click', closeGallery);
+            photoModalNext.addEventListener('click', showNextGalleryImage);
+            photoModalPrev.addEventListener('click', showPrevGalleryImage);
+
+            photoModal.addEventListener('click', (event) => {
+                if (event.target === photoModal) {
+                    closeGallery();
+                }
+            });
+
+            document.addEventListener('keydown', (event) => {
+                if (!photoModal.classList.contains('is-open')) return;
+                if (event.key === 'Escape') closeGallery();
+                if (event.key === 'ArrowRight') showNextGalleryImage();
+                if (event.key === 'ArrowLeft') showPrevGalleryImage();
+            });
+            
+        });
+    </script>
+</body>
+</html>

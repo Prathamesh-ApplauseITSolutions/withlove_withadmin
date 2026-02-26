@@ -1,0 +1,861 @@
+[23-Feb-2026 12:02:48 UTC] PHP Notice:  Undefined variable: database in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 38
+[23-Feb-2026 12:02:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/withlovengo/public_html/new/admin/api/get_projects.php:74
+Stack trace:
+#0 {main}
+  thrown in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 74
+[23-Feb-2026 12:05:11 UTC] PHP Notice:  Undefined variable: database in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 38
+[23-Feb-2026 12:05:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/withlovengo/public_html/new/admin/api/get_projects.php:74
+Stack trace:
+#0 {main}
+  thrown in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 74
+[23-Feb-2026 12:05:17 UTC] PHP Notice:  Undefined variable: database in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 38
+[23-Feb-2026 12:05:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/withlovengo/public_html/new/admin/api/get_projects.php:74
+Stack trace:
+#0 {main}
+  thrown in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 74
+[23-Feb-2026 12:05:18 UTC] PHP Notice:  Undefined variable: database in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 38
+[23-Feb-2026 12:05:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/withlovengo/public_html/new/admin/api/get_projects.php:74
+Stack trace:
+#0 {main}
+  thrown in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 74
+[23-Feb-2026 12:07:51 UTC] PHP Notice:  Undefined variable: database in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 38
+[23-Feb-2026 12:07:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/withlovengo/public_html/new/admin/api/get_projects.php:74
+Stack trace:
+#0 {main}
+  thrown in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 74
+[23-Feb-2026 12:15:44 UTC] PHP Notice:  Undefined variable: database in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 38
+[23-Feb-2026 12:15:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/withlovengo/public_html/new/admin/api/get_projects.php:74
+Stack trace:
+#0 {main}
+  thrown in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 74
+[23-Feb-2026 12:21:13 UTC] PHP Notice:  Undefined variable: database in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 38
+[23-Feb-2026 12:21:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/withlovengo/public_html/new/admin/api/get_projects.php:74
+Stack trace:
+#0 {main}
+  thrown in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 74
+[23-Feb-2026 12:24:23 UTC] PHP Notice:  Undefined variable: database in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 38
+[23-Feb-2026 12:24:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/withlovengo/public_html/new/admin/api/get_projects.php:74
+Stack trace:
+#0 {main}
+  thrown in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 74
+[23-Feb-2026 12:25:28 UTC] PHP Notice:  Undefined variable: database in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 38
+[23-Feb-2026 12:25:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/withlovengo/public_html/new/admin/api/get_projects.php:74
+Stack trace:
+#0 {main}
+  thrown in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 74
+[23-Feb-2026 12:32:10 UTC] PHP Notice:  Undefined variable: database in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 38
+[23-Feb-2026 12:32:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/withlovengo/public_html/new/admin/api/get_projects.php:74
+Stack trace:
+#0 {main}
+  thrown in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 74
+[23-Feb-2026 12:36:34 UTC] get_projects.php: Request received - Category: give-with-love
+[23-Feb-2026 12:36:34 UTC] get_projects.php: Attempting database connection to host: localhost, database: wl
+[23-Feb-2026 12:36:34 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 47
+[23-Feb-2026 12:36:34 UTC] get_projects.php: Database connection failed: Access denied for user 'root'@'localhost' (using password: NO)
+[23-Feb-2026 12:36:34 UTC] get_projects.php Error: Database connection failed: Access denied for user 'root'@'localhost' (using password: NO) in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 51
+[23-Feb-2026 12:36:34 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 191
+[23-Feb-2026 12:36:56 UTC] get_projects.php: Request received - Category: give-with-love
+[23-Feb-2026 12:36:56 UTC] get_projects.php: Attempting database connection to host: localhost, database: wl
+[23-Feb-2026 12:36:56 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 47
+[23-Feb-2026 12:36:56 UTC] get_projects.php: Database connection failed: Access denied for user 'root'@'localhost' (using password: NO)
+[23-Feb-2026 12:36:56 UTC] get_projects.php Error: Database connection failed: Access denied for user 'root'@'localhost' (using password: NO) in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 51
+[23-Feb-2026 12:36:56 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/withlovengo/public_html/new/admin/api/get_projects.php on line 191
+[23-Feb-2026 12:44:46 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/withlovengo/public_html/new/admin/api/test_db.php on line 25
+[23-Feb-2026 12:44:46 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/withlovengo/public_html/new/admin/api/test_db.php on line 25
+[23-Feb-2026 12:44:46 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'withlovengo_wl'@'localhost' (using password: NO) in /home/withlovengo/public_html/new/admin/api/test_db.php on line 25
+[23-Feb-2026 12:44:46 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'withlove_wl'@'localhost' (using password: NO) in /home/withlovengo/public_html/new/admin/api/test_db.php on line 25
+[23-Feb-2026 12:44:46 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'wl_user'@'localhost' (using password: NO) in /home/withlovengo/public_html/new/admin/api/test_db.php on line 25
+[23-Feb-2026 12:44:46 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/withlovengo/public_html/new/admin/api/test_db.php on line 25
+[23-Feb-2026 12:44:46 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/withlovengo/public_html/new/admin/api/test_db.php on line 25
+[23-Feb-2026 12:44:46 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/withlovengo/public_html/new/admin/api/test_db.php on line 25
+[23-Feb-2026 17:26:49 UTC] PHP Warning:  require_once(/home/withlovengo/public_html/new/admin/api/api/config.php): failed to open stream: No such file or directory in /home/withlovengo/public_html/new/admin/api/test_config.php on line 6
+[23-Feb-2026 17:26:49 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/withlovengo/public_html/new/admin/api/api/config.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/withlovengo/public_html/new/admin/api/test_config.php on line 6
+[23-Feb-2026 17:29:44 UTC] PHP Warning:  require_once(/home/withlovengo/public_html/new/admin/api/api/config.php): failed to open stream: No such file or directory in /home/withlovengo/public_html/new/admin/api/test_config.php on line 6
+[23-Feb-2026 17:29:44 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/withlovengo/public_html/new/admin/api/api/config.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/withlovengo/public_html/new/admin/api/test_config.php on line 6
+[23-Feb-2026 17:34:20 UTC] PHP Warning:  require_once(/home/withlovengo/public_html/new/admin/api/api/config.php): failed to open stream: No such file or directory in /home/withlovengo/public_html/new/admin/api/test_config.php on line 8
+[23-Feb-2026 17:34:20 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/withlovengo/public_html/new/admin/api/api/config.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/withlovengo/public_html/new/admin/api/test_config.php on line 8
+[24-Feb-2026 09:04:53 UTC] Featured image file detected in addProject: Array
+(
+    [name] => 8.png
+    [type] => image/png
+    [tmp_name] => /tmp/php8ep2wm
+    [error] => 0
+    [size] => 1922484
+)
+
+[24-Feb-2026 09:04:53 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699d69b5a32217.79462724.png
+[24-Feb-2026 09:04:53 UTC] Featured image update result in addProject: success
+[24-Feb-2026 09:07:57 UTC] Featured image file detected in addProject: Array
+(
+    [name] => 2.jpg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpJlDXbJ
+    [error] => 0
+    [size] => 263132
+)
+
+[24-Feb-2026 09:07:57 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699d6a6df27c99.67770575.jpg
+[24-Feb-2026 09:07:57 UTC] Featured image update result in addProject: success
+[24-Feb-2026 09:10:38 UTC] No featured image file uploaded in addProject or error: no file
+[24-Feb-2026 09:24:14 UTC] No featured image file uploaded in addProject or error: no file
+[24-Feb-2026 09:46:15 UTC] Featured image file detected in addProject: Array
+(
+    [name] => pr1.jpg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpZZCKwY
+    [error] => 0
+    [size] => 742196
+)
+
+[24-Feb-2026 09:46:15 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699d7367813d04.66225913.jpg
+[24-Feb-2026 09:46:15 UTC] Featured image update result in addProject: success
+[24-Feb-2026 09:52:53 UTC] Featured image file detected in addProject: Array
+(
+    [name] => 1.jpg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpYHDQpj
+    [error] => 0
+    [size] => 238114
+)
+
+[24-Feb-2026 09:52:53 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699d74f57131d0.49968727.jpg
+[24-Feb-2026 09:52:53 UTC] Featured image update result in addProject: success
+[24-Feb-2026 10:03:09 UTC] Featured image file detected in addProject: Array
+(
+    [name] => pr_4_a.png
+    [type] => image/png
+    [tmp_name] => /tmp/phpw41BND
+    [error] => 0
+    [size] => 1877265
+)
+
+[24-Feb-2026 10:03:09 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699d775dcc9145.31631051.png
+[24-Feb-2026 10:03:09 UTC] Featured image update result in addProject: success
+[24-Feb-2026 10:08:30 UTC] Featured image file detected in addProject: Array
+(
+    [name] => padh7.jpg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpGZ7bsB
+    [error] => 0
+    [size] => 2019384
+)
+
+[24-Feb-2026 10:08:30 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699d789e8f7ec8.07139012.jpg
+[24-Feb-2026 10:08:30 UTC] Featured image update result in addProject: success
+[24-Feb-2026 10:10:02 UTC] Featured image file detected in addProject: Array
+(
+    [name] => pr_5_a.png
+    [type] => image/png
+    [tmp_name] => /tmp/phpHSJgLC
+    [error] => 0
+    [size] => 395597
+)
+
+[24-Feb-2026 10:10:02 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699d78faedad19.54582647.png
+[24-Feb-2026 10:10:02 UTC] Featured image update result in addProject: success
+[24-Feb-2026 10:16:26 UTC] Featured image file detected in addProject: Array
+(
+    [name] => gan22.jpg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phphNsPNP
+    [error] => 0
+    [size] => 171652
+)
+
+[24-Feb-2026 10:16:26 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699d7a7a2f9ec2.38505261.jpg
+[24-Feb-2026 10:16:26 UTC] Featured image update result in addProject: success
+[24-Feb-2026 10:25:04 UTC] Featured image file detected in addProject: Array
+(
+    [name] => pr_7_a.jpg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpHMtjcA
+    [error] => 0
+    [size] => 144388
+)
+
+[24-Feb-2026 10:25:04 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699d7c80eedcd8.38966095.jpg
+[24-Feb-2026 10:25:04 UTC] Featured image update result in addProject: success
+[24-Feb-2026 10:31:27 UTC] Featured image file detected in addProject: Array
+(
+    [name] => 5.jpg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpIdkABs
+    [error] => 0
+    [size] => 47004
+)
+
+[24-Feb-2026 10:31:27 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699d7dffde2f50.55439752.jpg
+[24-Feb-2026 10:31:27 UTC] Featured image update result in addProject: success
+[24-Feb-2026 10:34:51 UTC] Featured image file detected in addProject: Array
+(
+    [name] => pr_8_a.jpg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpi6uJbS
+    [error] => 0
+    [size] => 23307
+)
+
+[24-Feb-2026 10:34:51 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699d7ecb0e5d29.25246543.jpg
+[24-Feb-2026 10:34:51 UTC] Featured image update result in addProject: success
+[24-Feb-2026 10:40:37 UTC] Featured image file detected in addProject: Array
+(
+    [name] => mental1.jpeg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpBZY62Y
+    [error] => 0
+    [size] => 10006
+)
+
+[24-Feb-2026 10:40:37 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699d8025358b04.85184379.jpeg
+[24-Feb-2026 10:40:37 UTC] Featured image update result in addProject: success
+[24-Feb-2026 10:44:52 UTC] Featured image file detected in addProject: Array
+(
+    [name] => vivero14.jpeg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpGajMHw
+    [error] => 0
+    [size] => 21561
+)
+
+[24-Feb-2026 10:44:52 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699d8124ec76f8.24690703.jpeg
+[24-Feb-2026 10:44:53 UTC] Featured image update result in addProject: success
+[24-Feb-2026 10:53:41 UTC] Featured image file detected in addProject: Array
+(
+    [name] => rob6.jpeg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phprSCVSH
+    [error] => 0
+    [size] => 42108
+)
+
+[24-Feb-2026 10:53:41 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699d833565c314.61125174.jpeg
+[24-Feb-2026 10:53:41 UTC] Featured image update result in addProject: success
+[24-Feb-2026 11:30:19 UTC] Featured image file detected in addProject: Array
+(
+    [name] => pr_9_a.png
+    [type] => image/png
+    [tmp_name] => /tmp/phpYLRoO1
+    [error] => 0
+    [size] => 1993207
+)
+
+[24-Feb-2026 11:30:19 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699d8bcba95a13.79656811.png
+[24-Feb-2026 11:30:19 UTC] Featured image update result in addProject: success
+[24-Feb-2026 11:36:32 UTC] Featured image file detected in addProject: Array
+(
+    [name] => pr_10_a.png
+    [type] => image/png
+    [tmp_name] => /tmp/php4T1f6W
+    [error] => 0
+    [size] => 2210564
+)
+
+[24-Feb-2026 11:36:32 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699d8d40d58592.97642478.png
+[24-Feb-2026 11:36:32 UTC] Featured image update result in addProject: success
+[24-Feb-2026 11:40:00 UTC] No featured image file uploaded in addProject or error: no file
+[24-Feb-2026 11:45:14 UTC] Featured image file detected in addProject: Array
+(
+    [name] => pr_11_a.jpg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpy2bFBr
+    [error] => 0
+    [size] => 189753
+)
+
+[24-Feb-2026 11:45:14 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699d8f4a138b66.75179671.jpg
+[24-Feb-2026 11:45:14 UTC] Featured image update result in addProject: success
+[24-Feb-2026 12:02:31 UTC] Featured image file detected in addProject: Array
+(
+    [name] => pr_12_a.jpeg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpRoYG0Y
+    [error] => 0
+    [size] => 17448
+)
+
+[24-Feb-2026 12:02:31 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699d9357d43074.89192839.jpeg
+[24-Feb-2026 12:02:31 UTC] Featured image update result in addProject: success
+[24-Feb-2026 12:09:38 UTC] No featured image file uploaded in addProject or error: no file
+[24-Feb-2026 12:10:07 UTC] Featured image file detected in addProject: Array
+(
+    [name] => pr_13_a.jpeg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpdZ5aJ7
+    [error] => 0
+    [size] => 20009
+)
+
+[24-Feb-2026 12:10:07 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699d951fefbf90.48935923.jpeg
+[24-Feb-2026 12:10:07 UTC] Featured image update result in addProject: success
+[24-Feb-2026 12:23:10 UTC] Featured image file detected in addProject: Array
+(
+    [name] => pr_14_a.jpeg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpLjDCGs
+    [error] => 0
+    [size] => 46611
+)
+
+[24-Feb-2026 12:23:10 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699d982ebb0f75.83905336.jpeg
+[24-Feb-2026 12:23:10 UTC] Featured image update result in addProject: success
+[24-Feb-2026 12:48:12 UTC] Featured image file detected in addProject: Array
+(
+    [name] => fanbase3.jpeg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpj41NEz
+    [error] => 0
+    [size] => 17948
+)
+
+[24-Feb-2026 12:48:12 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699d9e0cc18061.07430981.jpeg
+[24-Feb-2026 12:48:12 UTC] Featured image update result in addProject: success
+[25-Feb-2026 04:31:05 UTC] Featured image file detected in addProject: Array
+(
+    [name] => pune_exp2.jpg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpdXPPXZ
+    [error] => 0
+    [size] => 167818
+)
+
+[25-Feb-2026 04:31:05 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699e7b0976b628.90255782.jpg
+[25-Feb-2026 04:31:05 UTC] Featured image update result in addProject: success
+[25-Feb-2026 04:37:30 UTC] Featured image file detected in addProject: Array
+(
+    [name] => NGOstall1.jpg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpCgjlff
+    [error] => 0
+    [size] => 1042308
+)
+
+[25-Feb-2026 04:37:30 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699e7c8a2f2811.61878531.jpg
+[25-Feb-2026 04:37:30 UTC] Featured image update result in addProject: success
+[25-Feb-2026 04:44:22 UTC] Featured image file detected in addProject: Array
+(
+    [name] => womb1.jpg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phptka057
+    [error] => 0
+    [size] => 1008253
+)
+
+[25-Feb-2026 04:44:22 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699e7e26aa25f8.84418601.jpg
+[25-Feb-2026 04:44:22 UTC] Featured image update result in addProject: success
+[25-Feb-2026 06:08:09 UTC] Featured image file detected in addProject: Array
+(
+    [name] => feeding1.png
+    [type] => image/png
+    [tmp_name] => /tmp/phpueYZCy
+    [error] => 0
+    [size] => 889789
+)
+
+[25-Feb-2026 06:08:09 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699e91c9b1dc14.85729457.png
+[25-Feb-2026 06:08:09 UTC] Featured image update result in addProject: success
+[25-Feb-2026 06:13:33 UTC] Featured image file detected in addProject: Array
+(
+    [name] => Protein Powder1.png
+    [type] => image/png
+    [tmp_name] => /tmp/php6fMsQy
+    [error] => 0
+    [size] => 2494170
+)
+
+[25-Feb-2026 06:13:33 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699e930da6db20.17309042.png
+[25-Feb-2026 06:13:33 UTC] Featured image update result in addProject: success
+[25-Feb-2026 06:19:41 UTC] Featured image file detected in addProject: Array
+(
+    [name] => talent show1.png
+    [type] => image/png
+    [tmp_name] => /tmp/phpsQ9vhH
+    [error] => 0
+    [size] => 1819376
+)
+
+[25-Feb-2026 06:19:41 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699e947d496c06.90557175.png
+[25-Feb-2026 06:19:41 UTC] Featured image update result in addProject: success
+[25-Feb-2026 06:25:32 UTC] Featured image file detected in addProject: Array
+(
+    [name] => coding1.jpg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/php2JEUlO
+    [error] => 0
+    [size] => 511207
+)
+
+[25-Feb-2026 06:25:32 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699e95dc839070.62698473.jpg
+[25-Feb-2026 06:25:32 UTC] Featured image update result in addProject: success
+[25-Feb-2026 06:33:43 UTC] Featured image file detected in addProject: Array
+(
+    [name] => Declutter and Donate1.jpg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpJmzEtC
+    [error] => 0
+    [size] => 703518
+)
+
+[25-Feb-2026 06:33:43 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699e97c76a97c6.45674555.jpg
+[25-Feb-2026 06:33:43 UTC] Featured image update result in addProject: success
+[25-Feb-2026 06:38:27 UTC] Featured image file detected in addProject: Array
+(
+    [name] => internship on recycling1.webp
+    [type] => image/webp
+    [tmp_name] => /tmp/phpWumrPR
+    [error] => 0
+    [size] => 423784
+)
+
+[25-Feb-2026 06:38:27 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699e98e38a42d2.75608169.webp
+[25-Feb-2026 06:38:27 UTC] Featured image update result in addProject: success
+[25-Feb-2026 06:49:16 UTC] Featured image file detected in addProject: Array
+(
+    [name] => Health Awareness1.png
+    [type] => image/png
+    [tmp_name] => /tmp/phpGPeYJm
+    [error] => 0
+    [size] => 1134237
+)
+
+[25-Feb-2026 06:49:16 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699e9b6c4f7d44.90569793.png
+[25-Feb-2026 06:49:16 UTC] Featured image update result in addProject: success
+[25-Feb-2026 07:04:51 UTC] Featured image file detected in addProject: Array
+(
+    [name] => Yoga at all schools5.png
+    [type] => image/png
+    [tmp_name] => /tmp/php1KGLH5
+    [error] => 0
+    [size] => 1286125
+)
+
+[25-Feb-2026 07:04:51 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699e9f13c82295.95058580.png
+[25-Feb-2026 07:04:51 UTC] Featured image update result in addProject: success
+[25-Feb-2026 07:11:29 UTC] Featured image file detected in addProject: Array
+(
+    [name] => Internships at Epiphany school1.jpg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpLBamEK
+    [error] => 0
+    [size] => 511527
+)
+
+[25-Feb-2026 07:11:29 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699ea0a10d2c23.25950589.jpg
+[25-Feb-2026 07:11:29 UTC] Featured image update result in addProject: success
+[25-Feb-2026 07:19:36 UTC] Featured image file detected in addProject: Array
+(
+    [name] => Adharschool1.png
+    [type] => image/png
+    [tmp_name] => /tmp/phpsFBN8D
+    [error] => 0
+    [size] => 2507811
+)
+
+[25-Feb-2026 07:19:36 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699ea28828ac66.26985362.png
+[25-Feb-2026 07:19:36 UTC] Featured image update result in addProject: success
+[25-Feb-2026 07:29:13 UTC] Featured image file detected in addProject: Array
+(
+    [name] => Internship with Dr. Nidhi1.jpg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpHz7r6I
+    [error] => 0
+    [size] => 504361
+)
+
+[25-Feb-2026 07:29:13 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699ea4c9019528.85535992.jpg
+[25-Feb-2026 07:29:13 UTC] Featured image update result in addProject: success
+[25-Feb-2026 09:21:03 UTC] Featured image file detected in addProject: Array
+(
+    [name] => Internship at Divyang Samishra Kendra1.jpg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpzExhwO
+    [error] => 0
+    [size] => 276121
+)
+
+[25-Feb-2026 09:21:03 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699ebeffee5e35.00140723.jpg
+[25-Feb-2026 09:21:03 UTC] Featured image update result in addProject: success
+[25-Feb-2026 09:28:13 UTC] Featured image file detected in addProject: Array
+(
+    [name] => Internship with Club Happy Feet6.jpg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpKqXXCs
+    [error] => 0
+    [size] => 480087
+)
+
+[25-Feb-2026 09:28:13 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699ec0ad107205.02413342.jpg
+[25-Feb-2026 09:28:13 UTC] Featured image update result in addProject: success
+[25-Feb-2026 09:34:19 UTC] Featured image file detected in addProject: Array
+(
+    [name] => Raksha Bandhan Celebration3.png
+    [type] => image/png
+    [tmp_name] => /tmp/phpYULrkr
+    [error] => 0
+    [size] => 2139111
+)
+
+[25-Feb-2026 09:34:19 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699ec21be3ed80.76789708.png
+[25-Feb-2026 09:34:19 UTC] Featured image update result in addProject: success
+[25-Feb-2026 09:42:38 UTC] Featured image file detected in addProject: Array
+(
+    [name] => Ashtmi Celebrations at Aadhar school1.jpg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/php1fWEcd
+    [error] => 0
+    [size] => 231305
+)
+
+[25-Feb-2026 09:42:38 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699ec40e74cfd8.45488738.jpg
+[25-Feb-2026 09:42:38 UTC] Featured image update result in addProject: success
+[25-Feb-2026 09:57:26 UTC] Featured image file detected in addProject: Array
+(
+    [name] => Diwali With Love1.jpeg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpGaX5TO
+    [error] => 0
+    [size] => 43166
+)
+
+[25-Feb-2026 09:57:26 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699ec7864cdcd2.68986583.jpeg
+[25-Feb-2026 09:57:26 UTC] Featured image update result in addProject: success
+[25-Feb-2026 10:10:42 UTC] Featured image file detected in addProject: Array
+(
+    [name] => Secret Santa by BNI1.jpg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/php3oLiM8
+    [error] => 0
+    [size] => 215855
+)
+
+[25-Feb-2026 10:10:42 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699ecaa2ed09b5.19635913.jpg
+[25-Feb-2026 10:10:42 UTC] Featured image update result in addProject: success
+[25-Feb-2026 10:25:25 UTC] Featured image file detected in addProject: Array
+(
+    [name] => Kids Cookout Event1.jpeg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpU6xX8E
+    [error] => 0
+    [size] => 56166
+)
+
+[25-Feb-2026 10:25:25 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699ece151c3fb7.62532834.jpeg
+[25-Feb-2026 10:25:25 UTC] Featured image update result in addProject: success
+[25-Feb-2026 10:38:31 UTC] Featured image file detected in addProject: Array
+(
+    [name] => Christmas Lunch at Ahilyadevi's Thali1.jpeg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpSIJLFR
+    [error] => 0
+    [size] => 21997
+)
+
+[25-Feb-2026 10:38:31 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699ed1276c5639.42069314.jpeg
+[25-Feb-2026 10:38:31 UTC] Featured image update result in addProject: success
+[25-Feb-2026 10:58:29 UTC] Featured image file detected in addProject: Array
+(
+    [name] => Little Monarchs Preschool, Pune 3.jpg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpBjmlnm
+    [error] => 0
+    [size] => 380588
+)
+
+[25-Feb-2026 10:58:29 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699ed5d5a25903.21760143.jpg
+[25-Feb-2026 10:58:29 UTC] Featured image update result in addProject: success
+[25-Feb-2026 11:14:08 UTC] Featured image file detected in addProject: Array
+(
+    [name] => Fun with a Cause fundraiser2.jpeg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpvgtCt5
+    [error] => 0
+    [size] => 51419
+)
+
+[25-Feb-2026 11:14:08 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699ed980d8fec1.20896593.jpeg
+[25-Feb-2026 11:14:08 UTC] Featured image update result in addProject: success
+[25-Feb-2026 11:21:34 UTC] Featured image file detected in addProject: Array
+(
+    [name] => Cook For a Cause Sushi- Fundraiser1.jpeg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpnAlCgB
+    [error] => 0
+    [size] => 41985
+)
+
+[25-Feb-2026 11:21:34 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699edb3eb07d51.98226956.jpeg
+[25-Feb-2026 11:21:34 UTC] Featured image update result in addProject: success
+[25-Feb-2026 11:28:01 UTC] Featured image file detected in addProject: Array
+(
+    [name] => Children's day Nityaasha6.jpeg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpwT7dFz
+    [error] => 0
+    [size] => 16143
+)
+
+[25-Feb-2026 11:28:01 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699edcc186f9e5.25678682.jpeg
+[25-Feb-2026 11:28:01 UTC] Featured image update result in addProject: success
+[25-Feb-2026 11:36:52 UTC] Featured image file detected in addProject: Array
+(
+    [name] => Marathon For Awareness4.jpg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpWMXB5O
+    [error] => 0
+    [size] => 39344
+)
+
+[25-Feb-2026 11:36:52 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699eded42c2753.93326923.jpg
+[25-Feb-2026 11:36:52 UTC] Featured image update result in addProject: success
+[25-Feb-2026 12:21:56 UTC] Featured image file detected in addProject: Array
+(
+    [name] => Cook for a Cause Italian2.jpeg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpcE9jyE
+    [error] => 0
+    [size] => 38348
+)
+
+[25-Feb-2026 12:21:56 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699ee964d7fac3.28002442.jpeg
+[25-Feb-2026 12:21:56 UTC] Featured image update result in addProject: success
+[25-Feb-2026 12:27:28 UTC] Featured image file detected in addProject: Array
+(
+    [name] => Marathon Fundraiser1.jpeg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpTyir4P
+    [error] => 0
+    [size] => 16708
+)
+
+[25-Feb-2026 12:27:28 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699eeab0b7c1e5.45728885.jpeg
+[25-Feb-2026 12:27:28 UTC] Featured image update result in addProject: success
+[25-Feb-2026 12:34:02 UTC] Featured image file detected in addProject: Array
+(
+    [name] => Seva Mela1.jpeg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/php3bBVJt
+    [error] => 0
+    [size] => 44921
+)
+
+[25-Feb-2026 12:34:02 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699eec3ab34d32.21361755.jpeg
+[25-Feb-2026 12:34:02 UTC] Featured image update result in addProject: success
+[25-Feb-2026 12:44:11 UTC] Featured image file detected in addProject: Array
+(
+    [name] => Childrens' Day 4.jpeg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpk8Scmz
+    [error] => 0
+    [size] => 19074
+)
+
+[25-Feb-2026 12:44:11 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699eee9be95aa5.37838588.jpeg
+[25-Feb-2026 12:44:11 UTC] Featured image update result in addProject: success
+[25-Feb-2026 12:54:26 UTC] Featured image file detected in addProject: Array
+(
+    [name] => Boxing Day1.jpeg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpXD5y70
+    [error] => 0
+    [size] => 58739
+)
+
+[25-Feb-2026 12:54:26 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699ef10282e245.99854658.jpeg
+[25-Feb-2026 12:54:26 UTC] Featured image update result in addProject: success
+[26-Feb-2026 04:15:06 UTC] Featured image file detected in addProject: Array
+(
+    [name] => Christmas at Phoenix1.jpeg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpGgrq4U
+    [error] => 0
+    [size] => 66949
+)
+
+[26-Feb-2026 04:15:06 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699fc8ca6ac2d0.86211537.jpeg
+[26-Feb-2026 04:15:06 UTC] Featured image update result in addProject: success
+[26-Feb-2026 04:24:31 UTC] Featured image file detected in addProject: Array
+(
+    [name] => Secret Santa1.jpeg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpEL9hPK
+    [error] => 0
+    [size] => 16767
+)
+
+[26-Feb-2026 04:24:31 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699fcaff430df6.16195570.jpeg
+[26-Feb-2026 04:24:31 UTC] Featured image update result in addProject: success
+[26-Feb-2026 06:17:50 UTC] Featured image file detected in addProject: Array
+(
+    [name] => High tea at Conrad4.jpeg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpQb5pa7
+    [error] => 0
+    [size] => 57742
+)
+
+[26-Feb-2026 06:17:50 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699fe58ebbb6c8.68465361.jpeg
+[26-Feb-2026 06:17:50 UTC] Featured image update result in addProject: success
+[26-Feb-2026 06:24:51 UTC] Featured image file detected in addProject: Array
+(
+    [name] => sound_7.png
+    [type] => image/png
+    [tmp_name] => /tmp/phprUiN1Y
+    [error] => 0
+    [size] => 3352288
+)
+
+[26-Feb-2026 06:24:51 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699fe73399b3c6.89994273.png
+[26-Feb-2026 06:24:51 UTC] Featured image update result in addProject: success
+[26-Feb-2026 06:28:21 UTC] Featured image file detected in addProject: Array
+(
+    [name] => Coffee_4.png
+    [type] => image/png
+    [tmp_name] => /tmp/php8sbM45
+    [error] => 0
+    [size] => 3247362
+)
+
+[26-Feb-2026 06:28:21 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699fe805503469.44550995.png
+[26-Feb-2026 06:28:21 UTC] Featured image update result in addProject: success
+[26-Feb-2026 06:32:54 UTC] Featured image file detected in addProject: Array
+(
+    [name] => mentally challenged1.jpg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpsv8foP
+    [error] => 0
+    [size] => 95620
+)
+
+[26-Feb-2026 06:32:54 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699fe91666d754.14316901.jpg
+[26-Feb-2026 06:32:54 UTC] Featured image update result in addProject: success
+[26-Feb-2026 06:43:39 UTC] Featured image file detected in addProject: Array
+(
+    [name] => 10 (1).jpg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpEu4nhQ
+    [error] => 0
+    [size] => 286395
+)
+
+[26-Feb-2026 06:43:39 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699feb9b9500b5.30447970.jpg
+[26-Feb-2026 06:43:39 UTC] Featured image update result in addProject: success
+[26-Feb-2026 07:02:18 UTC] Featured image file detected in addProject: Array
+(
+    [name] => ganeshutsv_4.png
+    [type] => image/png
+    [tmp_name] => /tmp/phprtycVD
+    [error] => 0
+    [size] => 1845585
+)
+
+[26-Feb-2026 07:02:18 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699feffa23b283.11945013.png
+[26-Feb-2026 07:02:18 UTC] Featured image update result in addProject: success
+[26-Feb-2026 07:08:33 UTC] Featured image file detected in addProject: Array
+(
+    [name] => 5.png
+    [type] => image/png
+    [tmp_name] => /tmp/phpJlpd9q
+    [error] => 0
+    [size] => 2065796
+)
+
+[26-Feb-2026 07:08:33 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699ff171499885.90971992.png
+[26-Feb-2026 07:08:33 UTC] Featured image update result in addProject: success
+[26-Feb-2026 07:11:40 UTC] Featured image file detected in addProject: Array
+(
+    [name] => 2.webp
+    [type] => image/webp
+    [tmp_name] => /tmp/php1HB3Kh
+    [error] => 0
+    [size] => 243436
+)
+
+[26-Feb-2026 07:11:40 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699ff22c4bf014.92624395.webp
+[26-Feb-2026 07:11:40 UTC] Featured image update result in addProject: success
+[26-Feb-2026 07:15:49 UTC] Featured image file detected in addProject: Array
+(
+    [name] => 1.jpg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/php03QKaF
+    [error] => 0
+    [size] => 300839
+)
+
+[26-Feb-2026 07:15:49 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699ff325c25780.00230804.jpg
+[26-Feb-2026 07:15:49 UTC] Featured image update result in addProject: success
+[26-Feb-2026 07:18:43 UTC] Featured image file detected in addProject: Array
+(
+    [name] => 6.jpg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phplegvkF
+    [error] => 0
+    [size] => 252185
+)
+
+[26-Feb-2026 07:18:43 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699ff3d31023a8.42564176.jpg
+[26-Feb-2026 07:18:43 UTC] Featured image update result in addProject: success
+[26-Feb-2026 07:27:25 UTC] Featured image file detected in addProject: Array
+(
+    [name] => 54.jpeg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/php9bmuSk
+    [error] => 0
+    [size] => 12603
+)
+
+[26-Feb-2026 07:27:25 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699ff5dd4c8c94.43311129.jpeg
+[26-Feb-2026 07:27:25 UTC] Featured image update result in addProject: success
+[26-Feb-2026 07:30:14 UTC] Featured image file detected in addProject: Array
+(
+    [name] => 14.jpeg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpLsAHAC
+    [error] => 0
+    [size] => 13729
+)
+
+[26-Feb-2026 07:30:14 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_699ff68655ebe9.82153167.jpeg
+[26-Feb-2026 07:30:14 UTC] Featured image update result in addProject: success
+[26-Feb-2026 09:03:02 UTC] Featured image file detected in addProject: Array
+(
+    [name] => 14.jpeg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpngSIIj
+    [error] => 0
+    [size] => 46517
+)
+
+[26-Feb-2026 09:03:02 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_69a00c465a1889.62152267.jpeg
+[26-Feb-2026 09:03:02 UTC] Featured image update result in addProject: success
+[26-Feb-2026 09:06:39 UTC] Featured image file detected in addProject: Array
+(
+    [name] => 1.jpeg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpmszzfd
+    [error] => 0
+    [size] => 19039
+)
+
+[26-Feb-2026 09:06:39 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_69a00d1f3a5c67.09575253.jpeg
+[26-Feb-2026 09:06:39 UTC] Featured image update result in addProject: success
+[26-Feb-2026 09:10:04 UTC] Featured image file detected in addProject: Array
+(
+    [name] => 10.jpeg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpToscAV
+    [error] => 0
+    [size] => 19046
+)
+
+[26-Feb-2026 09:10:04 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_69a00dec0e7db5.17192813.jpeg
+[26-Feb-2026 09:10:04 UTC] Featured image update result in addProject: success
+[26-Feb-2026 10:13:40 UTC] Featured image file detected in addProject: Array
+(
+    [name] => dental5.jpg
+    [type] => image/jpeg
+    [tmp_name] => /tmp/phpXd4864
+    [error] => 0
+    [size] => 361250
+)
+
+[26-Feb-2026 10:13:40 UTC] Featured image path in addProject: /new/admin/uploads/projects/featured_project_69a01cd453ccd2.75226358.jpg
+[26-Feb-2026 10:13:40 UTC] Featured image update result in addProject: success

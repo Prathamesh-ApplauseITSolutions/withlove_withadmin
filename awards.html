@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awards</title>
+    <link href="./img/favicon.ico" rel="icon">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="./lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Topbar Start -->
+    <div id="topnavbar"></div>
+    <!-- Topbar End -->
+
+    <div id="navbar-placeholder"></div>
+
+    <script>
+        $(document).ready(function () {
+            $("#topnavbar").load("topnavbar.html");
+        });
+        $(document).ready(function () {
+            $("#navbar-placeholder").load("navbar.html");
+        });
+    </script>
+
+
+
+    <div class="image-header">
+        <img src="./img/common_bg.webp" alt="Header Image">
+        <div class="gradient-overlay"></div>
+        <div class="text-overlay mx-auto">
+            <h1 class="fw-bold text-dark">Event & Media</h1>
+            <nav aria-label="breadcrumb" class="breadcrumb-overlay">
+                <ol class="breadcrumb m-0 justify-content-center">
+                    <li class="breadcrumb-item">
+                        <a href="./index.html" class="text-dark">Home</a>
+                    </li>
+                    <li class="breadcrumb-item active text-light text-dark" aria-current="page">
+                        <a href="./event_media.html" class="text-dark">Event & Media</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- **event start***** -->
+    <!-- ********common heading*********** -->
+    <div class="text-center mb-4 mt-4">
+        <h2 class="sub-title position-relative d-inline-block">
+            Our Awards
+            <span class="headline-double"></span>
+        </h2>
+    </div>
+    <!-- ********common heading*********** -->
+    <!-- ******Awards tab*********** -->
+  <div class="container py-3">
+  <div class="row g-4 awards">
+
+    <!-- Card 1 -->
+    <div class="col-lg-4 col-md-6">
+      <div class="card h-100 common_border" data-bs-toggle="modal" data-bs-target="#cardModal"
+           onclick="openModal('Wellness Heroes Awards','./img/award/wellness_Heroes_Awards.png')">
+        <img src="./img/award/wellness_Heroes_Awards.png" class="card-img-top" alt="">
+        <div class="card-body text-center">
+          <h5 class="card-title">Wellness Heroes Awards</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-lg-4 col-md-6">
+      <div class="card h-100 common_border" data-bs-toggle="modal" data-bs-target="#cardModal"
+           onclick="openModal('Decoding wellness','./img/award/decoding_wellness.png')">
+        <img src="./img/award/decoding_wellness.png" class="card-img-top" alt="Decoding_wellness">
+        <div class="card-body text-center">
+          <h5 class="card-title">Decoding Wellness</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-lg-4 col-md-6">
+      <div class="card h-100 common_border" data-bs-toggle="modal" data-bs-target="#cardModal"
+           onclick="openModal('Celebrity Guest Mrs.Gauri Pradhan Tejwani','./img/award/Celebrity_Guest.jpg')">
+        <img src="./img/award/Celebrity_Guest.jpg" class="card-img-top" alt="">
+        <div class="card-body text-center">
+          <h5 class="card-title">Celebrity Guest Mrs.Gauri Pradhan Tejwani</h5>
+        </div>
+      </div>
+    </div>
+
+     <!-- Card 4 -->
+    <div class="col-lg-4 col-md-6">
+      <div class="card h-100 common_border" data-bs-toggle="modal" data-bs-target="#cardModal"
+           onclick="openModal('Compressed','./img/award/Compressed.png')">
+        <img src="./img/award/Compressed.png" class="card-img-top" alt="">
+        <div class="card-body text-center">
+          <h5 class="card-title">Compressed</h5>
+        </div>
+      </div>
+    </div>
+
+  <!-- Card 5 -->
+    <div class="col-lg-4 col-md-6">
+      <div class="card h-100 common_border" data-bs-toggle="modal" data-bs-target="#cardModal"
+           onclick="openModal('Dimple Somji Best Social Wellness Crusader','./img/award/dimple_Somji_Best_Social.jpg')">
+        <img src="./img/award/dimple_Somji_Best_Social.jpg" class="card-img-top" alt="">
+        <div class="card-body text-center">
+          <h5 class="card-title">Dimple Somji Best Social Wellness Crusader</h5>
+        </div>
+      </div>
+    </div>
+
+ <!-- Card 6 -->
+    <div class="col-lg-4 col-md-6">
+      <div class="card h-100 common_border" data-bs-toggle="modal" data-bs-target="#cardModal"
+           onclick="openModal('Wellness Heroes Awards','./img/award/Wellness_Heroes.jpg')">
+        <img src="./img/award/Wellness_Heroes.jpg" class="card-img-top" alt="">
+        <div class="card-body text-center">
+          <h5 class="card-title">Wellness Heroes Awards</h5>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="cardModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalTitle"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img id="modalImg" class="img-fluid modal-img rounded mb-3">
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- ******Awards tab*********** -->
+
+    <!-- ****************************Footer********************** -->
+
+    <div id="footer-container"></div>
+
+    <!-- ****************************Footer********************** -->
+    <script>
+        // Using fetch to load navbar.html dynamically
+        fetch("topnavbar.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-container').innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error loading the navbar:', error);
+                document.getElementById('navbar-container').innerHTML = "<p>Navbar could not be loaded.</p>";
+            });
+        // ****************
+        fetch("navbar.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-container').innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error loading the navbar:', error);
+                document.getElementById('navbar-container').innerHTML = "<p>Navbar could not be loaded.</p>";
+            });
+
+        fetch("footer.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-container').innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error loading the footer:', error);
+                document.getElementById('footer-container').innerHTML = "<p>Footer could not be loaded.</p>";
+            });
+          
+             function openModal(title, img) {
+    document.getElementById("modalTitle").innerText = title;
+    document.getElementById("modalImg").src = img;
+  }
+ 
+    </script>
+    <script src="./lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="./lib/wow/wow.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

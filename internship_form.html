@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intern</title>
+    <link href="./img/favicon.ico" rel="icon">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="./lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+</head>
+
+<body>
+
+
+    <!-- Topbar Start -->
+    <div id="topnavbar"></div>
+    <!-- Topbar End -->
+
+    <div id="navbar-placeholder"></div>
+
+    <script>
+        $(document).ready(function () {
+            $("#topnavbar").load("topnavbar.html");
+        });
+        $(document).ready(function () {
+            $("#navbar-placeholder").load("navbar.html");
+        });
+    </script>
+    <!-- **Program start***** -->
+
+ 
+<div class="image-header">
+  <img src="./img/common_bg.webp" alt="Header Image">
+  <div class="gradient-overlay"></div>
+  <div class="text-overlay mx-auto">
+    <h1 class="fw-bold text-dark">Interns With Us</h1>
+    <nav aria-label="breadcrumb" class="breadcrumb-overlay">
+      <ol class="breadcrumb m-0 justify-content-center">
+        <li class="breadcrumb-item">
+          <a href="./index.html" class="text-dark">Home</a>
+        </li>
+        <li class="breadcrumb-item active text-light text-dark" aria-current="page">
+         <a href="./about" class="text-dark"> Interns With Us</a>
+        </li>
+      </ol>
+    </nav>
+  </div>
+</div>
+
+
+    <!-- ********common heading*********** -->
+    <div class="text-center mb-4 mt-4">
+        <h2 class="sub-title position-relative d-inline-block">
+           Internship Application Form
+            <span class="headline-double"></span>
+        </h2>
+    </div>
+    <!-- ********common heading*********** -->
+    <!-- *****Internship form**** -->
+    <section class="internship-form-section py-5">
+        <div class="container">
+            <div class="card2 shadow-lg border-0 rounded-4 p-4 p-md-5">
+                <form id="internshipForm">
+                    <div class="row g-3">
+
+                        <!-- Full Name -->
+                        <div class="col-md-6">
+                            <label class="form-label">Full Name</label>
+                            <input type="text" class="form-control" placeholder="Enter Name..." required>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="col-md-6">
+                            <label class="form-label">E-mail Address</label>
+                            <input type="email" class="form-control" placeholder="Enter E-mail..." required>
+                        </div>
+
+                        <!-- Phone Number -->
+                        <div class="col-md-6">
+                            <label class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" placeholder="98480*****" required>
+                        </div>
+
+                        <!-- Birth Date -->
+                        <div class="col-md-6">
+                            <label class="form-label">Birth Date</label>
+                            <input type="date" class="form-control" required>
+                        </div>
+
+                        <!-- State of Origin -->
+                        <div class="col-md-6">
+                            <label class="form-label">State of Origin</label>
+                            <input type="text" class="form-control" placeholder="Enter State of Origin..." required>
+                        </div>
+
+                        <!-- Qualification -->
+                        <div class="col-md-6">
+                            <label class="form-label">Qualification</label>
+                            <input type="text" class="form-control" placeholder="Enter Qualification..." required>
+                        </div>
+
+                        <!-- College/Company -->
+                        <div class="col-12">
+                            <label class="form-label">College / Company, Designation</label>
+                            <input type="text" class="form-control" placeholder="Enter details...">
+                        </div>
+
+                        <!-- Course -->
+                        <div class="col-12">
+                            <label class="form-label">Course currently being pursued (if any)</label>
+                            <input type="text" class="form-control" placeholder="Enter Course...">
+                        </div>
+
+                        <!-- Institution -->
+                        <div class="col-12">
+                            <label class="form-label">Name and Address of Institution / University</label>
+                            <input type="text" class="form-control" placeholder="Enter details...">
+                        </div>
+
+                        <!-- Work Experience -->
+                        <div class="col-12">
+                            <label class="form-label">Work Experience (if any)</label>
+                            <textarea class="form-control" rows="2" placeholder="Enter details..."></textarea>
+                        </div>
+
+                        <!-- Area of Interest -->
+                        <div class="col-md-6">
+                            <label class="form-label">Area of Interest</label>
+                            <input type="text" class="form-control" placeholder="Enter Area of Interest...">
+                        </div>
+
+                        <!-- Skills -->
+                        <div class="col-md-6">
+                            <label class="form-label">Specific Skills</label>
+                            <input type="text" class="form-control" placeholder="Enter Skills...">
+                        </div>
+
+                        <!-- Languages -->
+                        <div class="col-12">
+                            <label class="form-label">Languages Spoken/Written</label>
+                            <input type="text" class="form-control" placeholder="Enter Languages...">
+                        </div>
+
+                        <!-- Duration -->
+                        <div class="col-md-6">
+                            <label class="form-label">No. of weeks you can give</label>
+                            <input type="number" class="form-control" placeholder="Enter number of weeks...">
+                        </div>
+
+                        <!-- Start Date -->
+                        <div class="col-md-6">
+                            <label class="form-label">Month and Week you can begin (if selected)</label>
+                            <input type="text" class="form-control" placeholder="e.g. June 2nd Week...">
+                        </div>
+
+                        <!-- Experience -->
+                        <div class="col-12">
+                            <label class="form-label d-block">Do you have any experience of interning?</label>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="internExp" value="Yes" required>
+                                <label class="form-check-label">Yes</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="internExp" value="No">
+                                <label class="form-check-label">No</label>
+                            </div>
+                        </div>
+
+                        <!-- Organization Details -->
+                        <div class="col-md-6">
+                            <label class="form-label">Organization Name</label>
+                            <input type="text" class="form-control" placeholder="Enter Organization Name...">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Location</label>
+                            <input type="text" class="form-control" placeholder="Enter Location...">
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label">Duration of Internship</label>
+                            <input type="text" class="form-control" placeholder="Enter Duration...">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Nature of Internship Project</label>
+                            <input type="text" class="form-control" placeholder="Enter Nature of Project...">
+                        </div>
+
+                        <!-- Computer Knowledge -->
+                        <div class="col-12">
+                            <label class="form-label d-block">Are you familiar with Computer/Internet?</label>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="computerSkill" value="Yes" required>
+                                <label class="form-check-label">Yes</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="computerSkill" value="No">
+                                <label class="form-check-label">No</label>
+                            </div>
+                        </div>
+
+                        <!-- Domain Interests -->
+                        <div class="col-12">
+                            <label class="form-label">Indicate your area of interest:</label>
+                            <div class="row">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="Health">
+                                        <label class="form-check-label">Health</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="Education">
+                                        <label class="form-check-label">Education</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="Fund-raising">
+                                        <label class="form-check-label">Fund-raising</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="Income generation">
+                                        <label class="form-check-label">Income generation</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="Communication">
+                                        <label class="form-check-label">Communication</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="Training">
+                                        <label class="form-check-label">Training and Capacity Building</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox"
+                                            value="Information management systems">
+                                        <label class="form-check-label">Information Management Systems</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Reason -->
+                        <div class="col-12">
+                            <label class="form-label">Reasons for joining as an intern</label>
+                            <textarea class="form-control" rows="4" placeholder="Write a 150-word reason..."></textarea>
+                        </div>
+
+                        <!-- Google reCAPTCHA -->
+                        <div class="col-12  mt-3">
+                            <div class="g-recaptcha d-inline-block" data-sitekey="YOUR_SITE_KEY_HERE"></div>
+                        </div>
+
+                        <!-- Submit -->
+                        <div class="col-12  mt-4">
+                            <button type="submit" class="shimmer-btn px-5 py-2 fw-bold">
+                               Submit Application
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+<!-- *********Internship form********** -->
+ 
+      <!-- ****internship projects***** -->
+
+      <!-- ****internship projects***** -->
+
+    <!-- ****************************Footer********************** -->
+
+    <div id="footer-container"></div>
+
+    <!-- ****************************Footer********************** -->
+    <script>
+        fetch("topnavbar.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-container').innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error loading the navbar:', error);
+                document.getElementById('navbar-container').innerHTML = "<p>Navbar could not be loaded.</p>";
+            });
+        // ****************
+        // Using fetch to load navbar.html dynamically
+        fetch("navbar.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-container').innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error loading the navbar:', error);
+                document.getElementById('navbar-container').innerHTML = "<p>Navbar could not be loaded.</p>";
+            });
+
+        fetch("footer.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-container').innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error loading the footer:', error);
+                document.getElementById('footer-container').innerHTML = "<p>Footer could not be loaded.</p>";
+            });
+    </script>
+
+    <!-- reCAPTCHA Script -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="./lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="./lib/wow/wow.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intern</title>
+  <link href="./img/favicon.ico" rel="icon">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <!-- Libraries Stylesheet -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="./lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  
+  <style>
+    @media (max-width: 1024px) {
+      .internship-program-card {
+        background-image: url('./newproject_imgs/withlove-bg (2)/intern_mobilwV.png') !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        /* background-position: center !important; */
+      }
+      
+      .program-image-container {
+        display: none !important;
+      }
+      
+      .program-content {
+        /* background: rgba(255, 255, 255, 0.9) !important; */
+        padding: 20px !important;
+        border-radius: 15px !important;
+        margin: 20px !important;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Topbar Start -->
+  <div id="topnavbar"></div>
+  <!-- Topbar End -->
+
+  <div id="navbar-placeholder"></div>
+
+  <script>
+    $(document).ready(function () {
+      $("#topnavbar").load("topnavbar.html");
+    });
+    $(document).ready(function () {
+      $("#navbar-placeholder").load("navbar.html");
+    });
+  </script>
+  <!-- **Program start***** -->
+
+  <div class="image-header">
+    <img src="./img/common_bg.webp" alt="Header Image">
+    <div class="gradient-overlay"></div>
+    <div class="text-overlay mx-auto">
+      <h1 class="fw-bold text-dark">Intern with us</h1>
+      <nav aria-label="breadcrumb" class="breadcrumb-overlay">
+        <ol class="breadcrumb m-0 justify-content-center">
+          <li class="breadcrumb-item">
+            <a href="./index.html" class="text-dark">Home</a>
+          </li>
+          <li class="breadcrumb-item active text-dark" aria-current="page">
+            <a href="./intern.html" class="text-dark"> Intern with us </a>
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+
+  <!-- *************INTERN WITH US********************* -->
+  <section class="internship-section py-5">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Left Column - Internship Program with Image -->
+        <div class="col-lg-6">
+          <div class="internship-program-card h-100">
+            <div class="program-image-container">
+              <img src="./img/internwithus-img.png" alt="Internship Program" class="img-fluid program-image">
+            </div>
+            <div class="program-content p-3">
+              <h2>Internship Program – With Love NGO</h2>
+              <p>
+                The internship program at With Love NGO offers a valuable chance to delve into the non-profit sector through
+                hands-on grassroots work, enabling interns to make a meaningful contribution. In today's educational
+                landscape, schools are actively promoting students' engagement with NGOs as part of their curriculum. Our
+                commitment includes placing students in suitable areas, offering guidance, and providing hands-on support to
+                help comprehend diverse aspects and contribute to various projects. Upon completion, interns receive a letter
+                of accomplishment and recommendation from our NGO.
+              </p>
+              <h5 class="mt-2"><strong>With Love provides top-tier internships that empower participants to:</strong></h5>
+              <ul>
+                <li>Gain hands-on professional experience and acquire insights from experts.</li>
+                <li>Develop and refine existing as well as new skills within a structured framework.</li>
+                <li>Reinforce academic learning through practical application.</li>
+                <li>Contribute to diverse and impactful initiatives.</li>
+                <li>Cultivate a spirit of "seva," fostering sensitivity and responsibility toward moral duties.</li>
+              </ul>
+              <h5 class="mt-2"><strong>Intake capacity:</strong></h5>
+              <p> As a policy, we induct 4–6 interns at designated intervals. However, it is
+                subject to requirements and availability of resources.
+              Interns need to commit to a minimum of four weeks to achieve continuity and tangible outcomes. The program
+                begins with an induction providing knowledge of the NGO, followed by matching the intern's skills with current
+                organizational needs.</p>
+              <h5 class="mt-2"><strong>Apply to be an Intern:</strong></h5>
+              <p>If you would like to intern with us, please fill the Internship Form and mail it to
+                <strong><a href="mailto:foryoucharitablefoundation@gmail.com"
+                    class="common_text" style="word-wrap: break-word">foryoucharitablefoundation@gmail.com</a></strong> along with your latest CV.
+              </p>
+              <a href="./internship_form.html" class="shimmer-btn">Internship Application Form</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Right Column - Internship Projects -->
+        <div class="col-lg-6">
+          <div class="internship-projects-section">
+            <div class="projects-header">
+              <h2>Internship Projects</h2>
+            </div>
+            <div class="projects-content-scrollable">
+              
+              <!-- Project 1 -->
+              <div class="project-dropdown-card">
+                <div class="project-header" onclick="toggleProject(1)">
+                  <h4>Internships for Adolescent Mental Health Awareness <span class="toggle-icon">▼</span></h4>
+                </div>
+                <div class="project-dropdown-content" id="project-details-1">
+                  <div class="project-content-wrapper">
+                    <div class="project-image-fixed" id="project-image-1">
+                      <img src="./img/projects/Mental_Health.png" alt="Mental_Health" loading="lazy" class="img-fluid">
+                    </div>
+                    <div class="project-description">
+                      <p><strong>Month of Execution:</strong> January 2025 – April 2025</p>
+                      <p><strong>Venue:</strong> Epiphany School, Aadhar School, Sadhu Vaswani Mission, Pune</p>
+                      <p><strong>Beneficiaries:</strong> Communities across Pune, children from underfunded schools and labour camps</p>
+                      <p><strong>Description:</strong> Designed and executed a holistic youth development program focused on emotional wellness and practical life skills for children. Key responsibilities included facilitating "Emotions through Art" sessions, delivering essential life skills through play-based learning, promoting mental health awareness, and organizing a "Declutter & Donate Drive" to instil social responsibility.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 2 -->
+              <div class="project-dropdown-card">
+                <div class="project-header" onclick="toggleProject(2)">
+                  <h4>Internship for Compassion – Teaching, Feeding, and Uplifting Communities <span class="toggle-icon">▼</span></h4>
+                </div>
+                <div class="project-dropdown-content" id="project-details-2">
+                  <div class="project-content-wrapper">
+                    <div class="project-image-fixed" id="project-image-2">
+                      <img src="./img/projects/Internship_Compassion.jpg" alt="Internship_Compassion" loading="lazy" class="img-fluid">
+                    </div>
+                    <div class="project-description">
+                      <p><strong>Month of Execution:</strong> January to June 2024</p>
+                      <p><strong>Beneficiaries:</strong> Children and underprivileged communities across Pune, Kerala, and Bangalore</p>
+                      <p><strong>Description:</strong> Through compassionate initiatives, worked across regions to bring meaningful impact. Taught young children under the Little Learners, Big Dreams program, organized the Threads & Vessels of Compassion drive in Kerala, and led the Food Drive to Combat Beggary initiative in Bangalore.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 3 -->
+              <div class="project-dropdown-card">
+                <div class="project-header" onclick="toggleProject(3)">
+                  <h4>Internship on Coding <span class="toggle-icon">▼</span></h4>
+                </div>
+                <div class="project-dropdown-content" id="project-details-3">
+                  <div class="project-content-wrapper">
+                    <div class="project-image-fixed" id="project-image-3">
+                      <img src="./img/projects/Internship_Coding.jpg" alt="Internship_Coding" loading="lazy" class="img-fluid">
+                    </div>
+                    <div class="project-description">
+                      <p><strong>Month of Execution:</strong> April 2025</p>
+                      <p><strong>Venue:</strong> Mahatma Gandhi School, Pune</p>
+                      <p><strong>Beneficiaries:</strong> School children</p>
+                      <p><strong>Description:</strong> Introduced children to the world of coding, nurturing curiosity and confidence through hands-on learning opportunities, showcasing the transformative impact of exposure and guidance.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 4 -->
+              <div class="project-dropdown-card">
+                <div class="project-header" onclick="toggleProject(4)">
+                  <h4>Internship on Recycling <span class="toggle-icon">▼</span></h4>
+                </div>
+                <div class="project-dropdown-content" id="project-details-4">
+                  <div class="project-content-wrapper">
+                    <div class="project-image-fixed" id="project-image-4">
+                      <img src="./img/projects/Internship_Recycling.jpg" alt="Internship_Recycling" loading="lazy" class="img-fluid">
+                    </div>
+                    <div class="project-description">
+                      <p><strong>Month of Execution:</strong> June 2025</p>
+                      <p><strong>Venue:</strong> Aadhar School, Kharadi</p>
+                      <p><strong>Beneficiaries:</strong> Children benefiting from recycled notebooks</p>
+                      <p><strong>Description:</strong> Transformed discarded paper into tools for learning and hope by converting waste into notebooks, demonstrating how small acts of sustainability can spark real change in children's educational journeys.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 5 -->
+              <div class="project-dropdown-card">
+                <div class="project-header" onclick="toggleProject(5)">
+                  <h4>Internship of Talent Show <span class="toggle-icon">▼</span></h4>
+                </div>
+                <div class="project-dropdown-content" id="project-details-5">
+                  <div class="project-content-wrapper">
+                    <div class="project-image-fixed" id="project-image-5">
+                      <img src="./img/projects/Internship_Talent_Show.jpg" alt="Internship_Talent_Show" loading="lazy" class="img-fluid">
+                    </div>
+                    <div class="project-description">
+                      <p><strong>Month of Execution:</strong> June 2025</p>
+                      <p><strong>Venue:</strong> Aadhar School, Viman Nagar</p>
+                      <p><strong>Beneficiaries:</strong> Children from labour camp schools</p>
+                      <p><strong>Description:</strong> Organized a talent show, bringing children together to celebrate their skills and confidence. From planning hygiene games and fitness circles to creative workshops, transformed summer into an unforgettable experience for children.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 6 -->
+              <div class="project-dropdown-card">
+                <div class="project-header" onclick="toggleProject(6)">
+                  <h4>Internship of Protein Powder <span class="toggle-icon">▼</span></h4>
+                </div>
+                <div class="project-dropdown-content" id="project-details-6">
+                  <div class="project-content-wrapper">
+                    <div class="project-image-fixed" id="project-image-6">
+                      <img src="./img/projects/protien_powder.png" alt="protien_powder" loading="lazy" class="img-fluid">
+                    </div>
+                    <div class="project-description">
+                      <p><strong>Month of Execution:</strong> September 2025</p>
+                      <p><strong>Venue:</strong> Labour camps, Pune</p>
+                      <p><strong>Beneficiaries:</strong> Children of the labour camps</p>
+                      <p><strong>Description:</strong> Prepared homemade protein powder, demonstrating care and attention to nutrition for children in need. Spoke to kids about its importance and showed how to have it, emphasizing that nourishment is more than food—it's about showing care and fostering health.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 7 -->
+              <div class="project-dropdown-card">
+                <div class="project-header" onclick="toggleProject(7)">
+                  <h4>Internship of Declutter and Donate <span class="toggle-icon">▼</span></h4>
+                </div>
+                <div class="project-dropdown-content" id="project-details-7">
+                  <div class="project-content-wrapper">
+                    <div class="project-image-fixed" id="project-image-7">
+                      <img src="./img/projects/Internship_Declutter_Donate.jpg" alt="Internship_Declutter_Donate" loading="lazy" class="img-fluid">
+                    </div>
+                    <div class="project-description">
+                      <p><strong>Month of Execution:</strong> September 2025</p>
+                      <p><strong>Venue:</strong> Labour camp, Pimple Saudagar</p>
+                      <p><strong>Beneficiaries:</strong> Families in need at the labour camp</p>
+                      <p><strong>Description:</strong> Organized a drive collecting clothes, books, stationery, and daily essentials for underprivileged families. Joined by grandmother, this initiative highlighted the power of intergenerational kindness and generosity.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ****************************Footer********************** -->
+
+  <div id="footer-container"></div>
+
+  <!-- ****************************Footer********************** -->
+  <script>
+    document.getElementById("show-archive").addEventListener("click", function () {
+      const archive = document.getElementById("archive-cards");
+
+      if (archive.style.display === "none") {
+        archive.style.display = "flex";
+        this.textContent = "Hide Archive ❯❯";
+      } else {
+        archive.style.display = "none";
+        this.textContent = "Show Archive ❯❯";
+      }
+    });
+  </script>
+
+  <script>
+    fetch("topnavbar.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navbar-container').innerHTML = data;
+      })
+      .catch(error => {
+        console.error('Error loading the navbar:', error);
+        document.getElementById('navbar-container').innerHTML = "<p>Navbar could not be loaded.</p>";
+      });
+    // ****************
+    // Using fetch to load navbar.html dynamically
+    fetch("navbar.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navbar-container').innerHTML = data;
+      })
+      .catch(error => {
+        console.error('Error loading the navbar:', error);
+        document.getElementById('navbar-container').innerHTML = "<p>Navbar could not be loaded.</p>";
+      });
+
+    fetch("footer.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer-container').innerHTML = data;
+      })
+      .catch(error => {
+        console.error('Error loading the footer:', error);
+        document.getElementById('footer-container').innerHTML = "<p>Footer could not be loaded.</p>";
+      });
+  </script>
+
+  <script>
+    // Toggle project details
+    function toggleProject(projectId) {
+      const cardElement = document.querySelector(`#project-details-${projectId}`).parentElement;
+      const contentElement = document.getElementById(`project-details-${projectId}`);
+      const imageElement = document.getElementById(`project-image-${projectId}`);
+      const allCards = document.querySelectorAll('.project-dropdown-card');
+      const allContents = document.querySelectorAll('.project-dropdown-content');
+      const allImages = document.querySelectorAll('.project-image-fixed');
+      
+      // Close all other projects
+      allCards.forEach(card => {
+        if (card !== cardElement) {
+          card.classList.remove('active');
+        }
+      });
+      
+      allContents.forEach(content => {
+        if (content.id !== `project-details-${projectId}`) {
+          content.classList.remove('active');
+          content.style.opacity = '0';
+          content.style.maxHeight = '0px';
+        }
+      });
+      
+      allImages.forEach(img => {
+        img.style.display = 'none';
+      });
+      
+      // Toggle current project
+      if (contentElement.classList.contains('active')) {
+        contentElement.classList.remove('active');
+        cardElement.classList.remove('active');
+        imageElement.style.display = 'none';
+        contentElement.style.opacity = '0';
+        contentElement.style.maxHeight = '0px';
+      } else {
+        contentElement.style.opacity = '1';
+        contentElement.classList.add('active');
+        cardElement.classList.add('active');
+        imageElement.style.display = 'block';
+
+        requestAnimationFrame(() => {
+          contentElement.style.maxHeight = `${contentElement.scrollHeight}px`;
+        });
+      }
+    }
+
+    // Initialize all projects as collapsed
+    document.addEventListener('DOMContentLoaded', function() {
+      const allContents = document.querySelectorAll('.project-dropdown-content');
+      const allImages = document.querySelectorAll('.project-image-fixed');
+      
+      allContents.forEach(content => {
+        content.classList.remove('active');
+        content.style.maxHeight = '0px';
+      });
+      
+      allImages.forEach(img => {
+        img.style.display = 'none';
+      });
+    });
+  </script>
+
+  <script src="./lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="./lib/wow/wow.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

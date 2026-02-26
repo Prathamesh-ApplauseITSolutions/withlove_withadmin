@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link href="./img/favicon.ico" rel="icon">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="./lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Topbar Start -->
+    <div id="topnavbar"></div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+
+    <div id="navbar-placeholder"></div>
+
+    <script>
+        $(document).ready(function () {
+            $("#topnavbar").load("topnavbar.html");
+        });
+        $(document).ready(function () {
+            $("#navbar-placeholder").load("navbar.html");
+        });
+    </script>
+
+
+    <div class="image-header">
+        <img src="./img/common_bg.webp" alt="Header Image">
+        <div class="gradient-overlay"></div>
+        <div class="text-overlay mx-auto">
+            <h1 class="fw-bold text-dark">Project</h1>
+            <nav aria-label="breadcrumb" class="breadcrumb-overlay">
+                <ol class="breadcrumb m-0 justify-content-center">
+                    <li class="breadcrumb-item">
+                        <a href="./index.html" class="text-dark">Home</a>
+                    </li>
+                    <li class="breadcrumb-item active text-light text-dark" aria-current="page">
+                        <a href="./about" class="text-dark">Project</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <!-- ********common heading*********** -->
+    <div class="text-center mb-4 mt-4">
+        <h2 class="sub-title position-relative d-inline-block">
+            Projects
+            <span class="headline-double"></span>
+        </h2>
+    </div>
+    <!-- ********common heading*********** -->
+    <!-- ******project tab*********** -->
+    <section class="project-section">
+        <ul class="nav nav-tabs" id="projectTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="ongoing-tab" data-bs-toggle="tab" data-bs-target="#ongoing"
+                    type="button" role="tab">
+                    On-Going Projects
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="past-tab" data-bs-toggle="tab" data-bs-target="#past" type="button"
+                    role="tab">
+                    Past Projects
+                </button>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <!-- ONGOING PROJECTS -->
+            <div class="tab-pane fade show active" id="ongoing" role="tabpanel">
+                <div class="row g-4" id="ongoingCards">
+                    <!-- 8 cards visible initially -->
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="small-card  common_border"><img src="./img/projects/Sweetlings.jpg" alt="Sweetlings"
+                                class="img-fluid card-img" loading="lazy">
+                            <div class="card-body">
+                                <p class="mb-0"><span class="label">Project Name: </span> Reliance Foundation
+                                </p>
+                                <p class="mb-0"><span class="label">Description:</span>
+                                <p class="mb-0 description">Sweetlings" program offers comprehensive Type 1 Diabetes care at Jehangir
+                                    Hospital, helping over 650 underprivileged children weekly.</p>
+                                </p>
+                                </p><a href="./readmore.html" class="shimmer-btn ">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="small-card  common_border"><img src="./img/projects/Feed_Forward.jpg"
+                                alt="Appreciation Picnic" class="img-fluid card-img" loading="lazy">
+                            <div class="card-body">
+                                 <p class="mb-0"><span class="label">Project Name: </span> Feed Forward for Hunger Crisis
+                                </p>
+                                <p class="mb-0"><span class="label">Description:</span>
+                                <p class="mb-0 description">Feed Forward is n initiative aimed at reducing food wastage and supporting those in
+                                    need within our community.</p>
+                                </p>
+                                </p><a href="./readmore.html" class="shimmer-btn ">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="small-card  common_border"><img src="./img/projects/Declutte.webp" alt="NGO Stall "
+                                class="img-fluid card-img" loading="lazy">
+                            <div class="card-body">
+                                 <p class="mb-0"><span class="label">Project Name: </span> Declutter and Donate
+                                </p>
+                                <p class="mb-0"><span class="label">Description:</span>
+                                <p class="mb-0 description">We’re on a mission to transform the joy of giving into essentials for underprivileged
+                                    families. Your gently used clothes, toys, and more can make a world of difference.</p>
+                                    <a href="./readmore.html"
+                                    class="shimmer-btn ">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="small-card  common_border"><img src="./img/projects/Joy.jpg" alt="Raksha_Bandhan"
+                                class="img-fluid card-img" loading="lazy">
+                            <div class="card-body">
+                                    <p class="mb-0"><span class="label">Project Name: </span>Joy of Giving
+                                </p>
+                                <p class="mb-0"><span class="label">Description:</span>
+                                <p class="mb-0 description">You get a chance to do good deeds for the underprivileged kids & their families &
+                                    make their life full of khushiyan.</p>
+                                    <a href="./readmore.html"
+                                    class="shimmer-btn ">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="small-card  common_border"><img src="./img/projects/Purchase.jpeg"
+                                alt="Teacher Appreciation Picnic" class="img-fluid card-img" loading="lazy">
+                            <div class="card-body">
+                                  <p class="mb-0"><span class="label">Project Name: </span>Purchase Organic Products
+                                </p>
+                                <p class="mb-0"><span class="label">Description:</span>
+                                <p class="mb-0 description">The handmade leaf plates & bowls are a celebration of sustainability and
+                                    craftsmanship. Crafted with love and care, these plates are not just eco-friendly.</p>
+                                    <a href="./readmore.html"
+                                    class="shimmer-btn ">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="small-card  common_border"><img src="./img/projects/Child_Sponsor.png"
+                                alt="Child’s Education" class="img-fluid card-img" loading="lazy">
+                            <div class="card-body">
+                                      <p class="mb-0"><span class="label">Project Name: </span> Sponsor a Child’s Education
+                                </p>
+                                <p class="mb-0"><span class="label">Description:</span>
+                                <p class="mb-0 description">Let’s make a lasting impact together. Join us in contributing to a brighter future by
+                                    sponsoring a child’s education.</p>
+                                    <a href="./readmore.html"
+                                    class="shimmer-btn ">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="see-more-container">
+                    <button class="see-more-btn" id="seeMoreOngoing">See More ❯❯</button>
+                </div>
+            </div>
+
+            <!-- PAST PROJECTS -->
+            <div class="tab-pane fade" id="past" role="tabpanel">
+                <div class="row g-4" id="pastCards">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="small-card common_border">
+                            <!-- <img src="./img/projects/Lable.jpg"
+                                alt="Teacher Appreciation Picnic" class="img-fluid card-img" loading="lazy"> -->
+                            <video class="img-fluid card-img" autoplay muted loop playsinline>
+                                <source src="./img/projects/Menstrua_ Education.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="card-body">
+                                <p class="mb-0"><span class="label">Project Name: </span> Menstrual Education Workshop
+                                </p>
+                                <p class="mb-0"><span class="label">Month of Execution:</span> March 2025 </p>
+                                <p class="mb-0"><span class="label">Venue:</span> Aadhar school, Kharadi, Pune </p>
+                                <p class="mb-0"><span class="label">Beneficiaries:</span> Children of the labour camp
+                                    school </p>
+                                <p class="mb-0"><span class="label">Description:</span>
+                                <p class="mb-0 description">During International Yoga Week, With Love NGO conducted a
+                                    special Yoga &
+                                    Wellness Workshop for children growing up in challenging environments. Led by Rupal
+                                    Ma’am, a seasoned yoga professor at St...</p>
+                                </p>
+                                </p><a href="./readmore.html" class="shimmer-btn ">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="small-card common_border"><img src="./img/projects/Fridge_Donation.jpg"
+                                alt="Appreciation Picnic" class="img-fluid card-img" loading="lazy">
+                            <div class="card-body">
+                                <p class="mb-0"><span class="label">Project Name:</span> Fridge Donation</p>
+                                <p class="mb-0"><span class="label">Month of Execution:</span> April 2025</p>
+                                <p class="mb-0"><span class="label">Venue:</span> Akshar Sparsh Mentally Challenged
+                                    Organization, Pune </p>
+                                <p class="mb-0"><span class="label">Beneficiaries:</span> Children at Akshar Sparsh
+                                    Organization</p>
+                                <p class="mb-0"><span class="label">Description:</span>
+                                <p class="mb-0 description">With Love NGO facilitated the donation of a refrigerator to
+                                    the children
+                                    at Akshar Sparsh Mentally Challenged Organization. This simple yet impactful
+                                    contribution provided daily comfort and support, enhancing the well-being of the
+                                    children</p>
+                                </p>
+                                </p><a href="./readmore.html" class="shimmer-btn ">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="small-card common_border">
+                            <img src="./img/projects/Utensils_Donation.png" alt="Teacher Appreciation Picnic"
+                                class="img-fluid card-img" loading="lazy">
+                            <div class="card-body">
+                                <p class="mb-0"><span class="label">Project Name:</span> Utensil Donation Drive</p>
+                                <p class="mb-0"><span class="label">Month of Execution:</span> April 2025</p>
+                                <p class="mb-0"><span class="label">Venue:</span> Aadhar School, Pune</p>
+                                <p class="mb-0"><span class="label">Beneficiaries:</span> Children of Aadhar School</p>
+                                <p class="mb-0"><span class="label">Description:</span>
+                                <p class="mb-0 description">Through the generous contributions of our donors, utensils
+                                    were provided to the children at Aadhar School. This initiative went beyond
+                                    providing essentials—it aimed to restore dignity, foster a sense of belonging, and
+                                    remind the children that they matter.</p>
+                                </p>
+                                </p><a href="./readmore.html" class="shimmer-btn ">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="small-card common_border "><img src="./img/projects/Medical_Support.png"
+                                alt="NGO Stall " class="img-fluid card-img" loading="lazy">
+                            <div class="card-body">
+                                <p class="mb-0"><span class="label">Project Name:</span> Medical Support for Burn
+                                    Recovery</p>
+                                <p class="mb-0"><span class="label">Month of Execution:</span> April 2025</p>
+                                <p class="mb-0"><span class="label">Venue:</span> Pune</p>
+                                <p class="mb-0"><span class="label">Beneficiaries:</span> One-year-old child recovering
+                                    from burns</p>
+                                <p class="mb-0"><span class="label">Description:</span>
+                                <p class="mb-0 description">A one-year-old child suffered a burn injury, which affected
+                                    her ability to enjoy simple joys like holding her toys. With nearly ₹1 lakh required
+                                    for treatment, With Love NGO, supported by its community of donors, stepped in to
+                                    provide financial and emotional support. This initiative underscored the power of
+                                    collective care, ensuring that recovery was made possible through compassion,
+                                    generosity, and timely intervention</p>
+                                </p>
+                                </p><a href="./readmore.html" class="shimmer-btn ">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="small-card common_border "><img src="./img/projects/Tree_Plantation.jpg"
+                                alt="NGO Stall " class="img-fluid card-img" loading="lazy">
+                            <div class="card-body">
+                                <p class="mb-0"><span class="label">Project Name:</span> Tree Plantation Drives</p>
+                                <p class="mb-0"><span class="label">Month of Execution:</span> April and May 2025</p>
+                                <p class="mb-0"><span class="label">Venue:</span> Pune</p>
+                                <p class="mb-0"><span class="label">Beneficiaries:</span> Local communities,
+                                    environment, and future generations</p>
+                                <p class="mb-0"><span class="label">Description:</span>
+                                <p class="mb-0 description">In collaboration with Give Me Trees Trust, With Love NGO
+                                    planted more than 200 native saplings across Pune, nurturing biodiversity, hope, and
+                                    a greener future. This initiative aimed to combat global warming while instilling
+                                    awareness of environmental responsibility among participants. By planting trees, we
+                                    contributed not only to a cooler planet but also to a legacy of sustainability,
+                                    inspiring generations to come.</p>
+                                </p>
+                                </p><a href="./readmore.html" class="shimmer-btn ">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="small-card common_border "><img src="./img/projects/back_to_school.png"
+                                alt="Utensils Donation" class="img-fluid card-img" loading="lazy">
+                            <div class="card-body">
+                                <p class="mb-0"><span class="label">Project Name:</span> Back to School Campaign</p>
+                                <p class="mb-0"><span class="label">Month of Execution:</span> July 2025
+                                </p>
+                                <p class="mb-0"><span class="label">Venue:</span> Donors across Pune</p>
+                                <p class="mb-0"><span class="label">Beneficiaries:</span> Underprivileged children
+                                    across Pune</p>
+                                <p class="mb-0"><span class="label">Description:</span>
+                                <p class="mb-0 description">With Love NGO, supported by donors, volunteers, and interns,
+                                    organized the Back to School campaign, providing essential school supplies including
+                                    chalks, crayons, bags, and notebooks. Beyond material support, the initiative aimed
+                                    to restore dignity, hope, and a fresh start for children returning to school.</p>
+                                </p>
+                                </p><a href="./readmore.html" class="shimmer-btn ">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="see-more-container">
+                    <button class="see-more-btn" id="seeMorePast">See More ❯❯</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ******project tab*********** -->
+    <!-- ****************************Footer********************** -->
+
+    <div id="footer-container"></div>
+
+    <!-- ****************************Footer********************** -->
+    <script>
+        fetch("topnavbar.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-container').innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error loading the navbar:', error);
+                document.getElementById('navbar-container').innerHTML = "<p>Navbar could not be loaded.</p>";
+            });
+        // ****************
+        // Using fetch to load navbar.html dynamically
+        fetch("navbar.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-container').innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error loading the navbar:', error);
+                document.getElementById('navbar-container').innerHTML = "<p>Navbar could not be loaded.</p>";
+            });
+
+        fetch("footer.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-container').innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error loading the footer:', error);
+                document.getElementById('footer-container').innerHTML = "<p>Footer could not be loaded.</p>";
+            });
+
+        // **************tabs js********
+
+        // Add hidden additional cards for both tabs
+        //     const ongoingExtra = `
+        //   <div class="col-lg-4 col-md-6 col-sm-12"><div class="small-card  common_border"><img src="./img/projects/Child_Sponsor.png" alt="" class="img-fluid" loading="lazy"><div class="card-body"><h5>Sponsor a Child’s Education</h5><p>Let’s make a lasting impact together. Join us in contributing to a brighter future by sponsoring a child’s education.</p><a href="./readmore.html" class="shimmer-btn ">Read More</a></div></div></div>
+
+
+        //   `;
+
+        const pastExtra = `
+      <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="small-card common_border "><img src="./img/projects/DMIT.jpg"
+                                alt="Utensils Donation" class="img-fluid card-img" loading="lazy">
+                            <div class="card-body">
+                                 <p class="mb-0"><span class="label">Project Name:</span> DMIT Workshop</p>
+                                <p class="mb-0"><span class="label">Month of Execution:</span> July 2025
+</p>
+                                <p class="mb-0"><span class="label">Venue:</span> Epiphany School, Pune</p>
+                                <p class="mb-0"><span class="label">Beneficiaries:</span> Students of Epiphany School</p>
+                                <p class="mb-0"><span class="label">Description:</span>
+                                <p class="mb-0 description">With Love NGO facilitated a DMIT (Dermatoglyphics Multiple Intelligence Test) session led by Disha Bafna from Lintellect Analytics. The workshop helped students understand their unique intelligence and career strengths through the science of fingerprints. Beyond being an educational session, this initiative promoted self-awareness, confidence, and informed decision-making, empowering students to make conscious choices about their futures.
+</p>
+                                </p>
+                                </p><a href="./readmore.html" class="shimmer-btn ">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+      `;
+
+        document.getElementById('seeMoreOngoing').addEventListener('click', () => {
+            document.getElementById('ongoingCards').innerHTML += ongoingExtra;
+            document.getElementById('seeMoreOngoing').style.display = 'none';
+        });
+
+        document.getElementById('seeMorePast').addEventListener('click', () => {
+            document.getElementById('pastCards').innerHTML += pastExtra;
+            document.getElementById('seeMorePast').style.display = 'none';
+        });
+        // ********tabs js*********
+
+
+
+    </script>
+
+
+    <script src="./lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="./lib/wow/wow.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
